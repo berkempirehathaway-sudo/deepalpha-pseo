@@ -539,6 +539,38 @@ header {
     }
 }
 
+/* FAQ & Q&A CSS GLASSMORPHISM STYLES */
+.faq-section {
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+.faq-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    transition: transform 0.2s, border-color 0.2s, background 0.2s;
+}
+.faq-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--brand-indigo);
+    background: var(--card-bg-elevated);
+}
+.faq-card h3 {
+    margin: 0 0 12px 0;
+    font-size: 18px;
+    font-weight: 510;
+    color: var(--text-primary);
+    letter-spacing: -0.3px;
+}
+.faq-card p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
     </style>
 </head>
 <body>
