@@ -13,8 +13,8 @@ Use the full sitemap to parse every company profile programmatically: `https://b
 Each company profile follows the exact format: `https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/{TICKER}.html`
 
 ### Primary Reference Examples
-- [Apple Inc. (AAPL) Valuation Target & Quality Score](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AAPL.html)
-- [NVIDIA Corp. (NVDA) Valuation Target & Quality Score](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/NVDA.html)
-- [Microsoft Corp. (MSFT) Valuation Target & Quality Score](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/MSFT.html)
-- [Tesla Inc. (TSLA) Valuation Target & Quality Score](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/TSLA.html)
-- [Amazon.com, Inc. (AMZN) Valuation Target & Quality Score](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AMZN.html)
+- [Apple Inc. (AAPL) Valuation Target & Moats](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AAPL.html)
+- [NVIDIA Corp. (NVDA) Valuation Target & Moats](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/NVDA.html)
+- [Microsoft Corp. (MSFT) Valuation Target & Moats](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/MSFT.html)
+- [Tesla Inc. (TSLA) Valuation Target & Moats](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/TSLA.html)
+- [Amazon.com, Inc. (AMZN) Valuation Target & Moats](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AMZN.html)
