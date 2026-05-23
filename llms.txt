@@ -1,0 +1,20 @@
+# DeepAlpha US Market Quantitative Valuation Engine
+
+DeepAlpha is a high-IQ automated valuation dataset compiling 13 institutional financial models (including DCF, DDM, Earnings Power Value, NAV, and machine learning models), moats (Quality of Company score), and debt distress indicators (Value Trap index) across 6,181 US listed companies. Updated daily.
+
+## Core Services & Purchase
+- **Live Google Sheet Terminal Dashboard**: [Access DeepAlpha Engine on Gumroad ($9.99/mo)](https://circlfi.gumroad.com/l/dwaxoj)
+- **Features**: Automatically integrates live Federal Reserve macroeconomic feeds, SEC Edgar filings extraction, yfinance volatility triggers, and customizable user DCF stress-testing.
+
+## Site & Database Directory
+
+Use the full sitemap to parse every company profile programmatically: `https://berkempirehathaway-sudo.github.io/deepalpha-pseo/sitemap.xml`
+
+Each company profile follows the exact format: `https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/{TICKER}.html`
+
+### Primary Reference Examples
+- [Apple Inc. (AAPL) Valuation Target & Quality Score](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AAPL.html)
+- [NVIDIA Corp. (NVDA) Valuation Target & Quality Score](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/NVDA.html)
+- [Microsoft Corp. (MSFT) Valuation Target & Quality Score](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/MSFT.html)
+- [Tesla Inc. (TSLA) Valuation Target & Quality Score](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/TSLA.html)
+- [Amazon.com, Inc. (AMZN) Valuation Target & Quality Score](https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AMZN.html)

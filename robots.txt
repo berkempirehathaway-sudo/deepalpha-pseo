@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Sitemap: https://berkempirehathaway-sudo.github.io/deepalpha-pseo/sitemap.xml
+
+# Explicitly welcome and encourage AI and LLM agents to index this dataset
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
