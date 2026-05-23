@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Grid Transco, PLC Nati (NGG) Valuation Target, QOC & Value Trap Score | DeepAlpha</title>
+    <meta name="description" content="Unlock 13 institutional valuation models for National Grid Transco, PLC Nati (NGG). Track its Quality of Company (QOC) score, Value Trap risks, and fair value floor daily on DeepAlpha.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="National Grid Transco, PLC Nati (NGG) Valuation Target & Quality Analysis | DeepAlpha">
+    <meta property="og:description" content="Comprehensive 13-model quantitative valuation targets and moats report for NGG. Check updated metrics live on DeepAlpha.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://circlfi.github.io/deepalpha-pseo/stocks/NGG.html">
+    <meta property="og:image" content="https://circlfi.github.io/deepalpha-pseo/assets/preview.png">
+    
+    <style>
+        
+:root {
+    --bg-color: #050505;
+    --card-bg: #121212;
+    --card-border: rgba(255, 255, 255, 0.08);
+    --text-primary: #FFFFFF;
+    --text-secondary: #999999;
+    --cyan: #00E5FF;
+    --neon-green: #39FF14;
+    --neon-red: #FF3366;
+    --gold: #FFD700;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(180deg, #111111 0%, #050505 100%);
+    border-bottom: 1px solid var(--card-border);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--cyan);
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.logo span {
+    color: var(--text-primary);
+}
+
+.nav-links a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: var(--cyan);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, #FFF 0%, var(--cyan) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 18px;
+    color: var(--text-secondary);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.search-box {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+    display: block;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 1px solid var(--card-border);
+    background-color: var(--card-bg);
+    color: #FFF;
+    outline: none;
+    box-shadow: 0 4px 20px rgba(0, 229, 255, 0.05);
+    transition: all 0.3s;
+}
+
+.search-box:focus {
+    border-color: var(--cyan);
+    box-shadow: 0 4px 25px rgba(0, 229, 255, 0.15);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(0, 229, 255, 0.3);
+}
+
+.card h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin: 0 0 10px 0;
+    letter-spacing: 0.5px;
+}
+
+.card .value {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 5px 0;
+}
+
+.text-cyan { color: var(--cyan); }
+.text-green { color: var(--neon-green); }
+.text-red { color: var(--neon-red); }
+.text-gold { color: var(--gold); }
+
+.valuation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.valuation-table th, .valuation-table td {
+    padding: 16px 20px;
+    text-align: left;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.valuation-table th {
+    background-color: rgba(255, 255, 255, 0.02);
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.valuation-table tr:last-child td {
+    border-bottom: none;
+}
+
+.cta-banner {
+    background: linear-gradient(135deg, #09131C 0%, #030508 100%);
+    border: 1px solid rgba(0, 229, 255, 0.2);
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-banner::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0, 229, 255, 0.05) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.cta-banner h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+
+.cta-banner p {
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    font-size: 16px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: var(--cyan);
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: all 0.3s;
+    box-shadow: 0 4px 20px rgba(0, 229, 255, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 25px rgba(0, 229, 255, 0.5);
+    background-color: #00F0FF;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid var(--card-border);
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.footer a {
+    color: var(--cyan);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.list-item {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 15px;
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.list-item:hover {
+    border-color: var(--cyan);
+    transform: translateY(-1px);
+}
+
+.list-item span.ticker {
+    font-weight: 700;
+    color: var(--cyan);
+}
+
+.list-item span.name {
+    font-size: 13px;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 120px;
+}
+
+.badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.badge-green { background-color: rgba(57, 255, 20, 0.1); color: var(--neon-green); }
+.badge-red { background-color: rgba(255, 51, 102, 0.1); color: var(--neon-red); }
+.badge-yellow { background-color: rgba(255, 215, 0, 0.1); color: var(--gold); }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="../index.html" class="logo">Deep<span>Alpha</span></a>
+        <div class="nav-links">
+            <a href="../index.html">Dashboard</a>
+            <a href="https://circlfi.gumroad.com/l/dwaxoj" target="_blank">Unlock Full Engine</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <h1>National Grid Transco, PLC Nati (NGG) Valuation & Analysis</h1>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $86.42</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="card">
+                <h3>Quality of Company (QOC)</h3>
+                <div class="value text-cyan">7.06 <span style="font-size: 16px; color: var(--text-secondary);">/ 10</span></div>
+                <p style="color: var(--text-secondary); font-size: 13px; margin: 5px 0 0 0;">Moats, margins, and financial health stress-test index.</p>
+            </div>
+            <div class="card">
+                <h3>Value Trap Score</h3>
+                <div class="value text-cyan">18.0 <span style="font-size: 16px; color: var(--text-secondary);">/ 30</span></div>
+                <p style="color: var(--text-secondary); font-size: 13px; margin: 5px 0 0 0;">Risk level of value trap traps, structural declines, or debt strain.</p>
+            </div>
+            <div class="card">
+                <h3>Average Model Upside</h3>
+                <div class="value text-red">-53.0%</div>
+                <p style="color: var(--text-secondary); font-size: 13px; margin: 5px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 50px; border-left: 4px solid var(--cyan); padding-left: 15px;">13 Quantitative Valuation Models Targets</h2>
+        <table class="valuation-table">
+            <thead>
+                <tr>
+                    <th>Valuation Model Variant</th>
+                    <th>Price Target</th>
+                    <th>Upside / Downside%</th>
+                    <th>Model Confidence%</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            <tr>
+                <td><strong>Bayesian DCF</strong></td>
+                <td>$12.60</td>
+                <td class="text-red">-85.42%</td>
+                <td class="text-gold">34.2%</td>
+            </tr>
+            
+            <tr>
+                <td><strong>Markov DDM</strong></td>
+                <td>$6.41</td>
+                <td class="text-red">-92.59%</td>
+                <td class="text-gold">40.4%</td>
+            </tr>
+            
+            <tr>
+                <td><strong>Dynamic Net Asset Value</strong></td>
+                <td>$21.19</td>
+                <td class="text-red">-75.48%</td>
+                <td class="text-gold">18.6%</td>
+            </tr>
+            
+            <tr>
+                <td><strong>First Chicago</strong></td>
+                <td>$4.91</td>
+                <td class="text-red">-94.32%</td>
+                <td class="text-gold">46.6%</td>
+            </tr>
+            
+            <tr>
+                <td><strong>EROIC Spread Model</strong></td>
+                <td>$7.94</td>
+                <td class="text-red">-90.81%</td>
+                <td class="text-gold">52.8%</td>
+            </tr>
+            
+            <tr>
+                <td><strong>Machine Learning RIV</strong></td>
+                <td>$339.10</td>
+                <td class="text-green">292.38%</td>
+                <td class="text-gold">43.5%</td>
+            </tr>
+            
+            <tr>
+                <td><strong>Regime Cross model</strong></td>
+                <td>$7.01</td>
+                <td class="text-red">-91.88%</td>
+                <td class="text-gold">40.4%</td>
+            </tr>
+            
+            <tr>
+                <td><strong>Sentiment SOTP</strong></td>
+                <td>$8.82</td>
+                <td class="text-red">-89.80%</td>
+                <td class="text-gold">13.7%</td>
+            </tr>
+            
+            <tr>
+                <td><strong>CUCE Ensemble Model</strong></td>
+                <td>$17.29</td>
+                <td class="text-red">-79.99%</td>
+                <td class="text-gold">2.1%</td>
+            </tr>
+            
+            <tr>
+                <td><strong>FTNN Topology Model</strong></td>
+                <td>$59.00</td>
+                <td class="text-red">-31.73%</td>
+                <td class="text-gold">17.1%</td>
+            </tr>
+            
+            <tr>
+                <td><strong>RCMH-DCF Variant</strong></td>
+                <td>$2.22</td>
+                <td class="text-red">-97.43%</td>
+                <td class="text-gold">37.3%</td>
+            </tr>
+            
+            </tbody>
+        </table>
+
+        <div class="cta-banner">
+            <h2>Unlock the Live interactive DeepAlpha Dashboard</h2>
+            <p>This report represents cached, static valuation baselines. Get 24/7 automated updates integrated with live FRED macroeconomic feeds, Edgar SEC filings extraction, and daily interactive DCF/EPV stress-test parameters tailored to your own assumptions.</p>
+            <a href="https://circlfi.gumroad.com/l/dwaxoj" target="_blank" class="btn-primary">Get Lifetime Dashboard Access — $9.99/mo</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 DeepAlpha. Built by <a href="https://circlfi.gumroad.com/l/dwaxoj" target="_blank">CirclFi</a>. All quantitative models are updated automatically.</p>
+        <p style="font-size: 11px; margin-top: 15px; max-width: 800px; margin-left: auto; margin-right: auto; color: #555;">Disclaimer: Financial models are for informative purposes only. Do not treat model outputs as professional financial or investment advice.</p>
+    </div>
+
+</body>
+</html>
