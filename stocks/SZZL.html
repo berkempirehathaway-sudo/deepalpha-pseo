@@ -7,6 +7,7 @@
     <meta name="description" content="Unlock 13 institutional valuation models for Sizzle Acquisition Corp. II (SZZL). Track its Quality of Company (QOC) score, Value Trap risks, and fair value floor daily on DeepAlpha.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/SZZL.html">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     
     <!-- Open Graph -->
     <meta property="og:title" content="Sizzle Acquisition Corp. II (SZZL) Valuation Target & Quality Analysis | DeepAlpha">
@@ -162,13 +163,21 @@
     <style>
         
 :root {
-    --bg-color: #09090B;
-    --card-bg: #18181B;
-    --card-border: rgba(255, 255, 255, 0.06);
-    --text-primary: #FAFAFA;
-    --text-secondary: #A1A1AA;
-    --cyan: #00F0FF;
-    --cyan-glow: rgba(0, 240, 255, 0.15);
+    --bg-color: #08090A;
+    --panel-dark: #0F1011;
+    --card-bg: rgba(255, 255, 255, 0.02);
+    --card-bg-elevated: rgba(255, 255, 255, 0.04);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --card-border-subtle: rgba(255, 255, 255, 0.04);
+    --text-primary: #F7F8F8;
+    --text-secondary: #D0D6E0;
+    --text-tertiary: #8A8F98;
+    --text-quaternary: #62666D;
+    
+    /* Brand Accent Colors */
+    --brand-indigo: #5E6AD2;
+    --accent-violet: #7170FF;
+    --accent-glow: rgba(113, 112, 255, 0.15);
     --neon-green: #10B981;
     --neon-red: #EF4444;
     --gold: #F59E0B;
@@ -177,7 +186,8 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-primary);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-feature-settings: "cv01", "ss03"; /* Linear's signature geometric font settings */
     margin: 0;
     padding: 0;
     line-height: 1.5;
@@ -185,10 +195,10 @@ body {
 }
 
 header {
-    background-color: rgba(9, 9, 11, 0.8);
+    background-color: rgba(15, 16, 17, 0.85);
     backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--card-border);
-    padding: 16px 24px;
+    border-bottom: 1px solid var(--card-border-subtle);
+    padding: 18px 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -199,81 +209,192 @@ header {
 
 .logo {
     font-size: 20px;
-    font-weight: 800;
-    color: var(--cyan);
+    font-weight: 600;
+    color: var(--text-primary);
     letter-spacing: -0.5px;
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
 }
 
 .logo span {
-    color: var(--text-primary);
+    color: var(--accent-violet);
+    font-weight: 800;
 }
 
 .nav-links a {
     color: var(--text-secondary);
     text-decoration: none;
-    margin-left: 20px;
-    font-weight: 500;
+    margin-left: 24px;
+    font-weight: 510;
     font-size: 14px;
     transition: color 0.15s;
 }
 
 .nav-links a:hover {
-    color: var(--cyan);
+    color: var(--text-primary);
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 32px 20px 64px 20px;
+    padding: 48px 24px 80px 24px;
 }
 
 .hero {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 48px;
 }
 
 .hero h1 {
-    font-size: 36px;
-    font-weight: 800;
-    letter-spacing: -1px;
-    margin-bottom: 8px;
-    background: linear-gradient(135deg, #FFFFFF 30%, #A1A1AA 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    font-weight: 510;
+    letter-spacing: -1.2px;
+    line-height: 1.1;
+    margin: 0 0 12px 0;
+    color: var(--text-primary);
 }
 
 .hero p {
-    font-size: 16px;
-    color: var(--text-secondary);
-    max-width: 600px;
+    font-size: 17px;
+    color: var(--text-tertiary);
+    max-width: 650px;
     margin: 0 auto;
+    letter-spacing: -0.15px;
+}
+
+/* World-Class Interactive Command-Palette Search */
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 550px;
+    margin: 32px auto 0 auto;
+}
+
+.search-box-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 18px;
+    color: var(--text-tertiary);
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
 }
 
 .search-box {
     width: 100%;
-    max-width: 550px;
-    margin: 24px auto 0 auto;
-    display: block;
-    padding: 14px 20px;
-    font-size: 16px;
-    border-radius: 12px;
+    padding: 15px 18px 15px 44px;
+    font-size: 15px;
+    font-family: inherit;
+    border-radius: 10px;
     border: 1px solid var(--card-border);
-    background-color: var(--card-bg);
-    color: #FFF;
+    background-color: var(--panel-dark);
+    color: var(--text-primary);
     outline: none;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-    transition: all 0.2s;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    box-sizing: border-box;
 }
 
 .search-box:focus {
-    border-color: rgba(0, 240, 255, 0.4);
-    box-shadow: 0 0 0 3px rgba(0, 240, 255, 0.15);
+    border-color: var(--accent-violet);
+    box-shadow: 0 0 0 3px var(--accent-glow), 0 8px 40px rgba(0, 0, 0, 0.6);
 }
 
+/* Command Palette Dropdown List */
+.search-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background-color: #121315;
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    max-height: 380px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+    display: none;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.search-dropdown::-webkit-scrollbar {
+    width: 6px;
+}
+.search-dropdown::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: background-color 0.15s;
+    outline: none;
+}
+
+.dropdown-item:hover, .dropdown-item.focused {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dropdown-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+
+.dropdown-ticker {
+    font-weight: 600;
+    color: var(--accent-violet);
+    font-size: 14px;
+}
+
+.dropdown-name {
+    font-size: 12px;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 280px;
+}
+
+.dropdown-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.dropdown-badge {
+    padding: 3px 6px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.dropdown-upside {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Stats Cards Grid styling */
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -283,124 +404,134 @@ header {
 
 .card {
     background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 12px;
-    padding: 20px;
+    border: 1px solid var(--card-border-subtle);
+    border-radius: 8px;
+    padding: 22px 18px;
     text-align: center;
-    transition: all 0.2s;
+    transition: all 0.15s;
 }
 
 .card:hover {
-    border-color: rgba(255, 255, 255, 0.12);
+    border-color: var(--card-border);
+    background-color: var(--card-bg-elevated);
 }
 
 .card h3 {
-    font-size: 12px;
+    font-size: 11px;
     text-transform: uppercase;
-    color: var(--text-secondary);
-    margin: 0 0 6px 0;
+    color: var(--text-tertiary);
+    margin: 0 0 8px 0;
     letter-spacing: 1px;
+    font-weight: 510;
 }
 
 .card .value {
-    font-size: 28px;
-    font-weight: 800;
+    font-size: 26px;
+    font-weight: 510;
     margin: 0;
     letter-spacing: -0.5px;
+    color: var(--text-primary);
 }
 
-.text-cyan { color: var(--cyan); }
-.text-green { color: var(--neon-green); }
-.text-red { color: var(--neon-red); }
-.text-gold { color: var(--gold); }
-
-/* Table and Responsive Mobile-First Collapsible Layout */
 .valuation-table {
     width: 100%;
     border-collapse: collapse;
     margin: 24px 0;
     background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 12px;
+    border: 1px solid var(--card-border-subtle);
+    border-radius: 8px;
     overflow: hidden;
 }
 
 .valuation-table th, .valuation-table td {
-    padding: 14px 18px;
+    padding: 13px 18px;
     text-align: left;
-    border-bottom: 1px solid var(--card-border);
+    border-bottom: 1px solid var(--card-border-subtle);
     font-size: 14px;
 }
 
 .valuation-table th {
-    background-color: rgba(255, 255, 255, 0.015);
-    font-weight: 600;
-    color: var(--text-secondary);
+    background-color: rgba(255, 255, 255, 0.01);
+    font-weight: 510;
+    color: var(--text-tertiary);
     text-transform: uppercase;
-    font-size: 11px;
-    letter-spacing: 0.8px;
+    font-size: 10px;
+    letter-spacing: 1px;
 }
 
 .valuation-table tr:last-child td {
     border-bottom: none;
 }
 
-/* Glassmorphic Premium CTA Banner */
+/* Premium Glassmorphic CTA Banner */
 .cta-banner {
-    background: linear-gradient(135deg, rgba(24, 24, 27, 0.8) 0%, rgba(9, 9, 11, 0.95) 100%);
-    border: 1px solid rgba(0, 240, 255, 0.15);
-    border-radius: 16px;
-    padding: 36px 24px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid rgba(113, 112, 255, 0.25);
+    border-radius: 12px;
+    padding: 40px 24px;
     text-align: center;
     margin-top: 48px;
-    box-shadow: 0 10px 40px rgba(0, 240, 255, 0.03);
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-banner::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+    pointer-events: none;
 }
 
 .cta-banner h2 {
     font-size: 24px;
-    font-weight: 800;
-    margin: 0 0 12px 0;
+    font-weight: 510;
+    margin: 0 0 10px 0;
     letter-spacing: -0.5px;
+    color: var(--text-primary);
 }
 
 .cta-banner p {
     color: var(--text-secondary);
-    max-width: 650px;
-    margin: 0 auto 24px auto;
-    font-size: 15px;
+    max-width: 620px;
+    margin: 0 auto 28px auto;
+    font-size: 14px;
     line-height: 1.6;
 }
 
 .btn-primary {
     display: inline-block;
-    background-color: var(--cyan);
-    color: #000;
+    background-color: var(--brand-indigo);
+    color: #FFFFFF;
     text-decoration: none;
-    font-weight: 700;
-    padding: 12px 28px;
-    border-radius: 8px;
-    font-size: 15px;
+    font-weight: 510;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 14px;
     transition: all 0.15s;
-    box-shadow: 0 4px 14px rgba(0, 240, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .btn-primary:hover {
+    background-color: var(--accent-violet);
+    box-shadow: 0 0 25px var(--accent-glow);
     transform: translateY(-1px);
-    box-shadow: 0 4px 20px rgba(0, 240, 255, 0.4);
-    background-color: #33F3FF;
 }
 
 .footer {
     text-align: center;
     padding: 32px 24px;
-    border-top: 1px solid var(--card-border);
-    color: var(--text-secondary);
+    border-top: 1px solid var(--card-border-subtle);
+    color: var(--text-tertiary);
     font-size: 13px;
     margin-top: 64px;
 }
 
 .footer a {
-    color: var(--cyan);
+    color: var(--accent-violet);
     text-decoration: none;
 }
 
@@ -410,18 +541,18 @@ header {
 
 .list-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 12px;
     margin-top: 24px;
 }
 
 .list-item {
     background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 8px;
-    padding: 14px;
+    border: 1px solid var(--card-border-subtle);
+    border-radius: 6px;
+    padding: 12px 14px;
     text-decoration: none;
-    color: #FFF;
+    color: var(--text-primary);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -429,52 +560,67 @@ header {
 }
 
 .list-item:hover {
-    border-color: rgba(0, 240, 255, 0.3);
-    transform: translateY(-1px);
+    border-color: var(--accent-violet);
+    background-color: var(--card-bg-elevated);
 }
 
 .list-item span.ticker {
-    font-weight: 700;
-    color: var(--cyan);
+    font-weight: 600;
+    color: var(--accent-violet);
 }
 
 .list-item span.name {
-    font-size: 13px;
+    font-size: 12px;
     color: var(--text-secondary);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 110px;
+    max-width: 100px;
 }
 
 .badge {
     padding: 3px 6px;
     border-radius: 4px;
     font-size: 10px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
-.badge-green { background-color: rgba(16, 185, 129, 0.1); color: var(--neon-green); }
-.badge-red { background-color: rgba(239, 68, 68, 0.1); color: var(--neon-red); }
-.badge-yellow { background-color: rgba(245, 158, 11, 0.1); color: var(--gold); }
+.badge-green { background-color: rgba(16, 185, 129, 0.08); color: var(--neon-green); }
+.badge-red { background-color: rgba(239, 68, 68, 0.08); color: var(--neon-red); }
+.badge-yellow { background-color: rgba(245, 158, 11, 0.08); color: var(--gold); }
 
-/* PHONE / TABLET PERFECT ALIGNMENT (Mobile Responsive Overrides) */
+/* MOBILE PORTRAIT COLLAPSE & PERFECT PHONE ALIGNMENT */
 @media (max-width: 768px) {
     header {
-        padding: 12px 16px;
+        padding: 14px 18px;
     }
     .logo {
         font-size: 18px;
     }
+    .nav-links a {
+        font-size: 13px;
+        margin-left: 16px;
+    }
     .container {
-        padding: 24px 16px 48px 16px;
+        padding: 32px 16px 48px 16px;
     }
     .hero h1 {
-        font-size: 28px;
-        letter-spacing: -0.5px;
+        font-size: 30px;
+        letter-spacing: -0.8px;
     }
     .hero p {
+        font-size: 15px;
+    }
+    .search-wrapper {
+        margin-top: 24px;
+    }
+    .search-box {
+        padding: 13px 16px 13px 40px;
+        font-size: 14px;
+    }
+    .search-icon {
+        left: 14px;
         font-size: 14px;
     }
     .stats-grid {
@@ -482,19 +628,19 @@ header {
         gap: 12px;
     }
     .card {
-        padding: 16px;
+        padding: 18px;
     }
     .card .value {
         font-size: 24px;
     }
     
-    /* Responsive Table to Cards Collapse for perfect phone alignment */
+    /* Responsive Collapse into elegant stack card models */
     .valuation-table {
         border: none;
         background-color: transparent;
     }
     .valuation-table thead {
-        display: none; /* Hide headings on mobile */
+        display: none;
     }
     .valuation-table tbody {
         display: flex;
@@ -505,15 +651,15 @@ header {
         display: flex;
         flex-direction: column;
         background-color: var(--card-bg);
-        border: 1px solid var(--card-border);
-        border-radius: 12px;
-        padding: 16px;
+        border: 1px solid var(--card-border-subtle);
+        border-radius: 8px;
+        padding: 14px;
     }
     .valuation-table td {
         display: flex;
         justify-content: space-between;
         padding: 6px 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.02);
         font-size: 13px;
     }
     .valuation-table td:last-child {
@@ -521,15 +667,15 @@ header {
     }
     .valuation-table td::before {
         content: attr(data-label);
-        font-weight: 600;
-        color: var(--text-secondary);
+        font-weight: 510;
+        color: var(--text-tertiary);
     }
     .valuation-table td strong {
-        font-weight: 500;
+        font-weight: 510;
     }
     
     .cta-banner {
-        padding: 24px 16px;
+        padding: 32px 16px;
     }
     .cta-banner h2 {
         font-size: 20px;
@@ -565,22 +711,22 @@ header {
         <div class="stats-grid">
             <div class="card">
                 <h3>Quality of Company (QOC)</h3>
-                <div class="value text-red">4.15 <span style="font-size: 16px; color: var(--text-secondary);">/ 10</span></div>
-                <p style="color: var(--text-secondary); font-size: 12px; margin: 6px 0 0 0;">Moats, margins, and financial health stress-test index.</p>
+                <div class="value text-red">4.15 <span style="font-size: 16px; color: var(--text-tertiary);">/ 10</span></div>
+                <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Moats, margins, and financial health stress-test index.</p>
             </div>
             <div class="card">
                 <h3>Value Trap Score</h3>
-                <div class="value text-green">0.0 <span style="font-size: 16px; color: var(--text-secondary);">/ 30</span></div>
-                <p style="color: var(--text-secondary); font-size: 12px; margin: 6px 0 0 0;">Risk level of value trap traps, structural declines, or debt strain.</p>
+                <div class="value text-green">0.0 <span style="font-size: 16px; color: var(--text-tertiary);">/ 30</span></div>
+                <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Risk level of value trap traps, structural declines, or debt strain.</p>
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
                 <div class="value text-red">-71.2%</div>
-                <p style="color: var(--text-secondary); font-size: 12px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
+                <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
 
-        <h2 style="margin-top: 40px; border-left: 4px solid var(--cyan); padding-left: 12px; font-size: 20px; font-weight: 800;">13 Quantitative Valuation Models Targets</h2>
+        <h2 style="margin-top: 40px; border-left: 4px solid var(--accent-violet); padding-left: 12px; font-size: 20px; font-weight: 510; letter-spacing: -0.5px;">13 Quantitative Valuation Models Targets</h2>
         <table class="valuation-table">
             <thead>
                 <tr>
@@ -674,7 +820,7 @@ header {
 
     <div class="footer">
         <p>&copy; 2026 DeepAlpha. Built by <a href="https://circlfi.gumroad.com/l/dwaxoj" target="_blank">CirclFi</a>. All quantitative models are updated automatically.</p>
-        <p style="font-size: 11px; margin-top: 15px; max-width: 800px; margin-left: auto; margin-right: auto; color: #555;">Disclaimer: Financial models are for informative purposes only. Do not treat model outputs as professional financial or investment advice.</p>
+        <p style="font-size: 11px; margin-top: 15px; max-width: 800px; margin-left: auto; margin-right: auto; color: var(--text-quaternary);">Disclaimer: Financial models are for informative purposes only. Do not treat model outputs as professional financial or investment advice.</p>
     </div>
 
 </body>
