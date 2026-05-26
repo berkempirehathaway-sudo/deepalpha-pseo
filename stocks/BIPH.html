@@ -45,8 +45,8 @@
     "ratingValue": "7.68",
     "bestRating": "10",
     "worstRating": "0",
-    "ratingCount": 5,
-    "reviewCount": 5
+    "ratingCount": 10,
+    "reviewCount": 10
   },
   "additionalProperty": [
     {
@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "95.5%"
+      "value": "70.7%"
     },
     {
       "@type": "PropertyValue",
@@ -83,6 +83,14 @@
       "maxValue": "$40.21",
       "unitText": "USD",
       "description": "Model Target: $40.21 with Margin of Safety: 146.81% and model confidence of 44.5%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Markov DDM",
+      "value": "$31.22",
+      "maxValue": "$31.22",
+      "unitText": "USD",
+      "description": "Model Target: $31.22 with Margin of Safety: 91.63% and model confidence of 56.7%"
     },
     {
       "@type": "PropertyValue",
@@ -102,6 +110,14 @@
     },
     {
       "@type": "PropertyValue",
+      "name": "EROIC Spread Model",
+      "value": "$18.69",
+      "maxValue": "$18.69",
+      "unitText": "USD",
+      "description": "Model Target: $18.69 with Margin of Safety: 14.72% and model confidence of 72.3%"
+    },
+    {
+      "@type": "PropertyValue",
       "name": "Machine Learning RIV",
       "value": "$65.31",
       "maxValue": "$65.31",
@@ -110,11 +126,35 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
-      "value": "$12.47",
-      "maxValue": "$12.47",
+      "name": "Regime Cross model",
+      "value": "$20.77",
+      "maxValue": "$20.77",
       "unitText": "USD",
-      "description": "Model Target: $12.47 with Margin of Safety: -23.47% and model confidence of 44.5%"
+      "description": "Model Target: $20.77 with Margin of Safety: 27.51% and model confidence of 44.7%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$17.74",
+      "maxValue": "$17.74",
+      "unitText": "USD",
+      "description": "Model Target: $17.74 with Margin of Safety: 8.89% and model confidence of 44.5%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CUCE Ensemble Model",
+      "value": "$25.22",
+      "maxValue": "$25.22",
+      "unitText": "USD",
+      "description": "Model Target: $25.22 with Margin of Safety: 54.83% and model confidence of 15.4%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "FTNN Topology Model",
+      "value": "$17.71",
+      "maxValue": "$17.71",
+      "unitText": "USD",
+      "description": "Model Target: $17.71 with Margin of Safety: 8.71% and model confidence of 5.3%"
     }
   ]
 }
@@ -129,7 +169,7 @@
       "name": "Is Brookfield Infrastructure Corpo (BIPH) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Brookfield Infrastructure Corpo (BIPH) is worth buying in 2026 requires contrasting its current market spot price of $16.29 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for BIPH sits at 95.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $40.21 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Brookfield Infrastructure Corpo (BIPH) is worth buying in 2026 requires contrasting its current market spot price of $16.29 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for BIPH sits at 70.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $40.21 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -742,7 +782,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-green">95.5%</div>
+                <div class="value text-green">70.7%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -767,6 +807,13 @@ header {
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Price Target">$31.22</td>
+                <td data-label="Upside% / Margin" class="text-green">91.63%</td>
+                <td data-label="Confidence" class="text-gold">56.7%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$34.63</td>
                 <td data-label="Upside% / Margin" class="text-green">112.56%</td>
@@ -781,6 +828,13 @@ header {
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
+                <td data-label="Price Target">$18.69</td>
+                <td data-label="Upside% / Margin" class="text-green">14.72%</td>
+                <td data-label="Confidence" class="text-gold">72.3%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$65.31</td>
                 <td data-label="Upside% / Margin" class="text-green">300.93%</td>
@@ -788,10 +842,31 @@ header {
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Price Target">$20.77</td>
+                <td data-label="Upside% / Margin" class="text-green">27.51%</td>
+                <td data-label="Confidence" class="text-gold">44.7%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
-                <td data-label="Price Target">$12.47</td>
-                <td data-label="Upside% / Margin" class="text-red">-23.47%</td>
+                <td data-label="Price Target">$17.74</td>
+                <td data-label="Upside% / Margin" class="text-green">8.89%</td>
                 <td data-label="Confidence" class="text-gold">44.5%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
+                <td data-label="Price Target">$25.22</td>
+                <td data-label="Upside% / Margin" class="text-green">54.83%</td>
+                <td data-label="Confidence" class="text-gold">15.4%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>FTNN Topology Model</strong></td>
+                <td data-label="Price Target">$17.71</td>
+                <td data-label="Upside% / Margin" class="text-green">8.71%</td>
+                <td data-label="Confidence" class="text-gold">5.3%</td>
             </tr>
             
             </tbody>
@@ -802,7 +877,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Brookfield Infrastructure Corpo (BIPH) worth buying in 2026?</h3>
-                <p>Determining if Brookfield Infrastructure Corpo (BIPH) is worth buying in 2026 requires contrasting its current market spot price of $16.29 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for BIPH sits at 95.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $40.21 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Brookfield Infrastructure Corpo (BIPH) is worth buying in 2026 requires contrasting its current market spot price of $16.29 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for BIPH sits at 70.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $40.21 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

@@ -45,8 +45,8 @@
     "ratingValue": "5.25",
     "bestRating": "10",
     "worstRating": "0",
-    "ratingCount": 9,
-    "reviewCount": 9
+    "ratingCount": 10,
+    "reviewCount": 10
   },
   "additionalProperty": [
     {
@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "256.2%"
+      "value": "210.0%"
     },
     {
       "@type": "PropertyValue",
@@ -79,10 +79,10 @@
     {
       "@type": "PropertyValue",
       "name": "Markov DDM",
-      "value": "$40.22",
-      "maxValue": "$40.22",
+      "value": "$11.24",
+      "maxValue": "$11.24",
       "unitText": "USD",
-      "description": "Model Target: $40.22 with Margin of Safety: 139.82% and model confidence of 50.3%"
+      "description": "Model Target: $11.24 with Margin of Safety: -35.64% and model confidence of 54.2%"
     },
     {
       "@type": "PropertyValue",
@@ -118,35 +118,43 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
-      "value": "$121.15",
-      "maxValue": "$121.15",
+      "name": "Regime Cross model",
+      "value": "$4.00",
+      "maxValue": "$4.00",
       "unitText": "USD",
-      "description": "Model Target: $121.15 with Margin of Safety: 593.48% and model confidence of 42.6%"
+      "description": "Model Target: $4.00 with Margin of Safety: -77.08% and model confidence of 46.0%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$172.37",
+      "maxValue": "$172.37",
+      "unitText": "USD",
+      "description": "Model Target: $172.37 with Margin of Safety: 886.65% and model confidence of 42.6%"
     },
     {
       "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
-      "value": "$47.76",
-      "maxValue": "$47.76",
+      "value": "$58.80",
+      "maxValue": "$58.80",
       "unitText": "USD",
-      "description": "Model Target: $47.76 with Margin of Safety: 177.32% and model confidence of 2.5%"
+      "description": "Model Target: $58.80 with Margin of Safety: 236.56% and model confidence of 3.0%"
     },
     {
       "@type": "PropertyValue",
       "name": "FTNN Topology Model",
-      "value": "$15.37",
-      "maxValue": "$15.37",
+      "value": "$26.12",
+      "maxValue": "$26.12",
       "unitText": "USD",
-      "description": "Model Target: $15.37 with Margin of Safety: -10.76% and model confidence of 21.3%"
+      "description": "Model Target: $26.12 with Margin of Safety: 49.54% and model confidence of 3.4%"
     },
     {
       "@type": "PropertyValue",
       "name": "RCMH-DCF Variant",
-      "value": "$161.26",
-      "maxValue": "$161.26",
+      "value": "$99.75",
+      "maxValue": "$99.75",
       "unitText": "USD",
-      "description": "Model Target: $161.26 with Margin of Safety: 836.48% and model confidence of 46.4%"
+      "description": "Model Target: $99.75 with Margin of Safety: 470.96% and model confidence of 50.3%"
     }
   ]
 }
@@ -161,7 +169,7 @@
       "name": "Is BRC Group Holdings, Inc. - Depo (RILYL) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if BRC Group Holdings, Inc. - Depo (RILYL) is worth buying in 2026 requires contrasting its current market spot price of $17.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for RILYL sits at 256.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if BRC Group Holdings, Inc. - Depo (RILYL) is worth buying in 2026 requires contrasting its current market spot price of $17.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for RILYL sits at 210.0% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -774,7 +782,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-green">256.2%</div>
+                <div class="value text-green">210.0%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -793,9 +801,9 @@ header {
                 
             <tr>
                 <td data-label="Model Variant"><strong>Markov DDM</strong></td>
-                <td data-label="Price Target">$40.22</td>
-                <td data-label="Upside% / Margin" class="text-green">139.82%</td>
-                <td data-label="Confidence" class="text-gold">50.3%</td>
+                <td data-label="Price Target">$11.24</td>
+                <td data-label="Upside% / Margin" class="text-red">-35.64%</td>
+                <td data-label="Confidence" class="text-gold">54.2%</td>
             </tr>
             
             <tr>
@@ -827,31 +835,38 @@ header {
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Price Target">$4.00</td>
+                <td data-label="Upside% / Margin" class="text-red">-77.08%</td>
+                <td data-label="Confidence" class="text-gold">46.0%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
-                <td data-label="Price Target">$121.15</td>
-                <td data-label="Upside% / Margin" class="text-green">593.48%</td>
+                <td data-label="Price Target">$172.37</td>
+                <td data-label="Upside% / Margin" class="text-green">886.65%</td>
                 <td data-label="Confidence" class="text-gold">42.6%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
-                <td data-label="Price Target">$47.76</td>
-                <td data-label="Upside% / Margin" class="text-green">177.32%</td>
-                <td data-label="Confidence" class="text-gold">2.5%</td>
+                <td data-label="Price Target">$58.80</td>
+                <td data-label="Upside% / Margin" class="text-green">236.56%</td>
+                <td data-label="Confidence" class="text-gold">3.0%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>FTNN Topology Model</strong></td>
-                <td data-label="Price Target">$15.37</td>
-                <td data-label="Upside% / Margin" class="text-red">-10.76%</td>
-                <td data-label="Confidence" class="text-gold">21.3%</td>
+                <td data-label="Price Target">$26.12</td>
+                <td data-label="Upside% / Margin" class="text-green">49.54%</td>
+                <td data-label="Confidence" class="text-gold">3.4%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>RCMH-DCF Variant</strong></td>
-                <td data-label="Price Target">$161.26</td>
-                <td data-label="Upside% / Margin" class="text-green">836.48%</td>
-                <td data-label="Confidence" class="text-gold">46.4%</td>
+                <td data-label="Price Target">$99.75</td>
+                <td data-label="Upside% / Margin" class="text-green">470.96%</td>
+                <td data-label="Confidence" class="text-gold">50.3%</td>
             </tr>
             
             </tbody>
@@ -862,7 +877,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is BRC Group Holdings, Inc. - Depo (RILYL) worth buying in 2026?</h3>
-                <p>Determining if BRC Group Holdings, Inc. - Depo (RILYL) is worth buying in 2026 requires contrasting its current market spot price of $17.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for RILYL sits at 256.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if BRC Group Holdings, Inc. - Depo (RILYL) is worth buying in 2026 requires contrasting its current market spot price of $17.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for RILYL sits at 210.0% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
