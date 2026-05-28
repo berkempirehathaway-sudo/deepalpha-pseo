@@ -45,8 +45,8 @@
     "ratingValue": "1.74",
     "bestRating": "10",
     "worstRating": "0",
-    "ratingCount": 4,
-    "reviewCount": 4
+    "ratingCount": 5,
+    "reviewCount": 5
   },
   "additionalProperty": [
     {
@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-19.8%"
+      "value": "-19.9%"
     },
     {
       "@type": "PropertyValue",
@@ -79,14 +79,14 @@
     {
       "@type": "PropertyValue",
       "name": "Bayesian DCF",
-      "value": "$18.79",
-      "maxValue": "$18.79",
+      "value": "$4.20",
+      "maxValue": "$4.20",
       "unitText": "USD",
-      "description": "Model Target: $18.79 with Margin of Safety: 17.76% and model confidence of 1.7%"
+      "description": "Model Target: $4.20 with Margin of Safety: -73.69% and model confidence of 2.4%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$19.57",
       "maxValue": "$19.57",
       "unitText": "USD",
@@ -94,19 +94,27 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
-      "value": "$12.05",
-      "maxValue": "$12.05",
+      "name": "Machine Learning RIV",
+      "value": "$12.02",
+      "maxValue": "$12.02",
       "unitText": "USD",
-      "description": "Model Target: $12.05 with Margin of Safety: -24.53% and model confidence of 0.6%"
+      "description": "Model Target: $12.02 with Margin of Safety: -24.81% and model confidence of 0.6%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$18.79",
+      "maxValue": "$18.79",
+      "unitText": "USD",
+      "description": "Model Target: $18.79 with Margin of Safety: 17.61% and model confidence of 1.7%"
     },
     {
       "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
-      "value": "$9.33",
-      "maxValue": "$9.33",
+      "value": "$9.32",
+      "maxValue": "$9.32",
       "unitText": "USD",
-      "description": "Model Target: $9.33 with Margin of Safety: -41.56% and model confidence of 0.1%"
+      "description": "Model Target: $9.32 with Margin of Safety: -41.67% and model confidence of 0.1%"
     }
   ]
 }
@@ -121,7 +129,7 @@
       "name": "Is SDHY (SDHY) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if SDHY (SDHY) is worth buying in 2026 requires contrasting its current market spot price of $15.96 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SDHY sits at -19.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $18.79 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if SDHY (SDHY) is worth buying in 2026 requires contrasting its current market spot price of $15.98 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SDHY sits at -19.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $4.20 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -129,7 +137,7 @@
       "name": "Is SDHY currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, SDHY's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $15.96, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, SDHY's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $15.98, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -718,7 +726,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>SDHY (SDHY) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $15.96</p>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $15.98</p>
         </div>
 
         <div class="stats-grid">
@@ -734,7 +742,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-19.8%</div>
+                <div class="value text-red">-19.9%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -753,29 +761,36 @@ header {
                 
             <tr>
                 <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$18.79</td>
-                <td data-label="Upside% / Margin" class="text-green">17.76%</td>
-                <td data-label="Confidence" class="text-gold">1.7%</td>
+                <td data-label="Price Target">$4.20</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.69%</td>
+                <td data-label="Confidence" class="text-gold">2.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$19.57</td>
                 <td data-label="Upside% / Margin" class="text-green">23.21%</td>
                 <td data-label="Confidence" class="text-gold">2.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
-                <td data-label="Price Target">$12.05</td>
-                <td data-label="Upside% / Margin" class="text-red">-24.53%</td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
+                <td data-label="Price Target">$12.02</td>
+                <td data-label="Upside% / Margin" class="text-red">-24.81%</td>
                 <td data-label="Confidence" class="text-gold">0.6%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$18.79</td>
+                <td data-label="Upside% / Margin" class="text-green">17.61%</td>
+                <td data-label="Confidence" class="text-gold">1.7%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
-                <td data-label="Price Target">$9.33</td>
-                <td data-label="Upside% / Margin" class="text-red">-41.56%</td>
+                <td data-label="Price Target">$9.32</td>
+                <td data-label="Upside% / Margin" class="text-red">-41.67%</td>
                 <td data-label="Confidence" class="text-gold">0.1%</td>
             </tr>
             
@@ -787,12 +802,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is SDHY (SDHY) worth buying in 2026?</h3>
-                <p>Determining if SDHY (SDHY) is worth buying in 2026 requires contrasting its current market spot price of $15.96 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SDHY sits at -19.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $18.79 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if SDHY (SDHY) is worth buying in 2026 requires contrasting its current market spot price of $15.98 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SDHY sits at -19.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $4.20 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is SDHY currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, SDHY's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $15.96, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, SDHY's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $15.98, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 

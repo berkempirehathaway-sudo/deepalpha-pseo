@@ -45,8 +45,8 @@
     "ratingValue": "1.6",
     "bestRating": "10",
     "worstRating": "0",
-    "ratingCount": 7,
-    "reviewCount": 7
+    "ratingCount": 8,
+    "reviewCount": 8
   },
   "additionalProperty": [
     {
@@ -78,7 +78,23 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$3.29",
+      "maxValue": "$3.29",
+      "unitText": "USD",
+      "description": "Model Target: $3.29 with Margin of Safety: -73.53% and model confidence of 2.4%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Markov DDM",
+      "value": "$9.96",
+      "maxValue": "$9.96",
+      "unitText": "USD",
+      "description": "Model Target: $9.96 with Margin of Safety: -19.76% and model confidence of 7.0%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$6.13",
       "maxValue": "$6.13",
       "unitText": "USD",
@@ -86,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$11.53",
-      "maxValue": "$11.53",
-      "unitText": "USD",
-      "description": "Model Target: $11.53 with Margin of Safety: -7.08% and model confidence of 1.7%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$15.18",
       "maxValue": "$15.18",
       "unitText": "USD",
@@ -103,14 +111,6 @@
     {
       "@type": "PropertyValue",
       "name": "Machine Learning RIV",
-      "value": "$9.96",
-      "maxValue": "$9.96",
-      "unitText": "USD",
-      "description": "Model Target: $9.96 with Margin of Safety: -19.76% and model confidence of 7.0%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
       "value": "$11.31",
       "maxValue": "$11.31",
       "unitText": "USD",
@@ -118,11 +118,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$1.06",
       "maxValue": "$1.06",
       "unitText": "USD",
       "description": "Model Target: $1.06 with Margin of Safety: -91.43% and model confidence of 2.2%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$11.53",
+      "maxValue": "$11.53",
+      "unitText": "USD",
+      "description": "Model Target: $11.53 with Margin of Safety: -7.08% and model confidence of 1.7%"
     },
     {
       "@type": "PropertyValue",
@@ -145,7 +153,7 @@
       "name": "Is Nuveen New Jersey Qualified Mun (NXJ) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Nuveen New Jersey Qualified Mun (NXJ) is worth buying in 2026 requires contrasting its current market spot price of $12.41 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for NXJ sits at -32.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $6.13 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $11.53 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Nuveen New Jersey Qualified Mun (NXJ) is worth buying in 2026 requires contrasting its current market spot price of $12.41 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for NXJ sits at -32.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $3.29 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -776,21 +784,28 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$3.29</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.53%</td>
+                <td data-label="Confidence" class="text-gold">2.4%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Price Target">$9.96</td>
+                <td data-label="Upside% / Margin" class="text-red">-19.76%</td>
+                <td data-label="Confidence" class="text-gold">7.0%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$6.13</td>
                 <td data-label="Upside% / Margin" class="text-red">-50.63%</td>
                 <td data-label="Confidence" class="text-gold">2.9%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$11.53</td>
-                <td data-label="Upside% / Margin" class="text-red">-7.08%</td>
-                <td data-label="Confidence" class="text-gold">1.7%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$15.18</td>
                 <td data-label="Upside% / Margin" class="text-green">22.34%</td>
                 <td data-label="Confidence" class="text-gold">2.0%</td>
@@ -798,23 +813,23 @@ header {
             
             <tr>
                 <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
-                <td data-label="Price Target">$9.96</td>
-                <td data-label="Upside% / Margin" class="text-red">-19.76%</td>
-                <td data-label="Confidence" class="text-gold">7.0%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$11.31</td>
                 <td data-label="Upside% / Margin" class="text-red">-8.84%</td>
                 <td data-label="Confidence" class="text-gold">0.8%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$1.06</td>
                 <td data-label="Upside% / Margin" class="text-red">-91.43%</td>
                 <td data-label="Confidence" class="text-gold">2.2%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$11.53</td>
+                <td data-label="Upside% / Margin" class="text-red">-7.08%</td>
+                <td data-label="Confidence" class="text-gold">1.7%</td>
             </tr>
             
             <tr>
@@ -832,7 +847,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Nuveen New Jersey Qualified Mun (NXJ) worth buying in 2026?</h3>
-                <p>Determining if Nuveen New Jersey Qualified Mun (NXJ) is worth buying in 2026 requires contrasting its current market spot price of $12.41 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for NXJ sits at -32.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $6.13 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $11.53 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Nuveen New Jersey Qualified Mun (NXJ) is worth buying in 2026 requires contrasting its current market spot price of $12.41 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for NXJ sits at -32.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $3.29 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

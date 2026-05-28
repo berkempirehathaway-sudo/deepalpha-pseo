@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-72.6%"
+      "value": "-73.6%"
     },
     {
       "@type": "PropertyValue",
@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "Bayesian DCF",
+      "value": "$15.52",
+      "maxValue": "$15.52",
+      "unitText": "USD",
+      "description": "Model Target: $15.52 with Margin of Safety: -23.70% and model confidence of 46.9%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "First Chicago",
       "value": "$0.26",
       "maxValue": "$0.26",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$3.73",
-      "maxValue": "$3.73",
-      "unitText": "USD",
-      "description": "Model Target: $3.73 with Margin of Safety: -80.92% and model confidence of 22.0%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$0.11",
       "maxValue": "$0.11",
       "unitText": "USD",
@@ -106,7 +106,7 @@
       "value": "$7.10",
       "maxValue": "$7.10",
       "unitText": "USD",
-      "description": "Model Target: $7.10 with Margin of Safety: -63.71% and model confidence of 2.1%"
+      "description": "Model Target: $7.10 with Margin of Safety: -65.12% and model confidence of 2.1%"
     }
   ]
 }
@@ -121,7 +121,7 @@
       "name": "Is Core Scientific, Inc. (CORZW) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Core Scientific, Inc. (CORZW) is worth buying in 2026 requires contrasting its current market spot price of $19.55 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CORZW sits at -72.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Core Scientific, Inc. (CORZW) is worth buying in 2026 requires contrasting its current market spot price of $20.34 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CORZW sits at -73.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $15.52 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -129,7 +129,7 @@
       "name": "Is CORZW currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 4.42/10 and a Value Trap Score of 36.0/100, CORZW's financial risk metrics provide deep structural insights. A Value Trap Score of 36.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.42/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $19.55, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 4.42/10 and a Value Trap Score of 36.0/100, CORZW's financial risk metrics provide deep structural insights. A Value Trap Score of 36.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.42/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $20.34, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -718,7 +718,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>Core Scientific, Inc. (CORZW) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $19.55</p>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $20.34</p>
         </div>
 
         <div class="stats-grid">
@@ -734,7 +734,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-72.6%</div>
+                <div class="value text-red">-73.6%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -752,21 +752,21 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$15.52</td>
+                <td data-label="Upside% / Margin" class="text-red">-23.70%</td>
+                <td data-label="Confidence" class="text-gold">46.9%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.26</td>
                 <td data-label="Upside% / Margin" class="text-red">-98.43%</td>
                 <td data-label="Confidence" class="text-gold">5.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$3.73</td>
-                <td data-label="Upside% / Margin" class="text-red">-80.92%</td>
-                <td data-label="Confidence" class="text-gold">22.0%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$0.11</td>
                 <td data-label="Upside% / Margin" class="text-red">-99.26%</td>
                 <td data-label="Confidence" class="text-gold">2.0%</td>
@@ -775,7 +775,7 @@ header {
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$7.10</td>
-                <td data-label="Upside% / Margin" class="text-red">-63.71%</td>
+                <td data-label="Upside% / Margin" class="text-red">-65.12%</td>
                 <td data-label="Confidence" class="text-gold">2.1%</td>
             </tr>
             
@@ -787,12 +787,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is Core Scientific, Inc. (CORZW) worth buying in 2026?</h3>
-                <p>Determining if Core Scientific, Inc. (CORZW) is worth buying in 2026 requires contrasting its current market spot price of $19.55 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CORZW sits at -72.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Core Scientific, Inc. (CORZW) is worth buying in 2026 requires contrasting its current market spot price of $20.34 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CORZW sits at -73.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $15.52 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is CORZW currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 4.42/10 and a Value Trap Score of 36.0/100, CORZW's financial risk metrics provide deep structural insights. A Value Trap Score of 36.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.42/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $19.55, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 4.42/10 and a Value Trap Score of 36.0/100, CORZW's financial risk metrics provide deep structural insights. A Value Trap Score of 36.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.42/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $20.34, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 

@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "37.6%"
+      "value": "37.5%"
     },
     {
       "@type": "PropertyValue",
@@ -78,23 +78,23 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.58",
+      "maxValue": "$0.58",
+      "unitText": "USD",
+      "description": "Model Target: $0.58 with Margin of Safety: -14.44% and model confidence of 16.3%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$2.33",
       "maxValue": "$2.33",
       "unitText": "USD",
-      "description": "Model Target: $2.33 with Margin of Safety: 243.55% and model confidence of 44.0%"
+      "description": "Model Target: $2.33 with Margin of Safety: 243.35% and model confidence of 44.0%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$0.74",
-      "maxValue": "$0.74",
-      "unitText": "USD",
-      "description": "Model Target: $0.74 with Margin of Safety: 8.33% and model confidence of 16.8%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$0.76",
       "maxValue": "$0.76",
       "unitText": "USD",
@@ -102,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$0.67",
-      "maxValue": "$0.67",
-      "unitText": "USD",
-      "description": "Model Target: $0.67 with Margin of Safety: -1.81% and model confidence of 34.5%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$0.15",
       "maxValue": "$0.15",
       "unitText": "USD",
@@ -118,11 +110,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$0.77",
       "maxValue": "$0.77",
       "unitText": "USD",
-      "description": "Model Target: $0.77 with Margin of Safety: 13.88% and model confidence of 14.9%"
+      "description": "Model Target: $0.77 with Margin of Safety: 13.81% and model confidence of 14.9%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$0.74",
+      "maxValue": "$0.74",
+      "unitText": "USD",
+      "description": "Model Target: $0.74 with Margin of Safety: 8.27% and model confidence of 16.8%"
     },
     {
       "@type": "PropertyValue",
@@ -130,7 +130,7 @@
       "value": "$0.85",
       "maxValue": "$0.85",
       "unitText": "USD",
-      "description": "Model Target: $0.85 with Margin of Safety: 25.41% and model confidence of 6.0%"
+      "description": "Model Target: $0.85 with Margin of Safety: 25.34% and model confidence of 6.0%"
     },
     {
       "@type": "PropertyValue",
@@ -153,7 +153,7 @@
       "name": "Is VYNE Therapeutics Inc. (VYNE) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if VYNE Therapeutics Inc. (VYNE) is worth buying in 2026 requires contrasting its current market spot price of $0.68 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VYNE sits at 37.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $2.33 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.74 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if VYNE Therapeutics Inc. (VYNE) is worth buying in 2026 requires contrasting its current market spot price of $0.68 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VYNE sits at 37.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.58 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -766,7 +766,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-green">37.6%</div>
+                <div class="value text-green">37.5%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -784,51 +784,51 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.58</td>
+                <td data-label="Upside% / Margin" class="text-red">-14.44%</td>
+                <td data-label="Confidence" class="text-gold">16.3%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$2.33</td>
-                <td data-label="Upside% / Margin" class="text-green">243.55%</td>
+                <td data-label="Upside% / Margin" class="text-green">243.35%</td>
                 <td data-label="Confidence" class="text-gold">44.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$0.74</td>
-                <td data-label="Upside% / Margin" class="text-green">8.33%</td>
-                <td data-label="Confidence" class="text-gold">16.8%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.76</td>
                 <td data-label="Upside% / Margin" class="text-green">12.72%</td>
                 <td data-label="Confidence" class="text-gold">19.8%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$0.67</td>
-                <td data-label="Upside% / Margin" class="text-red">-1.81%</td>
-                <td data-label="Confidence" class="text-gold">34.5%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.15</td>
                 <td data-label="Upside% / Margin" class="text-red">-77.11%</td>
                 <td data-label="Confidence" class="text-gold">37.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$0.77</td>
-                <td data-label="Upside% / Margin" class="text-green">13.88%</td>
+                <td data-label="Upside% / Margin" class="text-green">13.81%</td>
                 <td data-label="Confidence" class="text-gold">14.9%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$0.74</td>
+                <td data-label="Upside% / Margin" class="text-green">8.27%</td>
+                <td data-label="Confidence" class="text-gold">16.8%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$0.85</td>
-                <td data-label="Upside% / Margin" class="text-green">25.41%</td>
+                <td data-label="Upside% / Margin" class="text-green">25.34%</td>
                 <td data-label="Confidence" class="text-gold">6.0%</td>
             </tr>
             
@@ -847,7 +847,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is VYNE Therapeutics Inc. (VYNE) worth buying in 2026?</h3>
-                <p>Determining if VYNE Therapeutics Inc. (VYNE) is worth buying in 2026 requires contrasting its current market spot price of $0.68 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VYNE sits at 37.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $2.33 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.74 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if VYNE Therapeutics Inc. (VYNE) is worth buying in 2026 requires contrasting its current market spot price of $0.68 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VYNE sits at 37.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.58 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

@@ -1751,6 +1751,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AOMD.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AOMN.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AOMR.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1876,6 +1886,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/APOS.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/APP.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1947,6 +1962,11 @@
   </url>
   <url>
     <loc>https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AQN.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://berkempirehathaway-sudo.github.io/deepalpha-pseo/stocks/AQNB.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

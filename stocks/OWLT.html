@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-12.6%"
+      "value": "-12.5%"
     },
     {
       "@type": "PropertyValue",
@@ -79,46 +79,6 @@
     {
       "@type": "PropertyValue",
       "name": "Earnings Power Value",
-      "value": "$1.14",
-      "maxValue": "$1.14",
-      "unitText": "USD",
-      "description": "Model Target: $1.14 with Margin of Safety: -80.09% and model confidence of 47.8%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$6.60",
-      "maxValue": "$6.60",
-      "unitText": "USD",
-      "description": "Model Target: $6.60 with Margin of Safety: 15.13% and model confidence of 18.2%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
-      "value": "$10.67",
-      "maxValue": "$10.67",
-      "unitText": "USD",
-      "description": "Model Target: $10.67 with Margin of Safety: 86.25% and model confidence of 43.7%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$6.21",
-      "maxValue": "$6.21",
-      "unitText": "USD",
-      "description": "Model Target: $6.21 with Margin of Safety: 8.34% and model confidence of 37.5%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "First Chicago",
-      "value": "$0.81",
-      "maxValue": "$0.81",
-      "unitText": "USD",
-      "description": "Model Target: $0.81 with Margin of Safety: -85.82% and model confidence of 18.2%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "EROIC Spread Model",
       "value": "$8.49",
       "maxValue": "$8.49",
       "unitText": "USD",
@@ -126,7 +86,39 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Bayesian DCF",
+      "value": "$1.70",
+      "maxValue": "$1.70",
+      "unitText": "USD",
+      "description": "Model Target: $1.70 with Margin of Safety: -70.42% and model confidence of 17.6%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
+      "value": "$1.14",
+      "maxValue": "$1.14",
+      "unitText": "USD",
+      "description": "Model Target: $1.14 with Margin of Safety: -80.09% and model confidence of 47.8%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "First Chicago",
+      "value": "$10.69",
+      "maxValue": "$10.69",
+      "unitText": "USD",
+      "description": "Model Target: $10.69 with Margin of Safety: 86.62% and model confidence of 43.7%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "EROIC Spread Model",
+      "value": "$0.81",
+      "maxValue": "$0.81",
+      "unitText": "USD",
+      "description": "Model Target: $0.81 with Margin of Safety: -85.82% and model confidence of 18.2%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Machine Learning RIV",
       "value": "$0.06",
       "maxValue": "$0.06",
       "unitText": "USD",
@@ -134,7 +126,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$8.29",
       "maxValue": "$8.29",
       "unitText": "USD",
@@ -142,11 +134,19 @@
     },
     {
       "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$6.60",
+      "maxValue": "$6.60",
+      "unitText": "USD",
+      "description": "Model Target: $6.60 with Margin of Safety: 15.13% and model confidence of 18.2%"
+    },
+    {
+      "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
       "value": "$4.98",
       "maxValue": "$4.98",
       "unitText": "USD",
-      "description": "Model Target: $4.98 with Margin of Safety: -13.13% and model confidence of 6.1%"
+      "description": "Model Target: $4.98 with Margin of Safety: -13.09% and model confidence of 6.1%"
     },
     {
       "@type": "PropertyValue",
@@ -169,7 +169,7 @@
       "name": "Is Owlet, Inc. (OWLT) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Owlet, Inc. (OWLT) is worth buying in 2026 requires contrasting its current market spot price of $5.73 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OWLT sits at -12.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.14 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $6.60 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Owlet, Inc. (OWLT) is worth buying in 2026 requires contrasting its current market spot price of $5.73 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OWLT sits at -12.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $8.49 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.70 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -782,7 +782,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-12.6%</div>
+                <div class="value text-red">-12.5%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -801,64 +801,64 @@ header {
                 
             <tr>
                 <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
-                <td data-label="Price Target">$1.14</td>
-                <td data-label="Upside% / Margin" class="text-red">-80.09%</td>
-                <td data-label="Confidence" class="text-gold">47.8%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$6.60</td>
-                <td data-label="Upside% / Margin" class="text-green">15.13%</td>
-                <td data-label="Confidence" class="text-gold">18.2%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
-                <td data-label="Price Target">$10.67</td>
-                <td data-label="Upside% / Margin" class="text-green">86.25%</td>
-                <td data-label="Confidence" class="text-gold">43.7%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$6.21</td>
-                <td data-label="Upside% / Margin" class="text-green">8.34%</td>
-                <td data-label="Confidence" class="text-gold">37.5%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
-                <td data-label="Price Target">$0.81</td>
-                <td data-label="Upside% / Margin" class="text-red">-85.82%</td>
-                <td data-label="Confidence" class="text-gold">18.2%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$8.49</td>
                 <td data-label="Upside% / Margin" class="text-green">75.46%</td>
                 <td data-label="Confidence" class="text-gold">16.7%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$1.70</td>
+                <td data-label="Upside% / Margin" class="text-red">-70.42%</td>
+                <td data-label="Confidence" class="text-gold">17.6%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
+                <td data-label="Price Target">$1.14</td>
+                <td data-label="Upside% / Margin" class="text-red">-80.09%</td>
+                <td data-label="Confidence" class="text-gold">47.8%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Price Target">$10.69</td>
+                <td data-label="Upside% / Margin" class="text-green">86.62%</td>
+                <td data-label="Confidence" class="text-gold">43.7%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
+                <td data-label="Price Target">$0.81</td>
+                <td data-label="Upside% / Margin" class="text-red">-85.82%</td>
+                <td data-label="Confidence" class="text-gold">18.2%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.06</td>
                 <td data-label="Upside% / Margin" class="text-red">-98.79%</td>
                 <td data-label="Confidence" class="text-gold">5.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$8.29</td>
                 <td data-label="Upside% / Margin" class="text-green">44.69%</td>
                 <td data-label="Confidence" class="text-gold">16.2%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$6.60</td>
+                <td data-label="Upside% / Margin" class="text-green">15.13%</td>
+                <td data-label="Confidence" class="text-gold">18.2%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$4.98</td>
-                <td data-label="Upside% / Margin" class="text-red">-13.13%</td>
+                <td data-label="Upside% / Margin" class="text-red">-13.09%</td>
                 <td data-label="Confidence" class="text-gold">6.1%</td>
             </tr>
             
@@ -877,7 +877,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Owlet, Inc. (OWLT) worth buying in 2026?</h3>
-                <p>Determining if Owlet, Inc. (OWLT) is worth buying in 2026 requires contrasting its current market spot price of $5.73 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OWLT sits at -12.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.14 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $6.60 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Owlet, Inc. (OWLT) is worth buying in 2026 requires contrasting its current market spot price of $5.73 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OWLT sits at -12.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $8.49 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.70 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "286.1%"
+      "value": "287.3%"
     },
     {
       "@type": "PropertyValue",
@@ -78,15 +78,23 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$18.47",
-      "maxValue": "$18.47",
+      "name": "Bayesian DCF",
+      "value": "$8.62",
+      "maxValue": "$8.62",
       "unitText": "USD",
-      "description": "Model Target: $18.47 with Margin of Safety: 70.56% and model confidence of 34.4%"
+      "description": "Model Target: $8.62 with Margin of Safety: -20.41% and model confidence of 53.9%"
     },
     {
       "@type": "PropertyValue",
-      "name": "First Chicago",
+      "name": "Markov DDM",
+      "value": "$247.24",
+      "maxValue": "$247.24",
+      "unitText": "USD",
+      "description": "Model Target: $247.24 with Margin of Safety: 2182.94% and model confidence of 47.2%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "EROIC Spread Model",
       "value": "$8.11",
       "maxValue": "$8.11",
       "unitText": "USD",
@@ -95,22 +103,14 @@
     {
       "@type": "PropertyValue",
       "name": "Machine Learning RIV",
-      "value": "$247.24",
-      "maxValue": "$247.24",
+      "value": "$20.11",
+      "maxValue": "$20.11",
       "unitText": "USD",
-      "description": "Model Target: $247.24 with Margin of Safety: 2182.94% and model confidence of 47.2%"
+      "description": "Model Target: $20.11 with Margin of Safety: 85.70% and model confidence of 43.8%"
     },
     {
       "@type": "PropertyValue",
       "name": "Regime Cross model",
-      "value": "$20.16",
-      "maxValue": "$20.16",
-      "unitText": "USD",
-      "description": "Model Target: $20.16 with Margin of Safety: 86.16% and model confidence of 43.8%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
       "value": "$0.01",
       "maxValue": "$0.01",
       "unitText": "USD",
@@ -119,10 +119,10 @@
     {
       "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
-      "value": "$42.96",
-      "maxValue": "$42.96",
+      "value": "$43.16",
+      "maxValue": "$43.16",
       "unitText": "USD",
-      "description": "Model Target: $42.96 with Margin of Safety: 296.65% and model confidence of 3.0%"
+      "description": "Model Target: $43.16 with Margin of Safety: 298.50% and model confidence of 3.0%"
     },
     {
       "@type": "PropertyValue",
@@ -153,7 +153,7 @@
       "name": "Is FS KKR Capital Corp. (FSK) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if FS KKR Capital Corp. (FSK) is worth buying in 2026 requires contrasting its current market spot price of $10.83 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for FSK sits at 286.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if FS KKR Capital Corp. (FSK) is worth buying in 2026 requires contrasting its current market spot price of $10.83 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for FSK sits at 287.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $8.62 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -766,7 +766,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-green">286.1%</div>
+                <div class="value text-green">287.3%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -784,14 +784,21 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$18.47</td>
-                <td data-label="Upside% / Margin" class="text-green">70.56%</td>
-                <td data-label="Confidence" class="text-gold">34.4%</td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$8.62</td>
+                <td data-label="Upside% / Margin" class="text-red">-20.41%</td>
+                <td data-label="Confidence" class="text-gold">53.9%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Price Target">$247.24</td>
+                <td data-label="Upside% / Margin" class="text-green">2182.94%</td>
+                <td data-label="Confidence" class="text-gold">47.2%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$8.11</td>
                 <td data-label="Upside% / Margin" class="text-red">-25.20%</td>
                 <td data-label="Confidence" class="text-gold">38.6%</td>
@@ -799,20 +806,13 @@ header {
             
             <tr>
                 <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
-                <td data-label="Price Target">$247.24</td>
-                <td data-label="Upside% / Margin" class="text-green">2182.94%</td>
-                <td data-label="Confidence" class="text-gold">47.2%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
-                <td data-label="Price Target">$20.16</td>
-                <td data-label="Upside% / Margin" class="text-green">86.16%</td>
+                <td data-label="Price Target">$20.11</td>
+                <td data-label="Upside% / Margin" class="text-green">85.70%</td>
                 <td data-label="Confidence" class="text-gold">43.8%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$0.01</td>
                 <td data-label="Upside% / Margin" class="text-red">-99.90%</td>
                 <td data-label="Confidence" class="text-gold">2.0%</td>
@@ -820,8 +820,8 @@ header {
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
-                <td data-label="Price Target">$42.96</td>
-                <td data-label="Upside% / Margin" class="text-green">296.65%</td>
+                <td data-label="Price Target">$43.16</td>
+                <td data-label="Upside% / Margin" class="text-green">298.50%</td>
                 <td data-label="Confidence" class="text-gold">3.0%</td>
             </tr>
             
@@ -847,7 +847,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is FS KKR Capital Corp. (FSK) worth buying in 2026?</h3>
-                <p>Determining if FS KKR Capital Corp. (FSK) is worth buying in 2026 requires contrasting its current market spot price of $10.83 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for FSK sits at 286.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if FS KKR Capital Corp. (FSK) is worth buying in 2026 requires contrasting its current market spot price of $10.83 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for FSK sits at 287.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $8.62 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

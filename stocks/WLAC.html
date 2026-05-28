@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.98",
+      "maxValue": "$0.98",
+      "unitText": "USD",
+      "description": "Model Target: $0.98 with Margin of Safety: -94.77% and model confidence of 23.2%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$3.52",
       "maxValue": "$3.52",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$1.82",
-      "maxValue": "$1.82",
-      "unitText": "USD",
-      "description": "Model Target: $1.82 with Margin of Safety: -90.36% and model confidence of 14.3%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$2.13",
       "maxValue": "$2.13",
       "unitText": "USD",
@@ -102,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$18.02",
-      "maxValue": "$18.02",
-      "unitText": "USD",
-      "description": "Model Target: $18.02 with Margin of Safety: -4.32% and model confidence of 29.6%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "First Chicago",
+      "name": "EROIC Spread Model",
       "value": "$2.23",
       "maxValue": "$2.23",
       "unitText": "USD",
@@ -118,7 +110,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$7.62",
       "maxValue": "$7.62",
       "unitText": "USD",
@@ -126,11 +118,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$2.23",
       "maxValue": "$2.23",
       "unitText": "USD",
       "description": "Model Target: $2.23 with Margin of Safety: -88.14% and model confidence of 12.8%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$1.82",
+      "maxValue": "$1.82",
+      "unitText": "USD",
+      "description": "Model Target: $1.82 with Margin of Safety: -90.36% and model confidence of 14.3%"
     },
     {
       "@type": "PropertyValue",
@@ -161,7 +161,7 @@
       "name": "Is Willow Lane Acquisition Corp. (WLAC) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Willow Lane Acquisition Corp. (WLAC) is worth buying in 2026 requires contrasting its current market spot price of $18.83 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for WLAC sits at -76.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $3.52 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.82 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Willow Lane Acquisition Corp. (WLAC) is worth buying in 2026 requires contrasting its current market spot price of $18.83 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for WLAC sits at -76.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.98 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -792,52 +792,52 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.98</td>
+                <td data-label="Upside% / Margin" class="text-red">-94.77%</td>
+                <td data-label="Confidence" class="text-gold">23.2%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$3.52</td>
                 <td data-label="Upside% / Margin" class="text-red">-81.29%</td>
                 <td data-label="Confidence" class="text-gold">37.7%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$1.82</td>
-                <td data-label="Upside% / Margin" class="text-red">-90.36%</td>
-                <td data-label="Confidence" class="text-gold">14.3%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$2.13</td>
                 <td data-label="Upside% / Margin" class="text-red">-88.71%</td>
                 <td data-label="Confidence" class="text-gold">17.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$18.02</td>
-                <td data-label="Upside% / Margin" class="text-red">-4.32%</td>
-                <td data-label="Confidence" class="text-gold">29.6%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$2.23</td>
                 <td data-label="Upside% / Margin" class="text-red">-88.15%</td>
                 <td data-label="Confidence" class="text-gold">22.3%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$7.62</td>
                 <td data-label="Upside% / Margin" class="text-red">-59.55%</td>
                 <td data-label="Confidence" class="text-gold">11.2%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$2.23</td>
                 <td data-label="Upside% / Margin" class="text-red">-88.14%</td>
                 <td data-label="Confidence" class="text-gold">12.8%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$1.82</td>
+                <td data-label="Upside% / Margin" class="text-red">-90.36%</td>
+                <td data-label="Confidence" class="text-gold">14.3%</td>
             </tr>
             
             <tr>
@@ -862,7 +862,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Willow Lane Acquisition Corp. (WLAC) worth buying in 2026?</h3>
-                <p>Determining if Willow Lane Acquisition Corp. (WLAC) is worth buying in 2026 requires contrasting its current market spot price of $18.83 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for WLAC sits at -76.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $3.52 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.82 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Willow Lane Acquisition Corp. (WLAC) is worth buying in 2026 requires contrasting its current market spot price of $18.83 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for WLAC sits at -76.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.98 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

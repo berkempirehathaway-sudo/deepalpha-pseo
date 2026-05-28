@@ -78,7 +78,23 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$4.05",
+      "maxValue": "$4.05",
+      "unitText": "USD",
+      "description": "Model Target: $4.05 with Margin of Safety: -78.63% and model confidence of 62.1%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Markov DDM",
+      "value": "$0.74",
+      "maxValue": "$0.74",
+      "unitText": "USD",
+      "description": "Model Target: $0.74 with Margin of Safety: -96.11% and model confidence of 54.3%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$1.66",
       "maxValue": "$1.66",
       "unitText": "USD",
@@ -86,31 +102,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$29.93",
-      "maxValue": "$29.93",
-      "unitText": "USD",
-      "description": "Model Target: $29.93 with Margin of Safety: 57.58% and model confidence of 42.7%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
-      "value": "$66.26",
-      "maxValue": "$66.26",
-      "unitText": "USD",
-      "description": "Model Target: $66.26 with Margin of Safety: 248.90% and model confidence of 46.2%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$19.23",
-      "maxValue": "$19.23",
-      "unitText": "USD",
-      "description": "Model Target: $19.23 with Margin of Safety: 1.29% and model confidence of 39.6%"
-    },
-    {
-      "@type": "PropertyValue",
       "name": "First Chicago",
+      "value": "$66.30",
+      "maxValue": "$66.30",
+      "unitText": "USD",
+      "description": "Model Target: $66.30 with Margin of Safety: 249.12% and model confidence of 46.2%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "EROIC Spread Model",
       "value": "$1.05",
       "maxValue": "$1.05",
       "unitText": "USD",
@@ -119,26 +119,26 @@
     {
       "@type": "PropertyValue",
       "name": "Machine Learning RIV",
-      "value": "$0.74",
-      "maxValue": "$0.74",
+      "value": "$23.36",
+      "maxValue": "$23.36",
       "unitText": "USD",
-      "description": "Model Target: $0.74 with Margin of Safety: -96.11% and model confidence of 54.3%"
+      "description": "Model Target: $23.36 with Margin of Safety: 23.04% and model confidence of 50.5%"
     },
     {
       "@type": "PropertyValue",
       "name": "Regime Cross model",
-      "value": "$23.41",
-      "maxValue": "$23.41",
+      "value": "$13.80",
+      "maxValue": "$13.80",
       "unitText": "USD",
-      "description": "Model Target: $23.41 with Margin of Safety: 23.28% and model confidence of 50.5%"
+      "description": "Model Target: $13.80 with Margin of Safety: -27.31% and model confidence of 42.7%"
     },
     {
       "@type": "PropertyValue",
       "name": "Sentiment SOTP",
-      "value": "$13.78",
-      "maxValue": "$13.78",
+      "value": "$29.93",
+      "maxValue": "$29.93",
       "unitText": "USD",
-      "description": "Model Target: $13.78 with Margin of Safety: -27.43% and model confidence of 42.7%"
+      "description": "Model Target: $29.93 with Margin of Safety: 57.58% and model confidence of 42.7%"
     },
     {
       "@type": "PropertyValue",
@@ -146,7 +146,7 @@
       "value": "$17.09",
       "maxValue": "$17.09",
       "unitText": "USD",
-      "description": "Model Target: $17.09 with Margin of Safety: -10.00% and model confidence of 3.3%"
+      "description": "Model Target: $17.09 with Margin of Safety: -10.02% and model confidence of 3.3%"
     },
     {
       "@type": "PropertyValue",
@@ -154,7 +154,7 @@
       "value": "$17.67",
       "maxValue": "$17.67",
       "unitText": "USD",
-      "description": "Model Target: $17.67 with Margin of Safety: -6.95% and model confidence of 5.8%"
+      "description": "Model Target: $17.67 with Margin of Safety: -6.94% and model confidence of 5.8%"
     },
     {
       "@type": "PropertyValue",
@@ -177,7 +177,7 @@
       "name": "Is Veris Residential, Inc. (VRE) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Veris Residential, Inc. (VRE) is worth buying in 2026 requires contrasting its current market spot price of $18.99 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VRE sits at -7.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.66 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $29.93 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Veris Residential, Inc. (VRE) is worth buying in 2026 requires contrasting its current market spot price of $18.99 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VRE sits at -7.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $4.05 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -808,35 +808,35 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$4.05</td>
+                <td data-label="Upside% / Margin" class="text-red">-78.63%</td>
+                <td data-label="Confidence" class="text-gold">62.1%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Price Target">$0.74</td>
+                <td data-label="Upside% / Margin" class="text-red">-96.11%</td>
+                <td data-label="Confidence" class="text-gold">54.3%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$1.66</td>
                 <td data-label="Upside% / Margin" class="text-red">-91.24%</td>
                 <td data-label="Confidence" class="text-gold">50.5%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$29.93</td>
-                <td data-label="Upside% / Margin" class="text-green">57.58%</td>
-                <td data-label="Confidence" class="text-gold">42.7%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
-                <td data-label="Price Target">$66.26</td>
-                <td data-label="Upside% / Margin" class="text-green">248.90%</td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Price Target">$66.30</td>
+                <td data-label="Upside% / Margin" class="text-green">249.12%</td>
                 <td data-label="Confidence" class="text-gold">46.2%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$19.23</td>
-                <td data-label="Upside% / Margin" class="text-green">1.29%</td>
-                <td data-label="Confidence" class="text-gold">39.6%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$1.05</td>
                 <td data-label="Upside% / Margin" class="text-red">-94.45%</td>
                 <td data-label="Confidence" class="text-gold">42.7%</td>
@@ -844,36 +844,36 @@ header {
             
             <tr>
                 <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
-                <td data-label="Price Target">$0.74</td>
-                <td data-label="Upside% / Margin" class="text-red">-96.11%</td>
-                <td data-label="Confidence" class="text-gold">54.3%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
-                <td data-label="Price Target">$23.41</td>
-                <td data-label="Upside% / Margin" class="text-green">23.28%</td>
+                <td data-label="Price Target">$23.36</td>
+                <td data-label="Upside% / Margin" class="text-green">23.04%</td>
                 <td data-label="Confidence" class="text-gold">50.5%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Price Target">$13.80</td>
+                <td data-label="Upside% / Margin" class="text-red">-27.31%</td>
+                <td data-label="Confidence" class="text-gold">42.7%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
-                <td data-label="Price Target">$13.78</td>
-                <td data-label="Upside% / Margin" class="text-red">-27.43%</td>
+                <td data-label="Price Target">$29.93</td>
+                <td data-label="Upside% / Margin" class="text-green">57.58%</td>
                 <td data-label="Confidence" class="text-gold">42.7%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$17.09</td>
-                <td data-label="Upside% / Margin" class="text-red">-10.00%</td>
+                <td data-label="Upside% / Margin" class="text-red">-10.02%</td>
                 <td data-label="Confidence" class="text-gold">3.3%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>FTNN Topology Model</strong></td>
                 <td data-label="Price Target">$17.67</td>
-                <td data-label="Upside% / Margin" class="text-red">-6.95%</td>
+                <td data-label="Upside% / Margin" class="text-red">-6.94%</td>
                 <td data-label="Confidence" class="text-gold">5.8%</td>
             </tr>
             
@@ -892,7 +892,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Veris Residential, Inc. (VRE) worth buying in 2026?</h3>
-                <p>Determining if Veris Residential, Inc. (VRE) is worth buying in 2026 requires contrasting its current market spot price of $18.99 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VRE sits at -7.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.66 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $29.93 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Veris Residential, Inc. (VRE) is worth buying in 2026 requires contrasting its current market spot price of $18.99 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VRE sits at -7.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $4.05 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

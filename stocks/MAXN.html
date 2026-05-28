@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.20",
+      "maxValue": "$0.20",
+      "unitText": "USD",
+      "description": "Model Target: $0.20 with Margin of Safety: -73.83% and model confidence of 5.9%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$11.42",
       "maxValue": "$11.42",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$0.71",
-      "maxValue": "$0.71",
-      "unitText": "USD",
-      "description": "Model Target: $0.71 with Margin of Safety: -7.08% and model confidence of 4.1%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$0.82",
       "maxValue": "$0.82",
       "unitText": "USD",
@@ -102,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$18.13",
-      "maxValue": "$18.13",
-      "unitText": "USD",
-      "description": "Model Target: $18.13 with Margin of Safety: 2287.41% and model confidence of 9.6%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$0.35",
       "maxValue": "$0.35",
       "unitText": "USD",
@@ -118,11 +110,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$2.69",
       "maxValue": "$2.69",
       "unitText": "USD",
       "description": "Model Target: $2.69 with Margin of Safety: 254.31% and model confidence of 5.4%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$0.71",
+      "maxValue": "$0.71",
+      "unitText": "USD",
+      "description": "Model Target: $0.71 with Margin of Safety: -7.08% and model confidence of 4.1%"
     },
     {
       "@type": "PropertyValue",
@@ -145,7 +145,7 @@
       "name": "Is Maxeon Solar Technologies, Ltd. (MAXN) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Maxeon Solar Technologies, Ltd. (MAXN) is worth buying in 2026 requires contrasting its current market spot price of $0.76 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for MAXN sits at 540.4% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $11.42 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.71 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Maxeon Solar Technologies, Ltd. (MAXN) is worth buying in 2026 requires contrasting its current market spot price of $0.76 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for MAXN sits at 540.4% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.20 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -776,45 +776,45 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.20</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.83%</td>
+                <td data-label="Confidence" class="text-gold">5.9%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$11.42</td>
                 <td data-label="Upside% / Margin" class="text-green">1404.04%</td>
                 <td data-label="Confidence" class="text-gold">5.6%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$0.71</td>
-                <td data-label="Upside% / Margin" class="text-red">-7.08%</td>
-                <td data-label="Confidence" class="text-gold">4.1%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.82</td>
                 <td data-label="Upside% / Margin" class="text-green">8.11%</td>
                 <td data-label="Confidence" class="text-gold">4.8%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$18.13</td>
-                <td data-label="Upside% / Margin" class="text-green">2287.41%</td>
-                <td data-label="Confidence" class="text-gold">9.6%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.35</td>
                 <td data-label="Upside% / Margin" class="text-red">-53.84%</td>
                 <td data-label="Confidence" class="text-gold">1.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$2.69</td>
                 <td data-label="Upside% / Margin" class="text-green">254.31%</td>
                 <td data-label="Confidence" class="text-gold">5.4%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$0.71</td>
+                <td data-label="Upside% / Margin" class="text-red">-7.08%</td>
+                <td data-label="Confidence" class="text-gold">4.1%</td>
             </tr>
             
             <tr>
@@ -832,7 +832,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Maxeon Solar Technologies, Ltd. (MAXN) worth buying in 2026?</h3>
-                <p>Determining if Maxeon Solar Technologies, Ltd. (MAXN) is worth buying in 2026 requires contrasting its current market spot price of $0.76 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for MAXN sits at 540.4% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $11.42 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.71 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Maxeon Solar Technologies, Ltd. (MAXN) is worth buying in 2026 requires contrasting its current market spot price of $0.76 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for MAXN sits at 540.4% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.20 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

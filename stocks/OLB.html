@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "80.3%"
+      "value": "87.5%"
     },
     {
       "@type": "PropertyValue",
@@ -79,14 +79,14 @@
     {
       "@type": "PropertyValue",
       "name": "Bayesian DCF",
-      "value": "$1.35",
-      "maxValue": "$1.35",
+      "value": "$0.14",
+      "maxValue": "$0.14",
       "unitText": "USD",
-      "description": "Model Target: $1.35 with Margin of Safety: 189.50% and model confidence of 17.4%"
+      "description": "Model Target: $0.14 with Margin of Safety: -68.13% and model confidence of 16.9%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$0.69",
       "maxValue": "$0.69",
       "unitText": "USD",
@@ -94,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$0.97",
-      "maxValue": "$0.97",
-      "unitText": "USD",
-      "description": "Model Target: $0.97 with Margin of Safety: 107.34% and model confidence of 36.0%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$0.04",
       "maxValue": "$0.04",
       "unitText": "USD",
@@ -110,11 +102,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$1.74",
       "maxValue": "$1.74",
       "unitText": "USD",
-      "description": "Model Target: $1.74 with Margin of Safety: 271.86% and model confidence of 15.5%"
+      "description": "Model Target: $1.74 with Margin of Safety: 291.13% and model confidence of 15.5%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$1.35",
+      "maxValue": "$1.35",
+      "unitText": "USD",
+      "description": "Model Target: $1.35 with Margin of Safety: 204.50% and model confidence of 17.4%"
     },
     {
       "@type": "PropertyValue",
@@ -122,7 +122,7 @@
       "value": "$0.99",
       "maxValue": "$0.99",
       "unitText": "USD",
-      "description": "Model Target: $0.99 with Margin of Safety: 111.10% and model confidence of 6.6%"
+      "description": "Model Target: $0.99 with Margin of Safety: 122.04% and model confidence of 6.6%"
     },
     {
       "@type": "PropertyValue",
@@ -145,7 +145,7 @@
       "name": "Is The OLB Group, Inc. (OLB) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if The OLB Group, Inc. (OLB) is worth buying in 2026 requires contrasting its current market spot price of $0.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OLB sits at 80.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.35 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if The OLB Group, Inc. (OLB) is worth buying in 2026 requires contrasting its current market spot price of $0.44 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OLB sits at 87.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.14 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -153,7 +153,7 @@
       "name": "Is OLB currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 4.28/10 and a Value Trap Score of 43.0/100, OLB's financial risk metrics provide deep structural insights. A Value Trap Score of 43.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.28/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $0.47, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 4.28/10 and a Value Trap Score of 43.0/100, OLB's financial risk metrics provide deep structural insights. A Value Trap Score of 43.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.28/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $0.44, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -742,7 +742,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>The OLB Group, Inc. (OLB) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $0.47</p>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $0.44</p>
         </div>
 
         <div class="stats-grid">
@@ -758,7 +758,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-green">80.3%</div>
+                <div class="value text-green">87.5%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -777,43 +777,43 @@ header {
                 
             <tr>
                 <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$1.35</td>
-                <td data-label="Upside% / Margin" class="text-green">189.50%</td>
-                <td data-label="Confidence" class="text-gold">17.4%</td>
+                <td data-label="Price Target">$0.14</td>
+                <td data-label="Upside% / Margin" class="text-red">-68.13%</td>
+                <td data-label="Confidence" class="text-gold">16.9%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.69</td>
                 <td data-label="Upside% / Margin" class="text-green">54.36%</td>
                 <td data-label="Confidence" class="text-gold">20.6%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$0.97</td>
-                <td data-label="Upside% / Margin" class="text-green">107.34%</td>
-                <td data-label="Confidence" class="text-gold">36.0%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.04</td>
                 <td data-label="Upside% / Margin" class="text-red">-92.15%</td>
                 <td data-label="Confidence" class="text-gold">39.7%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$1.74</td>
-                <td data-label="Upside% / Margin" class="text-green">271.86%</td>
+                <td data-label="Upside% / Margin" class="text-green">291.13%</td>
                 <td data-label="Confidence" class="text-gold">15.5%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$1.35</td>
+                <td data-label="Upside% / Margin" class="text-green">204.50%</td>
+                <td data-label="Confidence" class="text-gold">17.4%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$0.99</td>
-                <td data-label="Upside% / Margin" class="text-green">111.10%</td>
+                <td data-label="Upside% / Margin" class="text-green">122.04%</td>
                 <td data-label="Confidence" class="text-gold">6.6%</td>
             </tr>
             
@@ -832,12 +832,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is The OLB Group, Inc. (OLB) worth buying in 2026?</h3>
-                <p>Determining if The OLB Group, Inc. (OLB) is worth buying in 2026 requires contrasting its current market spot price of $0.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OLB sits at 80.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.35 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if The OLB Group, Inc. (OLB) is worth buying in 2026 requires contrasting its current market spot price of $0.44 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OLB sits at 87.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.14 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is OLB currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 4.28/10 and a Value Trap Score of 43.0/100, OLB's financial risk metrics provide deep structural insights. A Value Trap Score of 43.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.28/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $0.47, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 4.28/10 and a Value Trap Score of 43.0/100, OLB's financial risk metrics provide deep structural insights. A Value Trap Score of 43.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.28/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $0.44, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 

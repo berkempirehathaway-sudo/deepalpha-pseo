@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.34",
+      "maxValue": "$0.34",
+      "unitText": "USD",
+      "description": "Model Target: $0.34 with Margin of Safety: -80.22% and model confidence of 12.2%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$0.58",
       "maxValue": "$0.58",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$2.01",
-      "maxValue": "$2.01",
-      "unitText": "USD",
-      "description": "Model Target: $2.01 with Margin of Safety: 18.35% and model confidence of 8.4%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$1.88",
       "maxValue": "$1.88",
       "unitText": "USD",
@@ -102,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$6.36",
-      "maxValue": "$6.36",
-      "unitText": "USD",
-      "description": "Model Target: $6.36 with Margin of Safety: 275.18% and model confidence of 19.8%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "First Chicago",
+      "name": "EROIC Spread Model",
       "value": "$5.06",
       "maxValue": "$5.06",
       "unitText": "USD",
@@ -118,15 +110,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$1.74",
       "maxValue": "$1.74",
       "unitText": "USD",
-      "description": "Model Target: $1.74 with Margin of Safety: 2.94% and model confidence of 4.4%"
+      "description": "Model Target: $1.74 with Margin of Safety: 2.69% and model confidence of 4.4%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$2.19",
       "maxValue": "$2.19",
       "unitText": "USD",
@@ -134,11 +126,19 @@
     },
     {
       "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$2.01",
+      "maxValue": "$2.01",
+      "unitText": "USD",
+      "description": "Model Target: $2.01 with Margin of Safety: 18.35% and model confidence of 8.4%"
+    },
+    {
+      "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
       "value": "$1.58",
       "maxValue": "$1.58",
       "unitText": "USD",
-      "description": "Model Target: $1.58 with Margin of Safety: -6.79% and model confidence of 0.6%"
+      "description": "Model Target: $1.58 with Margin of Safety: -6.87% and model confidence of 0.6%"
     },
     {
       "@type": "PropertyValue",
@@ -161,7 +161,7 @@
       "name": "Is Ostin Technology Group Co., Ltd (OST) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Ostin Technology Group Co., Ltd (OST) is worth buying in 2026 requires contrasting its current market spot price of $1.70 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OST sits at 78.0% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.58 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $2.01 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Ostin Technology Group Co., Ltd (OST) is worth buying in 2026 requires contrasting its current market spot price of $1.70 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OST sits at 78.0% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.34 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -792,58 +792,58 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.34</td>
+                <td data-label="Upside% / Margin" class="text-red">-80.22%</td>
+                <td data-label="Confidence" class="text-gold">12.2%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$0.58</td>
                 <td data-label="Upside% / Margin" class="text-red">-65.55%</td>
                 <td data-label="Confidence" class="text-gold">14.9%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$2.01</td>
-                <td data-label="Upside% / Margin" class="text-green">18.35%</td>
-                <td data-label="Confidence" class="text-gold">8.4%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$1.88</td>
                 <td data-label="Upside% / Margin" class="text-green">11.05%</td>
                 <td data-label="Confidence" class="text-gold">9.9%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$6.36</td>
-                <td data-label="Upside% / Margin" class="text-green">275.18%</td>
-                <td data-label="Confidence" class="text-gold">19.8%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$5.06</td>
                 <td data-label="Upside% / Margin" class="text-green">198.57%</td>
                 <td data-label="Confidence" class="text-gold">19.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$1.74</td>
-                <td data-label="Upside% / Margin" class="text-green">2.94%</td>
+                <td data-label="Upside% / Margin" class="text-green">2.69%</td>
                 <td data-label="Confidence" class="text-gold">4.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$2.19</td>
                 <td data-label="Upside% / Margin" class="text-green">29.07%</td>
                 <td data-label="Confidence" class="text-gold">11.2%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$2.01</td>
+                <td data-label="Upside% / Margin" class="text-green">18.35%</td>
+                <td data-label="Confidence" class="text-gold">8.4%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$1.58</td>
-                <td data-label="Upside% / Margin" class="text-red">-6.79%</td>
+                <td data-label="Upside% / Margin" class="text-red">-6.87%</td>
                 <td data-label="Confidence" class="text-gold">0.6%</td>
             </tr>
             
@@ -862,7 +862,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Ostin Technology Group Co., Ltd (OST) worth buying in 2026?</h3>
-                <p>Determining if Ostin Technology Group Co., Ltd (OST) is worth buying in 2026 requires contrasting its current market spot price of $1.70 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OST sits at 78.0% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.58 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $2.01 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Ostin Technology Group Co., Ltd (OST) is worth buying in 2026 requires contrasting its current market spot price of $1.70 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for OST sits at 78.0% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.34 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

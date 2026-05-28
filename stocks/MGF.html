@@ -45,8 +45,8 @@
     "ratingValue": "1.78",
     "bestRating": "10",
     "worstRating": "0",
-    "ratingCount": 7,
-    "reviewCount": 7
+    "ratingCount": 8,
+    "reviewCount": 8
   },
   "additionalProperty": [
     {
@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-18.2%"
+      "value": "-18.3%"
     },
     {
       "@type": "PropertyValue",
@@ -78,7 +78,23 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.75",
+      "maxValue": "$0.75",
+      "unitText": "USD",
+      "description": "Model Target: $0.75 with Margin of Safety: -73.87% and model confidence of 2.4%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Markov DDM",
+      "value": "$2.44",
+      "maxValue": "$2.44",
+      "unitText": "USD",
+      "description": "Model Target: $2.44 with Margin of Safety: -16.56% and model confidence of 7.0%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$1.59",
       "maxValue": "$1.59",
       "unitText": "USD",
@@ -86,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$3.35",
-      "maxValue": "$3.35",
-      "unitText": "USD",
-      "description": "Model Target: $3.35 with Margin of Safety: 16.81% and model confidence of 1.7%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$3.49",
       "maxValue": "$3.49",
       "unitText": "USD",
@@ -103,22 +111,14 @@
     {
       "@type": "PropertyValue",
       "name": "Machine Learning RIV",
-      "value": "$2.44",
-      "maxValue": "$2.44",
+      "value": "$4.42",
+      "maxValue": "$4.42",
       "unitText": "USD",
-      "description": "Model Target: $2.44 with Margin of Safety: -16.56% and model confidence of 7.0%"
+      "description": "Model Target: $4.42 with Margin of Safety: 53.93% and model confidence of 3.5%"
     },
     {
       "@type": "PropertyValue",
       "name": "Regime Cross model",
-      "value": "$4.43",
-      "maxValue": "$4.43",
-      "unitText": "USD",
-      "description": "Model Target: $4.43 with Margin of Safety: 54.32% and model confidence of 3.5%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
       "value": "$0.29",
       "maxValue": "$0.29",
       "unitText": "USD",
@@ -126,11 +126,19 @@
     },
     {
       "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$3.35",
+      "maxValue": "$3.35",
+      "unitText": "USD",
+      "description": "Model Target: $3.35 with Margin of Safety: 16.81% and model confidence of 1.7%"
+    },
+    {
+      "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
       "value": "$2.43",
       "maxValue": "$2.43",
       "unitText": "USD",
-      "description": "Model Target: $2.43 with Margin of Safety: -15.30% and model confidence of 0.1%"
+      "description": "Model Target: $2.43 with Margin of Safety: -15.38% and model confidence of 0.1%"
     }
   ]
 }
@@ -145,7 +153,7 @@
       "name": "Is MFS Government Markets Income T (MGF) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if MFS Government Markets Income T (MGF) is worth buying in 2026 requires contrasting its current market spot price of $2.87 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for MGF sits at -18.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.59 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $3.35 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if MFS Government Markets Income T (MGF) is worth buying in 2026 requires contrasting its current market spot price of $2.87 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for MGF sits at -18.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.75 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -758,7 +766,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-18.2%</div>
+                <div class="value text-red">-18.3%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -776,21 +784,28 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.75</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.87%</td>
+                <td data-label="Confidence" class="text-gold">2.4%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Price Target">$2.44</td>
+                <td data-label="Upside% / Margin" class="text-red">-16.56%</td>
+                <td data-label="Confidence" class="text-gold">7.0%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$1.59</td>
                 <td data-label="Upside% / Margin" class="text-red">-44.44%</td>
                 <td data-label="Confidence" class="text-gold">2.9%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$3.35</td>
-                <td data-label="Upside% / Margin" class="text-green">16.81%</td>
-                <td data-label="Confidence" class="text-gold">1.7%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$3.49</td>
                 <td data-label="Upside% / Margin" class="text-green">23.21%</td>
                 <td data-label="Confidence" class="text-gold">2.0%</td>
@@ -798,29 +813,29 @@ header {
             
             <tr>
                 <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
-                <td data-label="Price Target">$2.44</td>
-                <td data-label="Upside% / Margin" class="text-red">-16.56%</td>
-                <td data-label="Confidence" class="text-gold">7.0%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
-                <td data-label="Price Target">$4.43</td>
-                <td data-label="Upside% / Margin" class="text-green">54.32%</td>
+                <td data-label="Price Target">$4.42</td>
+                <td data-label="Upside% / Margin" class="text-green">53.93%</td>
                 <td data-label="Confidence" class="text-gold">3.5%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$0.29</td>
                 <td data-label="Upside% / Margin" class="text-red">-89.74%</td>
                 <td data-label="Confidence" class="text-gold">2.2%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$3.35</td>
+                <td data-label="Upside% / Margin" class="text-green">16.81%</td>
+                <td data-label="Confidence" class="text-gold">1.7%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$2.43</td>
-                <td data-label="Upside% / Margin" class="text-red">-15.30%</td>
+                <td data-label="Upside% / Margin" class="text-red">-15.38%</td>
                 <td data-label="Confidence" class="text-gold">0.1%</td>
             </tr>
             
@@ -832,7 +847,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is MFS Government Markets Income T (MGF) worth buying in 2026?</h3>
-                <p>Determining if MFS Government Markets Income T (MGF) is worth buying in 2026 requires contrasting its current market spot price of $2.87 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for MGF sits at -18.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.59 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $3.35 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if MFS Government Markets Income T (MGF) is worth buying in 2026 requires contrasting its current market spot price of $2.87 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for MGF sits at -18.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.75 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

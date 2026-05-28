@@ -45,8 +45,8 @@
     "ratingValue": "1.74",
     "bestRating": "10",
     "worstRating": "0",
-    "ratingCount": 5,
-    "reviewCount": 5
+    "ratingCount": 6,
+    "reviewCount": 6
   },
   "additionalProperty": [
     {
@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-24.9%"
+      "value": "-25.0%"
     },
     {
       "@type": "PropertyValue",
@@ -79,14 +79,22 @@
     {
       "@type": "PropertyValue",
       "name": "Bayesian DCF",
-      "value": "$9.98",
-      "maxValue": "$9.98",
+      "value": "$2.23",
+      "maxValue": "$2.23",
       "unitText": "USD",
-      "description": "Model Target: $9.98 with Margin of Safety: 17.79% and model confidence of 1.7%"
+      "description": "Model Target: $2.23 with Margin of Safety: -73.65% and model confidence of 2.4%"
     },
     {
       "@type": "PropertyValue",
       "name": "Markov DDM",
+      "value": "$4.20",
+      "maxValue": "$4.20",
+      "unitText": "USD",
+      "description": "Model Target: $4.20 with Margin of Safety: -50.23% and model confidence of 7.0%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "First Chicago",
       "value": "$10.39",
       "maxValue": "$10.39",
       "unitText": "USD",
@@ -95,18 +103,18 @@
     {
       "@type": "PropertyValue",
       "name": "Machine Learning RIV",
-      "value": "$4.20",
-      "maxValue": "$4.20",
+      "value": "$6.34",
+      "maxValue": "$6.34",
       "unitText": "USD",
-      "description": "Model Target: $4.20 with Margin of Safety: -50.23% and model confidence of 7.0%"
+      "description": "Model Target: $6.34 with Margin of Safety: -25.15% and model confidence of 0.6%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
-      "value": "$6.36",
-      "maxValue": "$6.36",
+      "name": "Sentiment SOTP",
+      "value": "$9.98",
+      "maxValue": "$9.98",
       "unitText": "USD",
-      "description": "Model Target: $6.36 with Margin of Safety: -24.97% and model confidence of 0.6%"
+      "description": "Model Target: $9.98 with Margin of Safety: 17.80% and model confidence of 1.7%"
     },
     {
       "@type": "PropertyValue",
@@ -114,7 +122,7 @@
       "value": "$4.94",
       "maxValue": "$4.94",
       "unitText": "USD",
-      "description": "Model Target: $4.94 with Margin of Safety: -41.64% and model confidence of 0.1%"
+      "description": "Model Target: $4.94 with Margin of Safety: -41.67% and model confidence of 0.1%"
     }
   ]
 }
@@ -129,7 +137,7 @@
       "name": "Is GDL Fund, The  of Beneficial In (GDL) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if GDL Fund, The  of Beneficial In (GDL) is worth buying in 2026 requires contrasting its current market spot price of $8.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for GDL sits at -24.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $9.98 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if GDL Fund, The  of Beneficial In (GDL) is worth buying in 2026 requires contrasting its current market spot price of $8.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for GDL sits at -25.0% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $2.23 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -742,7 +750,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-24.9%</div>
+                <div class="value text-red">-25.0%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -761,13 +769,20 @@ header {
                 
             <tr>
                 <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$9.98</td>
-                <td data-label="Upside% / Margin" class="text-green">17.79%</td>
-                <td data-label="Confidence" class="text-gold">1.7%</td>
+                <td data-label="Price Target">$2.23</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.65%</td>
+                <td data-label="Confidence" class="text-gold">2.4%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Price Target">$4.20</td>
+                <td data-label="Upside% / Margin" class="text-red">-50.23%</td>
+                <td data-label="Confidence" class="text-gold">7.0%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$10.39</td>
                 <td data-label="Upside% / Margin" class="text-green">23.21%</td>
                 <td data-label="Confidence" class="text-gold">2.0%</td>
@@ -775,22 +790,22 @@ header {
             
             <tr>
                 <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
-                <td data-label="Price Target">$4.20</td>
-                <td data-label="Upside% / Margin" class="text-red">-50.23%</td>
-                <td data-label="Confidence" class="text-gold">7.0%</td>
+                <td data-label="Price Target">$6.34</td>
+                <td data-label="Upside% / Margin" class="text-red">-25.15%</td>
+                <td data-label="Confidence" class="text-gold">0.6%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
-                <td data-label="Price Target">$6.36</td>
-                <td data-label="Upside% / Margin" class="text-red">-24.97%</td>
-                <td data-label="Confidence" class="text-gold">0.6%</td>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$9.98</td>
+                <td data-label="Upside% / Margin" class="text-green">17.80%</td>
+                <td data-label="Confidence" class="text-gold">1.7%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$4.94</td>
-                <td data-label="Upside% / Margin" class="text-red">-41.64%</td>
+                <td data-label="Upside% / Margin" class="text-red">-41.67%</td>
                 <td data-label="Confidence" class="text-gold">0.1%</td>
             </tr>
             
@@ -802,7 +817,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is GDL Fund, The  of Beneficial In (GDL) worth buying in 2026?</h3>
-                <p>Determining if GDL Fund, The  of Beneficial In (GDL) is worth buying in 2026 requires contrasting its current market spot price of $8.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for GDL sits at -24.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $9.98 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if GDL Fund, The  of Beneficial In (GDL) is worth buying in 2026 requires contrasting its current market spot price of $8.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for GDL sits at -25.0% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $2.23 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

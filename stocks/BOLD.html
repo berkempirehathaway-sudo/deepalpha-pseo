@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "53.3%"
+      "value": "53.2%"
     },
     {
       "@type": "PropertyValue",
@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.75",
+      "maxValue": "$0.75",
+      "unitText": "USD",
+      "description": "Model Target: $0.75 with Margin of Safety: -49.27% and model confidence of 15.6%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$4.57",
       "maxValue": "$4.57",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$0.67",
-      "maxValue": "$0.67",
-      "unitText": "USD",
-      "description": "Model Target: $0.67 with Margin of Safety: -54.53% and model confidence of 10.7%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$1.05",
       "maxValue": "$1.05",
       "unitText": "USD",
@@ -102,19 +102,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$3.51",
-      "maxValue": "$3.51",
+      "name": "Machine Learning RIV",
+      "value": "$2.76",
+      "maxValue": "$2.76",
       "unitText": "USD",
-      "description": "Model Target: $3.51 with Margin of Safety: 138.75% and model confidence of 33.1%"
+      "description": "Model Target: $2.76 with Margin of Safety: 87.90% and model confidence of 45.3%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
-      "value": "$2.77",
-      "maxValue": "$2.77",
+      "name": "Sentiment SOTP",
+      "value": "$0.67",
+      "maxValue": "$0.67",
       "unitText": "USD",
-      "description": "Model Target: $2.77 with Margin of Safety: 88.18% and model confidence of 45.3%"
+      "description": "Model Target: $0.67 with Margin of Safety: -54.53% and model confidence of 10.7%"
     },
     {
       "@type": "PropertyValue",
@@ -122,7 +122,7 @@
       "value": "$2.42",
       "maxValue": "$2.42",
       "unitText": "USD",
-      "description": "Model Target: $2.42 with Margin of Safety: 64.91% and model confidence of 7.1%"
+      "description": "Model Target: $2.42 with Margin of Safety: 64.83% and model confidence of 7.1%"
     }
   ]
 }
@@ -137,7 +137,7 @@
       "name": "Is Boundless Bio, Inc. (BOLD) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Boundless Bio, Inc. (BOLD) is worth buying in 2026 requires contrasting its current market spot price of $1.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for BOLD sits at 53.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $4.57 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.67 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Boundless Bio, Inc. (BOLD) is worth buying in 2026 requires contrasting its current market spot price of $1.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for BOLD sits at 53.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.75 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -750,7 +750,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-green">53.3%</div>
+                <div class="value text-green">53.2%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -768,44 +768,44 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.75</td>
+                <td data-label="Upside% / Margin" class="text-red">-49.27%</td>
+                <td data-label="Confidence" class="text-gold">15.6%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$4.57</td>
                 <td data-label="Upside% / Margin" class="text-green">210.77%</td>
                 <td data-label="Confidence" class="text-gold">42.2%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$0.67</td>
-                <td data-label="Upside% / Margin" class="text-red">-54.53%</td>
-                <td data-label="Confidence" class="text-gold">10.7%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$1.05</td>
                 <td data-label="Upside% / Margin" class="text-red">-25.88%</td>
                 <td data-label="Confidence" class="text-gold">12.6%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$3.51</td>
-                <td data-label="Upside% / Margin" class="text-green">138.75%</td>
-                <td data-label="Confidence" class="text-gold">33.1%</td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
+                <td data-label="Price Target">$2.76</td>
+                <td data-label="Upside% / Margin" class="text-green">87.90%</td>
+                <td data-label="Confidence" class="text-gold">45.3%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
-                <td data-label="Price Target">$2.77</td>
-                <td data-label="Upside% / Margin" class="text-green">88.18%</td>
-                <td data-label="Confidence" class="text-gold">45.3%</td>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$0.67</td>
+                <td data-label="Upside% / Margin" class="text-red">-54.53%</td>
+                <td data-label="Confidence" class="text-gold">10.7%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$2.42</td>
-                <td data-label="Upside% / Margin" class="text-green">64.91%</td>
+                <td data-label="Upside% / Margin" class="text-green">64.83%</td>
                 <td data-label="Confidence" class="text-gold">7.1%</td>
             </tr>
             
@@ -817,7 +817,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Boundless Bio, Inc. (BOLD) worth buying in 2026?</h3>
-                <p>Determining if Boundless Bio, Inc. (BOLD) is worth buying in 2026 requires contrasting its current market spot price of $1.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for BOLD sits at 53.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $4.57 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.67 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Boundless Bio, Inc. (BOLD) is worth buying in 2026 requires contrasting its current market spot price of $1.47 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for BOLD sits at 53.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.75 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "58.3%"
+      "value": "52.5%"
     },
     {
       "@type": "PropertyValue",
@@ -78,23 +78,23 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$1.10",
+      "maxValue": "$1.10",
+      "unitText": "USD",
+      "description": "Model Target: $1.10 with Margin of Safety: -52.34% and model confidence of 17.9%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$8.98",
       "maxValue": "$8.98",
       "unitText": "USD",
-      "description": "Model Target: $8.98 with Margin of Safety: 308.40% and model confidence of 48.4%"
+      "description": "Model Target: $8.98 with Margin of Safety: 290.64% and model confidence of 48.4%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$3.51",
-      "maxValue": "$3.51",
-      "unitText": "USD",
-      "description": "Model Target: $3.51 with Margin of Safety: 59.59% and model confidence of 12.3%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$3.68",
       "maxValue": "$3.68",
       "unitText": "USD",
@@ -102,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$2.88",
-      "maxValue": "$2.88",
-      "unitText": "USD",
-      "description": "Model Target: $2.88 with Margin of Safety: 30.83% and model confidence of 38.0%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$0.10",
       "maxValue": "$0.10",
       "unitText": "USD",
@@ -118,11 +110,19 @@
     },
     {
       "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$3.51",
+      "maxValue": "$3.51",
+      "unitText": "USD",
+      "description": "Model Target: $3.51 with Margin of Safety: 52.65% and model confidence of 12.3%"
+    },
+    {
+      "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
       "value": "$3.99",
       "maxValue": "$3.99",
       "unitText": "USD",
-      "description": "Model Target: $3.99 with Margin of Safety: 81.38% and model confidence of 6.2%"
+      "description": "Model Target: $3.99 with Margin of Safety: 73.50% and model confidence of 6.2%"
     }
   ]
 }
@@ -137,7 +137,7 @@
       "name": "Is Imunon, Inc. (IMNN) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Imunon, Inc. (IMNN) is worth buying in 2026 requires contrasting its current market spot price of $2.20 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IMNN sits at 58.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $8.98 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $3.51 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Imunon, Inc. (IMNN) is worth buying in 2026 requires contrasting its current market spot price of $2.30 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IMNN sits at 52.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.10 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -145,7 +145,7 @@
       "name": "Is IMNN currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 4.44/10 and a Value Trap Score of 38.0/100, IMNN's financial risk metrics provide deep structural insights. A Value Trap Score of 38.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.44/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $2.20, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 4.44/10 and a Value Trap Score of 38.0/100, IMNN's financial risk metrics provide deep structural insights. A Value Trap Score of 38.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.44/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $2.30, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -734,7 +734,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>Imunon, Inc. (IMNN) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $2.20</p>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $2.30</p>
         </div>
 
         <div class="stats-grid">
@@ -750,7 +750,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-green">58.3%</div>
+                <div class="value text-green">52.5%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -768,44 +768,44 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$1.10</td>
+                <td data-label="Upside% / Margin" class="text-red">-52.34%</td>
+                <td data-label="Confidence" class="text-gold">17.9%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$8.98</td>
-                <td data-label="Upside% / Margin" class="text-green">308.40%</td>
+                <td data-label="Upside% / Margin" class="text-green">290.64%</td>
                 <td data-label="Confidence" class="text-gold">48.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$3.51</td>
-                <td data-label="Upside% / Margin" class="text-green">59.59%</td>
-                <td data-label="Confidence" class="text-gold">12.3%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$3.68</td>
                 <td data-label="Upside% / Margin" class="text-green">74.30%</td>
                 <td data-label="Confidence" class="text-gold">14.5%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$2.88</td>
-                <td data-label="Upside% / Margin" class="text-green">30.83%</td>
-                <td data-label="Confidence" class="text-gold">38.0%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.10</td>
                 <td data-label="Upside% / Margin" class="text-red">-96.28%</td>
                 <td data-label="Confidence" class="text-gold">48.4%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$3.51</td>
+                <td data-label="Upside% / Margin" class="text-green">52.65%</td>
+                <td data-label="Confidence" class="text-gold">12.3%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$3.99</td>
-                <td data-label="Upside% / Margin" class="text-green">81.38%</td>
+                <td data-label="Upside% / Margin" class="text-green">73.50%</td>
                 <td data-label="Confidence" class="text-gold">6.2%</td>
             </tr>
             
@@ -817,12 +817,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is Imunon, Inc. (IMNN) worth buying in 2026?</h3>
-                <p>Determining if Imunon, Inc. (IMNN) is worth buying in 2026 requires contrasting its current market spot price of $2.20 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IMNN sits at 58.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $8.98 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $3.51 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Imunon, Inc. (IMNN) is worth buying in 2026 requires contrasting its current market spot price of $2.30 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IMNN sits at 52.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.10 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is IMNN currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 4.44/10 and a Value Trap Score of 38.0/100, IMNN's financial risk metrics provide deep structural insights. A Value Trap Score of 38.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.44/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $2.20, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 4.44/10 and a Value Trap Score of 38.0/100, IMNN's financial risk metrics provide deep structural insights. A Value Trap Score of 38.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.44/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $2.30, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 

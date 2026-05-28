@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$3.96",
+      "maxValue": "$3.96",
+      "unitText": "USD",
+      "description": "Model Target: $3.96 with Margin of Safety: -73.60% and model confidence of 7.1%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$8.88",
       "maxValue": "$8.88",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$17.74",
-      "maxValue": "$17.74",
-      "unitText": "USD",
-      "description": "Model Target: $17.74 with Margin of Safety: 18.11% and model confidence of 4.9%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$0.99",
       "maxValue": "$0.99",
       "unitText": "USD",
@@ -102,19 +102,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$13.84",
-      "maxValue": "$13.84",
-      "unitText": "USD",
-      "description": "Model Target: $13.84 with Margin of Safety: -7.85% and model confidence of 11.5%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$0.93",
       "maxValue": "$0.93",
       "unitText": "USD",
       "description": "Model Target: $0.93 with Margin of Safety: -93.78% and model confidence of 5.5%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$17.74",
+      "maxValue": "$17.74",
+      "unitText": "USD",
+      "description": "Model Target: $17.74 with Margin of Safety: 18.11% and model confidence of 4.9%"
     },
     {
       "@type": "PropertyValue",
@@ -145,7 +145,7 @@
       "name": "Is Etoiles Capital Group Co., Ltd. (EFTY) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Etoiles Capital Group Co., Ltd. (EFTY) is worth buying in 2026 requires contrasting its current market spot price of $15.02 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for EFTY sits at -53.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $8.88 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $17.74 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Etoiles Capital Group Co., Ltd. (EFTY) is worth buying in 2026 requires contrasting its current market spot price of $15.02 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for EFTY sits at -53.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $3.96 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -776,38 +776,38 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$3.96</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.60%</td>
+                <td data-label="Confidence" class="text-gold">7.1%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$8.88</td>
                 <td data-label="Upside% / Margin" class="text-red">-40.90%</td>
                 <td data-label="Confidence" class="text-gold">6.7%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$17.74</td>
-                <td data-label="Upside% / Margin" class="text-green">18.11%</td>
-                <td data-label="Confidence" class="text-gold">4.9%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.99</td>
                 <td data-label="Upside% / Margin" class="text-red">-93.40%</td>
                 <td data-label="Confidence" class="text-gold">6.5%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$13.84</td>
-                <td data-label="Upside% / Margin" class="text-red">-7.85%</td>
-                <td data-label="Confidence" class="text-gold">11.5%</td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Price Target">$0.93</td>
+                <td data-label="Upside% / Margin" class="text-red">-93.78%</td>
+                <td data-label="Confidence" class="text-gold">5.5%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
-                <td data-label="Price Target">$0.93</td>
-                <td data-label="Upside% / Margin" class="text-red">-93.78%</td>
-                <td data-label="Confidence" class="text-gold">5.5%</td>
+                <td data-label="Price Target">$17.74</td>
+                <td data-label="Upside% / Margin" class="text-green">18.11%</td>
+                <td data-label="Confidence" class="text-gold">4.9%</td>
             </tr>
             
             <tr>
@@ -832,7 +832,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Etoiles Capital Group Co., Ltd. (EFTY) worth buying in 2026?</h3>
-                <p>Determining if Etoiles Capital Group Co., Ltd. (EFTY) is worth buying in 2026 requires contrasting its current market spot price of $15.02 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for EFTY sits at -53.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $8.88 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $17.74 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Etoiles Capital Group Co., Ltd. (EFTY) is worth buying in 2026 requires contrasting its current market spot price of $15.02 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for EFTY sits at -53.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $3.96 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

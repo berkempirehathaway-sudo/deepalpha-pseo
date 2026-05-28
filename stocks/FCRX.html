@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "38.8%"
+      "value": "38.2%"
     },
     {
       "@type": "PropertyValue",
@@ -78,15 +78,23 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$21.60",
-      "maxValue": "$21.60",
+      "name": "Bayesian DCF",
+      "value": "$74.14",
+      "maxValue": "$74.14",
       "unitText": "USD",
-      "description": "Model Target: $21.60 with Margin of Safety: -14.18% and model confidence of 20.6%"
+      "description": "Model Target: $74.14 with Margin of Safety: 194.57% and model confidence of 55.0%"
     },
     {
       "@type": "PropertyValue",
-      "name": "First Chicago",
+      "name": "Markov DDM",
+      "value": "$85.50",
+      "maxValue": "$85.50",
+      "unitText": "USD",
+      "description": "Model Target: $85.50 with Margin of Safety: 239.67% and model confidence of 48.1%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "EROIC Spread Model",
       "value": "$5.54",
       "maxValue": "$5.54",
       "unitText": "USD",
@@ -95,14 +103,6 @@
     {
       "@type": "PropertyValue",
       "name": "Machine Learning RIV",
-      "value": "$86.76",
-      "maxValue": "$86.76",
-      "unitText": "USD",
-      "description": "Model Target: $86.76 with Margin of Safety: 244.70% and model confidence of 48.1%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
       "value": "$11.55",
       "maxValue": "$11.55",
       "unitText": "USD",
@@ -110,27 +110,27 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$3.50",
       "maxValue": "$3.50",
       "unitText": "USD",
-      "description": "Model Target: $3.50 with Margin of Safety: -86.10% and model confidence of 37.8%"
+      "description": "Model Target: $3.50 with Margin of Safety: -86.08% and model confidence of 37.8%"
     },
     {
       "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
-      "value": "$41.60",
-      "maxValue": "$41.60",
+      "value": "$41.53",
+      "maxValue": "$41.53",
       "unitText": "USD",
-      "description": "Model Target: $41.60 with Margin of Safety: 65.28% and model confidence of 4.6%"
+      "description": "Model Target: $41.53 with Margin of Safety: 64.98% and model confidence of 4.7%"
     },
     {
       "@type": "PropertyValue",
       "name": "FTNN Topology Model",
-      "value": "$30.19",
-      "maxValue": "$30.19",
+      "value": "$30.20",
+      "maxValue": "$30.20",
       "unitText": "USD",
-      "description": "Model Target: $30.19 with Margin of Safety: 19.96% and model confidence of 2.5%"
+      "description": "Model Target: $30.20 with Margin of Safety: 20.00% and model confidence of 2.5%"
     },
     {
       "@type": "PropertyValue",
@@ -153,7 +153,7 @@
       "name": "Is Crescent Capital BDC, Inc. 5.00 (FCRX) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Crescent Capital BDC, Inc. 5.00 (FCRX) is worth buying in 2026 requires contrasting its current market spot price of $25.17 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for FCRX sits at 38.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Crescent Capital BDC, Inc. 5.00 (FCRX) is worth buying in 2026 requires contrasting its current market spot price of $25.17 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for FCRX sits at 38.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $74.14 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -766,7 +766,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-green">38.8%</div>
+                <div class="value text-green">38.2%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -784,14 +784,21 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$21.60</td>
-                <td data-label="Upside% / Margin" class="text-red">-14.18%</td>
-                <td data-label="Confidence" class="text-gold">20.6%</td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$74.14</td>
+                <td data-label="Upside% / Margin" class="text-green">194.57%</td>
+                <td data-label="Confidence" class="text-gold">55.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Price Target">$85.50</td>
+                <td data-label="Upside% / Margin" class="text-green">239.67%</td>
+                <td data-label="Confidence" class="text-gold">48.1%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$5.54</td>
                 <td data-label="Upside% / Margin" class="text-red">-78.00%</td>
                 <td data-label="Confidence" class="text-gold">26.5%</td>
@@ -799,36 +806,29 @@ header {
             
             <tr>
                 <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
-                <td data-label="Price Target">$86.76</td>
-                <td data-label="Upside% / Margin" class="text-green">244.70%</td>
-                <td data-label="Confidence" class="text-gold">48.1%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$11.55</td>
                 <td data-label="Upside% / Margin" class="text-red">-54.12%</td>
                 <td data-label="Confidence" class="text-gold">38.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$3.50</td>
-                <td data-label="Upside% / Margin" class="text-red">-86.10%</td>
+                <td data-label="Upside% / Margin" class="text-red">-86.08%</td>
                 <td data-label="Confidence" class="text-gold">37.8%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
-                <td data-label="Price Target">$41.60</td>
-                <td data-label="Upside% / Margin" class="text-green">65.28%</td>
-                <td data-label="Confidence" class="text-gold">4.6%</td>
+                <td data-label="Price Target">$41.53</td>
+                <td data-label="Upside% / Margin" class="text-green">64.98%</td>
+                <td data-label="Confidence" class="text-gold">4.7%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>FTNN Topology Model</strong></td>
-                <td data-label="Price Target">$30.19</td>
-                <td data-label="Upside% / Margin" class="text-green">19.96%</td>
+                <td data-label="Price Target">$30.20</td>
+                <td data-label="Upside% / Margin" class="text-green">20.00%</td>
                 <td data-label="Confidence" class="text-gold">2.5%</td>
             </tr>
             
@@ -847,7 +847,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Crescent Capital BDC, Inc. 5.00 (FCRX) worth buying in 2026?</h3>
-                <p>Determining if Crescent Capital BDC, Inc. 5.00 (FCRX) is worth buying in 2026 requires contrasting its current market spot price of $25.17 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for FCRX sits at 38.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Crescent Capital BDC, Inc. 5.00 (FCRX) is worth buying in 2026 requires contrasting its current market spot price of $25.17 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for FCRX sits at 38.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $74.14 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

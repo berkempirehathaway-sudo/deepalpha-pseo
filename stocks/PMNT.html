@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "133.6%"
+      "value": "132.1%"
     },
     {
       "@type": "PropertyValue",
@@ -78,39 +78,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$0.56",
-      "maxValue": "$0.56",
-      "unitText": "USD",
-      "description": "Model Target: $0.56 with Margin of Safety: 157.32% and model confidence of 18.1%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
-      "value": "$1.00",
-      "maxValue": "$1.00",
-      "unitText": "USD",
-      "description": "Model Target: $1.00 with Margin of Safety: 351.13% and model confidence of 21.4%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$0.39",
-      "maxValue": "$0.39",
-      "unitText": "USD",
-      "description": "Model Target: $0.39 with Margin of Safety: 77.19% and model confidence of 37.3%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "First Chicago",
-      "value": "$0.89",
-      "maxValue": "$0.89",
-      "unitText": "USD",
-      "description": "Model Target: $0.89 with Margin of Safety: 225.35% and model confidence of 18.1%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "EROIC Spread Model",
+      "name": "Earnings Power Value",
       "value": "$0.84",
       "maxValue": "$0.84",
       "unitText": "USD",
@@ -118,19 +86,51 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Bayesian DCF",
+      "value": "$0.05",
+      "maxValue": "$0.05",
+      "unitText": "USD",
+      "description": "Model Target: $0.05 with Margin of Safety: -79.24% and model confidence of 17.6%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "First Chicago",
+      "value": "$1.00",
+      "maxValue": "$1.00",
+      "unitText": "USD",
+      "description": "Model Target: $1.00 with Margin of Safety: 351.13% and model confidence of 21.4%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "EROIC Spread Model",
+      "value": "$0.89",
+      "maxValue": "$0.89",
+      "unitText": "USD",
+      "description": "Model Target: $0.89 with Margin of Safety: 225.35% and model confidence of 18.1%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Machine Learning RIV",
       "value": "$0.34",
       "maxValue": "$0.34",
       "unitText": "USD",
-      "description": "Model Target: $0.34 with Margin of Safety: 57.75% and model confidence of 43.4%"
+      "description": "Model Target: $0.34 with Margin of Safety: 55.68% and model confidence of 43.4%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Regime Cross model",
+      "value": "$0.72",
+      "maxValue": "$0.72",
+      "unitText": "USD",
+      "description": "Model Target: $0.72 with Margin of Safety: 225.04% and model confidence of 16.1%"
     },
     {
       "@type": "PropertyValue",
       "name": "Sentiment SOTP",
-      "value": "$0.72",
-      "maxValue": "$0.72",
+      "value": "$0.56",
+      "maxValue": "$0.56",
       "unitText": "USD",
-      "description": "Model Target: $0.72 with Margin of Safety: 229.37% and model confidence of 16.1%"
+      "description": "Model Target: $0.56 with Margin of Safety: 153.94% and model confidence of 18.1%"
     },
     {
       "@type": "PropertyValue",
@@ -138,7 +138,7 @@
       "value": "$0.39",
       "maxValue": "$0.39",
       "unitText": "USD",
-      "description": "Model Target: $0.39 with Margin of Safety: 77.35% and model confidence of 8.7%"
+      "description": "Model Target: $0.39 with Margin of Safety: 75.03% and model confidence of 8.7%"
     },
     {
       "@type": "PropertyValue",
@@ -161,7 +161,7 @@
       "name": "Is Perfect Moment Ltd. (PMNT) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Perfect Moment Ltd. (PMNT) is worth buying in 2026 requires contrasting its current market spot price of $0.22 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for PMNT sits at 133.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.56 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Perfect Moment Ltd. (PMNT) is worth buying in 2026 requires contrasting its current market spot price of $0.22 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for PMNT sits at 132.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.84 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.05 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -774,7 +774,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-green">133.6%</div>
+                <div class="value text-green">132.1%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -792,58 +792,58 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$0.56</td>
-                <td data-label="Upside% / Margin" class="text-green">157.32%</td>
-                <td data-label="Confidence" class="text-gold">18.1%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
-                <td data-label="Price Target">$1.00</td>
-                <td data-label="Upside% / Margin" class="text-green">351.13%</td>
-                <td data-label="Confidence" class="text-gold">21.4%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$0.39</td>
-                <td data-label="Upside% / Margin" class="text-green">77.19%</td>
-                <td data-label="Confidence" class="text-gold">37.3%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
-                <td data-label="Price Target">$0.89</td>
-                <td data-label="Upside% / Margin" class="text-green">225.35%</td>
-                <td data-label="Confidence" class="text-gold">18.1%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
+                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
                 <td data-label="Price Target">$0.84</td>
                 <td data-label="Upside% / Margin" class="text-green">209.52%</td>
                 <td data-label="Confidence" class="text-gold">16.6%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.05</td>
+                <td data-label="Upside% / Margin" class="text-red">-79.24%</td>
+                <td data-label="Confidence" class="text-gold">17.6%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Price Target">$1.00</td>
+                <td data-label="Upside% / Margin" class="text-green">351.13%</td>
+                <td data-label="Confidence" class="text-gold">21.4%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
+                <td data-label="Price Target">$0.89</td>
+                <td data-label="Upside% / Margin" class="text-green">225.35%</td>
+                <td data-label="Confidence" class="text-gold">18.1%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.34</td>
-                <td data-label="Upside% / Margin" class="text-green">57.75%</td>
+                <td data-label="Upside% / Margin" class="text-green">55.68%</td>
                 <td data-label="Confidence" class="text-gold">43.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$0.72</td>
-                <td data-label="Upside% / Margin" class="text-green">229.37%</td>
+                <td data-label="Upside% / Margin" class="text-green">225.04%</td>
                 <td data-label="Confidence" class="text-gold">16.1%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$0.56</td>
+                <td data-label="Upside% / Margin" class="text-green">153.94%</td>
+                <td data-label="Confidence" class="text-gold">18.1%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$0.39</td>
-                <td data-label="Upside% / Margin" class="text-green">77.35%</td>
+                <td data-label="Upside% / Margin" class="text-green">75.03%</td>
                 <td data-label="Confidence" class="text-gold">8.7%</td>
             </tr>
             
@@ -862,7 +862,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Perfect Moment Ltd. (PMNT) worth buying in 2026?</h3>
-                <p>Determining if Perfect Moment Ltd. (PMNT) is worth buying in 2026 requires contrasting its current market spot price of $0.22 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for PMNT sits at 133.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.56 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Perfect Moment Ltd. (PMNT) is worth buying in 2026 requires contrasting its current market spot price of $0.22 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for PMNT sits at 132.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.84 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.05 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

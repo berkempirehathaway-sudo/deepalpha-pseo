@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-9.5%"
+      "value": "-9.6%"
     },
     {
       "@type": "PropertyValue",
@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$2.17",
+      "maxValue": "$2.17",
+      "unitText": "USD",
+      "description": "Model Target: $2.17 with Margin of Safety: -73.23% and model confidence of 2.4%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$4.60",
       "maxValue": "$4.60",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$9.69",
-      "maxValue": "$9.69",
-      "unitText": "USD",
-      "description": "Model Target: $9.69 with Margin of Safety: 19.67% and model confidence of 1.7%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$9.99",
       "maxValue": "$9.99",
       "unitText": "USD",
@@ -102,27 +102,27 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$11.17",
-      "maxValue": "$11.17",
+      "name": "Machine Learning RIV",
+      "value": "$13.89",
+      "maxValue": "$13.89",
       "unitText": "USD",
-      "description": "Model Target: $11.17 with Margin of Safety: 37.94% and model confidence of 3.9%"
+      "description": "Model Target: $13.89 with Margin of Safety: 71.48% and model confidence of 0.9%"
     },
     {
       "@type": "PropertyValue",
       "name": "Regime Cross model",
-      "value": "$13.92",
-      "maxValue": "$13.92",
-      "unitText": "USD",
-      "description": "Model Target: $13.92 with Margin of Safety: 71.90% and model confidence of 0.9%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
       "value": "$1.09",
       "maxValue": "$1.09",
       "unitText": "USD",
       "description": "Model Target: $1.09 with Margin of Safety: -86.61% and model confidence of 2.2%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$9.69",
+      "maxValue": "$9.69",
+      "unitText": "USD",
+      "description": "Model Target: $9.69 with Margin of Safety: 19.67% and model confidence of 1.7%"
     },
     {
       "@type": "PropertyValue",
@@ -161,7 +161,7 @@
       "name": "Is Western Asset Inflation-Linked (WIA) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Western Asset Inflation-Linked (WIA) is worth buying in 2026 requires contrasting its current market spot price of $8.10 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for WIA sits at -9.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $4.60 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $9.69 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Western Asset Inflation-Linked (WIA) is worth buying in 2026 requires contrasting its current market spot price of $8.10 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for WIA sits at -9.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $2.17 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -774,7 +774,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-9.5%</div>
+                <div class="value text-red">-9.6%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -792,45 +792,45 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$2.17</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.23%</td>
+                <td data-label="Confidence" class="text-gold">2.4%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$4.60</td>
                 <td data-label="Upside% / Margin" class="text-red">-43.17%</td>
                 <td data-label="Confidence" class="text-gold">2.9%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$9.69</td>
-                <td data-label="Upside% / Margin" class="text-green">19.67%</td>
-                <td data-label="Confidence" class="text-gold">1.7%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$9.99</td>
                 <td data-label="Upside% / Margin" class="text-green">22.48%</td>
                 <td data-label="Confidence" class="text-gold">2.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$11.17</td>
-                <td data-label="Upside% / Margin" class="text-green">37.94%</td>
-                <td data-label="Confidence" class="text-gold">3.9%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
-                <td data-label="Price Target">$13.92</td>
-                <td data-label="Upside% / Margin" class="text-green">71.90%</td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
+                <td data-label="Price Target">$13.89</td>
+                <td data-label="Upside% / Margin" class="text-green">71.48%</td>
                 <td data-label="Confidence" class="text-gold">0.9%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$1.09</td>
                 <td data-label="Upside% / Margin" class="text-red">-86.61%</td>
                 <td data-label="Confidence" class="text-gold">2.2%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$9.69</td>
+                <td data-label="Upside% / Margin" class="text-green">19.67%</td>
+                <td data-label="Confidence" class="text-gold">1.7%</td>
             </tr>
             
             <tr>
@@ -862,7 +862,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Western Asset Inflation-Linked (WIA) worth buying in 2026?</h3>
-                <p>Determining if Western Asset Inflation-Linked (WIA) is worth buying in 2026 requires contrasting its current market spot price of $8.10 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for WIA sits at -9.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $4.60 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $9.69 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Western Asset Inflation-Linked (WIA) is worth buying in 2026 requires contrasting its current market spot price of $8.10 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for WIA sits at -9.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $2.17 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

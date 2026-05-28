@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.70",
+      "maxValue": "$0.70",
+      "unitText": "USD",
+      "description": "Model Target: $0.70 with Margin of Safety: -39.30% and model confidence of 17.6%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$2.27",
       "maxValue": "$2.27",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$2.14",
-      "maxValue": "$2.14",
-      "unitText": "USD",
-      "description": "Model Target: $2.14 with Margin of Safety: 85.71% and model confidence of 12.1%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$3.23",
       "maxValue": "$3.23",
       "unitText": "USD",
@@ -102,19 +102,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$1.56",
-      "maxValue": "$1.56",
-      "unitText": "USD",
-      "description": "Model Target: $1.56 with Margin of Safety: 35.67% and model confidence of 37.5%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$0.05",
       "maxValue": "$0.05",
       "unitText": "USD",
       "description": "Model Target: $0.05 with Margin of Safety: -95.37% and model confidence of 47.8%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$2.14",
+      "maxValue": "$2.14",
+      "unitText": "USD",
+      "description": "Model Target: $2.14 with Margin of Safety: 85.71% and model confidence of 12.1%"
     },
     {
       "@type": "PropertyValue",
@@ -137,7 +137,7 @@
       "name": "Is Alzamend Neuro, Inc. (ALZN) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Alzamend Neuro, Inc. (ALZN) is worth buying in 2026 requires contrasting its current market spot price of $1.15 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ALZN sits at 43.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $2.27 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $2.14 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Alzamend Neuro, Inc. (ALZN) is worth buying in 2026 requires contrasting its current market spot price of $1.15 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ALZN sits at 43.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.70 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -768,38 +768,38 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.70</td>
+                <td data-label="Upside% / Margin" class="text-red">-39.30%</td>
+                <td data-label="Confidence" class="text-gold">17.6%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$2.27</td>
                 <td data-label="Upside% / Margin" class="text-green">97.04%</td>
                 <td data-label="Confidence" class="text-gold">47.8%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$2.14</td>
-                <td data-label="Upside% / Margin" class="text-green">85.71%</td>
-                <td data-label="Confidence" class="text-gold">12.1%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$3.23</td>
                 <td data-label="Upside% / Margin" class="text-green">176.47%</td>
                 <td data-label="Confidence" class="text-gold">14.3%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$1.56</td>
-                <td data-label="Upside% / Margin" class="text-green">35.67%</td>
-                <td data-label="Confidence" class="text-gold">37.5%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.05</td>
                 <td data-label="Upside% / Margin" class="text-red">-95.37%</td>
                 <td data-label="Confidence" class="text-gold">47.8%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$2.14</td>
+                <td data-label="Upside% / Margin" class="text-green">85.71%</td>
+                <td data-label="Confidence" class="text-gold">12.1%</td>
             </tr>
             
             <tr>
@@ -817,7 +817,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Alzamend Neuro, Inc. (ALZN) worth buying in 2026?</h3>
-                <p>Determining if Alzamend Neuro, Inc. (ALZN) is worth buying in 2026 requires contrasting its current market spot price of $1.15 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ALZN sits at 43.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $2.27 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $2.14 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Alzamend Neuro, Inc. (ALZN) is worth buying in 2026 requires contrasting its current market spot price of $1.15 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ALZN sits at 43.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.70 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

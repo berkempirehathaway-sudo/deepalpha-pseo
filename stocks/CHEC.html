@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-76.8%"
+      "value": "-76.9%"
     },
     {
       "@type": "PropertyValue",
@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.35",
+      "maxValue": "$0.35",
+      "unitText": "USD",
+      "description": "Model Target: $0.35 with Margin of Safety: -96.56% and model confidence of 21.9%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$3.45",
       "maxValue": "$3.45",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$0.78",
-      "maxValue": "$0.78",
-      "unitText": "USD",
-      "description": "Model Target: $0.78 with Margin of Safety: -92.28% and model confidence of 13.5%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$1.10",
       "maxValue": "$1.10",
       "unitText": "USD",
@@ -102,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$9.78",
-      "maxValue": "$9.78",
-      "unitText": "USD",
-      "description": "Model Target: $9.78 with Margin of Safety: -3.25% and model confidence of 27.9%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "First Chicago",
+      "name": "EROIC Spread Model",
       "value": "$1.24",
       "maxValue": "$1.24",
       "unitText": "USD",
@@ -118,19 +110,27 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
-      "value": "$3.44",
-      "maxValue": "$3.44",
+      "name": "Machine Learning RIV",
+      "value": "$3.43",
+      "maxValue": "$3.43",
       "unitText": "USD",
-      "description": "Model Target: $3.44 with Margin of Safety: -65.99% and model confidence of 11.4%"
+      "description": "Model Target: $3.43 with Margin of Safety: -66.11% and model confidence of 11.4%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Regime Cross model",
+      "value": "$1.23",
+      "maxValue": "$1.23",
+      "unitText": "USD",
+      "description": "Model Target: $1.23 with Margin of Safety: -87.79% and model confidence of 30.0%"
     },
     {
       "@type": "PropertyValue",
       "name": "Sentiment SOTP",
-      "value": "$1.23",
-      "maxValue": "$1.23",
+      "value": "$0.78",
+      "maxValue": "$0.78",
       "unitText": "USD",
-      "description": "Model Target: $1.23 with Margin of Safety: -87.81% and model confidence of 30.0%"
+      "description": "Model Target: $0.78 with Margin of Safety: -92.28% and model confidence of 13.5%"
     },
     {
       "@type": "PropertyValue",
@@ -138,7 +138,7 @@
       "value": "$1.57",
       "maxValue": "$1.57",
       "unitText": "USD",
-      "description": "Model Target: $1.57 with Margin of Safety: -84.45% and model confidence of 1.4%"
+      "description": "Model Target: $1.57 with Margin of Safety: -84.46% and model confidence of 1.4%"
     },
     {
       "@type": "PropertyValue",
@@ -161,7 +161,7 @@
       "name": "Is Chenghe Acquisition III Co. (CHEC) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Chenghe Acquisition III Co. (CHEC) is worth buying in 2026 requires contrasting its current market spot price of $10.11 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CHEC sits at -76.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $3.45 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.78 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Chenghe Acquisition III Co. (CHEC) is worth buying in 2026 requires contrasting its current market spot price of $10.11 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CHEC sits at -76.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.35 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -774,7 +774,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-76.8%</div>
+                <div class="value text-red">-76.9%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -792,58 +792,58 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.35</td>
+                <td data-label="Upside% / Margin" class="text-red">-96.56%</td>
+                <td data-label="Confidence" class="text-gold">21.9%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$3.45</td>
                 <td data-label="Upside% / Margin" class="text-red">-65.83%</td>
                 <td data-label="Confidence" class="text-gold">35.5%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$0.78</td>
-                <td data-label="Upside% / Margin" class="text-red">-92.28%</td>
-                <td data-label="Confidence" class="text-gold">13.5%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$1.10</td>
                 <td data-label="Upside% / Margin" class="text-red">-89.07%</td>
                 <td data-label="Confidence" class="text-gold">32.5%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$9.78</td>
-                <td data-label="Upside% / Margin" class="text-red">-3.25%</td>
-                <td data-label="Confidence" class="text-gold">27.9%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$1.24</td>
                 <td data-label="Upside% / Margin" class="text-red">-87.73%</td>
                 <td data-label="Confidence" class="text-gold">21.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
-                <td data-label="Price Target">$3.44</td>
-                <td data-label="Upside% / Margin" class="text-red">-65.99%</td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
+                <td data-label="Price Target">$3.43</td>
+                <td data-label="Upside% / Margin" class="text-red">-66.11%</td>
                 <td data-label="Confidence" class="text-gold">11.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$1.23</td>
-                <td data-label="Upside% / Margin" class="text-red">-87.81%</td>
+                <td data-label="Upside% / Margin" class="text-red">-87.79%</td>
                 <td data-label="Confidence" class="text-gold">30.0%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$0.78</td>
+                <td data-label="Upside% / Margin" class="text-red">-92.28%</td>
+                <td data-label="Confidence" class="text-gold">13.5%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$1.57</td>
-                <td data-label="Upside% / Margin" class="text-red">-84.45%</td>
+                <td data-label="Upside% / Margin" class="text-red">-84.46%</td>
                 <td data-label="Confidence" class="text-gold">1.4%</td>
             </tr>
             
@@ -862,7 +862,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Chenghe Acquisition III Co. (CHEC) worth buying in 2026?</h3>
-                <p>Determining if Chenghe Acquisition III Co. (CHEC) is worth buying in 2026 requires contrasting its current market spot price of $10.11 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CHEC sits at -76.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $3.45 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.78 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Chenghe Acquisition III Co. (CHEC) is worth buying in 2026 requires contrasting its current market spot price of $10.11 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CHEC sits at -76.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.35 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

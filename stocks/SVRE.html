@@ -45,8 +45,8 @@
     "ratingValue": "1.74",
     "bestRating": "10",
     "worstRating": "0",
-    "ratingCount": 4,
-    "reviewCount": 4
+    "ratingCount": 5,
+    "reviewCount": 5
   },
   "additionalProperty": [
     {
@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-41.1%"
+      "value": "-36.6%"
     },
     {
       "@type": "PropertyValue",
@@ -79,14 +79,14 @@
     {
       "@type": "PropertyValue",
       "name": "Bayesian DCF",
-      "value": "$4.78",
-      "maxValue": "$4.78",
+      "value": "$1.07",
+      "maxValue": "$1.07",
       "unitText": "USD",
-      "description": "Model Target: $4.78 with Margin of Safety: 2.61% and model confidence of 2.2%"
+      "description": "Model Target: $1.07 with Margin of Safety: -73.72% and model confidence of 3.2%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$5.57",
       "maxValue": "$5.57",
       "unitText": "USD",
@@ -94,7 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$0.24",
       "maxValue": "$0.24",
       "unitText": "USD",
@@ -102,11 +102,19 @@
     },
     {
       "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$4.78",
+      "maxValue": "$4.78",
+      "unitText": "USD",
+      "description": "Model Target: $4.78 with Margin of Safety: 17.48% and model confidence of 2.2%"
+    },
+    {
+      "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
       "value": "$1.25",
       "maxValue": "$1.25",
       "unitText": "USD",
-      "description": "Model Target: $1.25 with Margin of Safety: -73.27% and model confidence of 0.0%"
+      "description": "Model Target: $1.25 with Margin of Safety: -69.40% and model confidence of 0.0%"
     }
   ]
 }
@@ -121,7 +129,7 @@
       "name": "Is SaverOne 2014 Ltd. (SVRE) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if SaverOne 2014 Ltd. (SVRE) is worth buying in 2026 requires contrasting its current market spot price of $4.66 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SVRE sits at -41.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $4.78 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if SaverOne 2014 Ltd. (SVRE) is worth buying in 2026 requires contrasting its current market spot price of $4.07 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SVRE sits at -36.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.07 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -129,7 +137,7 @@
       "name": "Is SVRE currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, SVRE's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $4.66, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, SVRE's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $4.07, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -718,7 +726,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>SaverOne 2014 Ltd. (SVRE) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $4.66</p>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $4.07</p>
         </div>
 
         <div class="stats-grid">
@@ -734,7 +742,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-41.1%</div>
+                <div class="value text-red">-36.6%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -753,29 +761,36 @@ header {
                 
             <tr>
                 <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$4.78</td>
-                <td data-label="Upside% / Margin" class="text-green">2.61%</td>
-                <td data-label="Confidence" class="text-gold">2.2%</td>
+                <td data-label="Price Target">$1.07</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.72%</td>
+                <td data-label="Confidence" class="text-gold">3.2%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$5.57</td>
                 <td data-label="Upside% / Margin" class="text-green">37.92%</td>
                 <td data-label="Confidence" class="text-gold">2.6%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.24</td>
                 <td data-label="Upside% / Margin" class="text-red">-95.48%</td>
                 <td data-label="Confidence" class="text-gold">3.0%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$4.78</td>
+                <td data-label="Upside% / Margin" class="text-green">17.48%</td>
+                <td data-label="Confidence" class="text-gold">2.2%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$1.25</td>
-                <td data-label="Upside% / Margin" class="text-red">-73.27%</td>
+                <td data-label="Upside% / Margin" class="text-red">-69.40%</td>
                 <td data-label="Confidence" class="text-gold">0.0%</td>
             </tr>
             
@@ -787,12 +802,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is SaverOne 2014 Ltd. (SVRE) worth buying in 2026?</h3>
-                <p>Determining if SaverOne 2014 Ltd. (SVRE) is worth buying in 2026 requires contrasting its current market spot price of $4.66 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SVRE sits at -41.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $4.78 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if SaverOne 2014 Ltd. (SVRE) is worth buying in 2026 requires contrasting its current market spot price of $4.07 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SVRE sits at -36.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.07 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is SVRE currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, SVRE's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $4.66, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, SVRE's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $4.07, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 

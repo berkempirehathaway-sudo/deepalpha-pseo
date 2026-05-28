@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-65.8%"
+      "value": "-65.1%"
     },
     {
       "@type": "PropertyValue",
@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "Bayesian DCF",
+      "value": "$0.17",
+      "maxValue": "$0.17",
+      "unitText": "USD",
+      "description": "Model Target: $0.17 with Margin of Safety: -88.73% and model confidence of 14.4%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "First Chicago",
       "value": "$0.15",
       "maxValue": "$0.15",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$1.41",
-      "maxValue": "$1.41",
-      "unitText": "USD",
-      "description": "Model Target: $1.41 with Margin of Safety: -10.95% and model confidence of 30.6%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "First Chicago",
+      "name": "EROIC Spread Model",
       "value": "$0.06",
       "maxValue": "$0.06",
       "unitText": "USD",
@@ -102,19 +102,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$0.14",
       "maxValue": "$0.14",
       "unitText": "USD",
-      "description": "Model Target: $0.14 with Margin of Safety: -90.92% and model confidence of 35.6%"
+      "description": "Model Target: $0.14 with Margin of Safety: -90.56% and model confidence of 35.6%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$0.13",
       "maxValue": "$0.13",
       "unitText": "USD",
-      "description": "Model Target: $0.13 with Margin of Safety: -91.48% and model confidence of 13.2%"
+      "description": "Model Target: $0.13 with Margin of Safety: -91.15% and model confidence of 13.2%"
     },
     {
       "@type": "PropertyValue",
@@ -122,7 +122,7 @@
       "value": "$0.40",
       "maxValue": "$0.40",
       "unitText": "USD",
-      "description": "Model Target: $0.40 with Margin of Safety: -74.61% and model confidence of 1.4%"
+      "description": "Model Target: $0.40 with Margin of Safety: -73.61% and model confidence of 1.4%"
     },
     {
       "@type": "PropertyValue",
@@ -153,7 +153,7 @@
       "name": "Is Energys Group Limited (ENGS) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Energys Group Limited (ENGS) is worth buying in 2026 requires contrasting its current market spot price of $1.58 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ENGS sits at -65.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Energys Group Limited (ENGS) is worth buying in 2026 requires contrasting its current market spot price of $1.52 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ENGS sits at -65.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.17 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -161,7 +161,7 @@
       "name": "Is ENGS currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 4.17/10 and a Value Trap Score of 0.0/100, ENGS's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.17/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $1.58, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 4.17/10 and a Value Trap Score of 0.0/100, ENGS's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.17/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $1.52, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -750,7 +750,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>Energys Group Limited (ENGS) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $1.58</p>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $1.52</p>
         </div>
 
         <div class="stats-grid">
@@ -766,7 +766,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-65.8%</div>
+                <div class="value text-red">-65.1%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -784,44 +784,44 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.17</td>
+                <td data-label="Upside% / Margin" class="text-red">-88.73%</td>
+                <td data-label="Confidence" class="text-gold">14.4%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.15</td>
                 <td data-label="Upside% / Margin" class="text-red">-90.15%</td>
                 <td data-label="Confidence" class="text-gold">17.5%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$1.41</td>
-                <td data-label="Upside% / Margin" class="text-red">-10.95%</td>
-                <td data-label="Confidence" class="text-gold">30.6%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$0.06</td>
                 <td data-label="Upside% / Margin" class="text-red">-94.67%</td>
                 <td data-label="Confidence" class="text-gold">14.8%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.14</td>
-                <td data-label="Upside% / Margin" class="text-red">-90.92%</td>
+                <td data-label="Upside% / Margin" class="text-red">-90.56%</td>
                 <td data-label="Confidence" class="text-gold">35.6%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$0.13</td>
-                <td data-label="Upside% / Margin" class="text-red">-91.48%</td>
+                <td data-label="Upside% / Margin" class="text-red">-91.15%</td>
                 <td data-label="Confidence" class="text-gold">13.2%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$0.40</td>
-                <td data-label="Upside% / Margin" class="text-red">-74.61%</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.61%</td>
                 <td data-label="Confidence" class="text-gold">1.4%</td>
             </tr>
             
@@ -847,12 +847,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is Energys Group Limited (ENGS) worth buying in 2026?</h3>
-                <p>Determining if Energys Group Limited (ENGS) is worth buying in 2026 requires contrasting its current market spot price of $1.58 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ENGS sits at -65.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Energys Group Limited (ENGS) is worth buying in 2026 requires contrasting its current market spot price of $1.52 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ENGS sits at -65.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.17 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is ENGS currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 4.17/10 and a Value Trap Score of 0.0/100, ENGS's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.17/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $1.58, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 4.17/10 and a Value Trap Score of 0.0/100, ENGS's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 4.17/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $1.52, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 

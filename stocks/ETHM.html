@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$2.86",
+      "maxValue": "$2.86",
+      "unitText": "USD",
+      "description": "Model Target: $2.86 with Margin of Safety: -73.42% and model confidence of 13.6%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$2.55",
       "maxValue": "$2.55",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$10.03",
-      "maxValue": "$10.03",
-      "unitText": "USD",
-      "description": "Model Target: $10.03 with Margin of Safety: -6.87% and model confidence of 9.3%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$11.88",
       "maxValue": "$11.88",
       "unitText": "USD",
@@ -102,19 +102,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$11.30",
-      "maxValue": "$11.30",
-      "unitText": "USD",
-      "description": "Model Target: $11.30 with Margin of Safety: 4.93% and model confidence of 28.9%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$3.05",
       "maxValue": "$3.05",
       "unitText": "USD",
       "description": "Model Target: $3.05 with Margin of Safety: -71.67% and model confidence of 10.9%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$10.03",
+      "maxValue": "$10.03",
+      "unitText": "USD",
+      "description": "Model Target: $10.03 with Margin of Safety: -6.87% and model confidence of 9.3%"
     },
     {
       "@type": "PropertyValue",
@@ -137,7 +137,7 @@
       "name": "Is Dynamix Corporation (ETHM) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Dynamix Corporation (ETHM) is worth buying in 2026 requires contrasting its current market spot price of $10.77 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ETHM sits at -34.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $2.55 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $10.03 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Dynamix Corporation (ETHM) is worth buying in 2026 requires contrasting its current market spot price of $10.77 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ETHM sits at -34.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $2.86 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -768,38 +768,38 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$2.86</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.42%</td>
+                <td data-label="Confidence" class="text-gold">13.6%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$2.55</td>
                 <td data-label="Upside% / Margin" class="text-red">-76.31%</td>
                 <td data-label="Confidence" class="text-gold">36.8%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$10.03</td>
-                <td data-label="Upside% / Margin" class="text-red">-6.87%</td>
-                <td data-label="Confidence" class="text-gold">9.3%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$11.88</td>
                 <td data-label="Upside% / Margin" class="text-green">10.26%</td>
                 <td data-label="Confidence" class="text-gold">11.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$11.30</td>
-                <td data-label="Upside% / Margin" class="text-green">4.93%</td>
-                <td data-label="Confidence" class="text-gold">28.9%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$3.05</td>
                 <td data-label="Upside% / Margin" class="text-red">-71.67%</td>
                 <td data-label="Confidence" class="text-gold">10.9%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$10.03</td>
+                <td data-label="Upside% / Margin" class="text-red">-6.87%</td>
+                <td data-label="Confidence" class="text-gold">9.3%</td>
             </tr>
             
             <tr>
@@ -817,7 +817,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Dynamix Corporation (ETHM) worth buying in 2026?</h3>
-                <p>Determining if Dynamix Corporation (ETHM) is worth buying in 2026 requires contrasting its current market spot price of $10.77 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ETHM sits at -34.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $2.55 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $10.03 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Dynamix Corporation (ETHM) is worth buying in 2026 requires contrasting its current market spot price of $10.77 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for ETHM sits at -34.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $2.86 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

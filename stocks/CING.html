@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-0.8%"
+      "value": "13.9%"
     },
     {
       "@type": "PropertyValue",
@@ -78,23 +78,23 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$1.90",
+      "maxValue": "$1.90",
+      "unitText": "USD",
+      "description": "Model Target: $1.90 with Margin of Safety: -52.03% and model confidence of 19.0%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$2.42",
       "maxValue": "$2.42",
       "unitText": "USD",
-      "description": "Model Target: $2.42 with Margin of Safety: -49.38% and model confidence of 51.4%"
+      "description": "Model Target: $2.42 with Margin of Safety: -38.89% and model confidence of 51.4%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$7.17",
-      "maxValue": "$7.17",
-      "unitText": "USD",
-      "description": "Model Target: $7.17 with Margin of Safety: 50.03% and model confidence of 13.0%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$7.64",
       "maxValue": "$7.64",
       "unitText": "USD",
@@ -102,11 +102,11 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$5.06",
-      "maxValue": "$5.06",
+      "name": "Sentiment SOTP",
+      "value": "$7.17",
+      "maxValue": "$7.17",
       "unitText": "USD",
-      "description": "Model Target: $5.06 with Margin of Safety: 5.91% and model confidence of 40.3%"
+      "description": "Model Target: $7.17 with Margin of Safety: 81.09% and model confidence of 13.0%"
     },
     {
       "@type": "PropertyValue",
@@ -114,7 +114,7 @@
       "value": "$3.90",
       "maxValue": "$3.90",
       "unitText": "USD",
-      "description": "Model Target: $3.90 with Margin of Safety: -18.44% and model confidence of 11.9%"
+      "description": "Model Target: $3.90 with Margin of Safety: -1.55% and model confidence of 11.9%"
     }
   ]
 }
@@ -129,7 +129,7 @@
       "name": "Is Cingulate Inc. (CING) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Cingulate Inc. (CING) is worth buying in 2026 requires contrasting its current market spot price of $4.78 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CING sits at -0.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $2.42 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $7.17 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Cingulate Inc. (CING) is worth buying in 2026 requires contrasting its current market spot price of $3.96 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CING sits at 13.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.90 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -137,7 +137,7 @@
       "name": "Is CING currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 2.98/10 and a Value Trap Score of 39.0/100, CING's financial risk metrics provide deep structural insights. A Value Trap Score of 39.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 2.98/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $4.78, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 2.98/10 and a Value Trap Score of 39.0/100, CING's financial risk metrics provide deep structural insights. A Value Trap Score of 39.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 2.98/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $3.96, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -726,7 +726,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>Cingulate Inc. (CING) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $4.78</p>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $3.96</p>
         </div>
 
         <div class="stats-grid">
@@ -742,7 +742,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-0.8%</div>
+                <div class="value text-green">13.9%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -760,37 +760,37 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$1.90</td>
+                <td data-label="Upside% / Margin" class="text-red">-52.03%</td>
+                <td data-label="Confidence" class="text-gold">19.0%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$2.42</td>
-                <td data-label="Upside% / Margin" class="text-red">-49.38%</td>
+                <td data-label="Upside% / Margin" class="text-red">-38.89%</td>
                 <td data-label="Confidence" class="text-gold">51.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$7.17</td>
-                <td data-label="Upside% / Margin" class="text-green">50.03%</td>
-                <td data-label="Confidence" class="text-gold">13.0%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$7.64</td>
                 <td data-label="Upside% / Margin" class="text-green">67.18%</td>
                 <td data-label="Confidence" class="text-gold">15.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$5.06</td>
-                <td data-label="Upside% / Margin" class="text-green">5.91%</td>
-                <td data-label="Confidence" class="text-gold">40.3%</td>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$7.17</td>
+                <td data-label="Upside% / Margin" class="text-green">81.09%</td>
+                <td data-label="Confidence" class="text-gold">13.0%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$3.90</td>
-                <td data-label="Upside% / Margin" class="text-red">-18.44%</td>
+                <td data-label="Upside% / Margin" class="text-red">-1.55%</td>
                 <td data-label="Confidence" class="text-gold">11.9%</td>
             </tr>
             
@@ -802,12 +802,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is Cingulate Inc. (CING) worth buying in 2026?</h3>
-                <p>Determining if Cingulate Inc. (CING) is worth buying in 2026 requires contrasting its current market spot price of $4.78 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CING sits at -0.8% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $2.42 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $7.17 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Cingulate Inc. (CING) is worth buying in 2026 requires contrasting its current market spot price of $3.96 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for CING sits at 13.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.90 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is CING currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 2.98/10 and a Value Trap Score of 39.0/100, CING's financial risk metrics provide deep structural insights. A Value Trap Score of 39.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 2.98/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $4.78, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 2.98/10 and a Value Trap Score of 39.0/100, CING's financial risk metrics provide deep structural insights. A Value Trap Score of 39.0/100 suggests that the company is currently moderately positioned regarding a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 2.98/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $3.96, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 

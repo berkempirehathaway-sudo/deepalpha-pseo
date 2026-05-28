@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "-31.7%"
+      "value": "-31.6%"
     },
     {
       "@type": "PropertyValue",
@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.04",
+      "maxValue": "$0.04",
+      "unitText": "USD",
+      "description": "Model Target: $0.04 with Margin of Safety: -72.76% and model confidence of 17.2%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$0.01",
       "maxValue": "$0.01",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$0.04",
-      "maxValue": "$0.04",
-      "unitText": "USD",
-      "description": "Model Target: $0.04 with Margin of Safety: -73.45% and model confidence of 17.8%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$0.07",
       "maxValue": "$0.07",
       "unitText": "USD",
@@ -102,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$0.48",
-      "maxValue": "$0.48",
-      "unitText": "USD",
-      "description": "Model Target: $0.48 with Margin of Safety: -91.17% and model confidence of 36.6%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$0.27",
       "maxValue": "$0.27",
       "unitText": "USD",
@@ -118,7 +110,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$0.05",
       "maxValue": "$0.05",
       "unitText": "USD",
@@ -126,11 +118,19 @@
     },
     {
       "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$0.04",
+      "maxValue": "$0.04",
+      "unitText": "USD",
+      "description": "Model Target: $0.04 with Margin of Safety: -73.45% and model confidence of 17.8%"
+    },
+    {
+      "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
       "value": "$0.09",
       "maxValue": "$0.09",
       "unitText": "USD",
-      "description": "Model Target: $0.09 with Margin of Safety: -98.32% and model confidence of 1.9%"
+      "description": "Model Target: $0.09 with Margin of Safety: -98.30% and model confidence of 1.9%"
     },
     {
       "@type": "PropertyValue",
@@ -153,7 +153,7 @@
       "name": "Is Nakamoto Inc. (NAKA) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Nakamoto Inc. (NAKA) is worth buying in 2026 requires contrasting its current market spot price of $5.49 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for NAKA sits at -31.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.01 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.04 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Nakamoto Inc. (NAKA) is worth buying in 2026 requires contrasting its current market spot price of $5.40 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for NAKA sits at -31.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.04 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -161,7 +161,7 @@
       "name": "Is NAKA currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 3.91/10 and a Value Trap Score of 26.0/100, NAKA's financial risk metrics provide deep structural insights. A Value Trap Score of 26.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 3.91/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $5.49, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 3.91/10 and a Value Trap Score of 26.0/100, NAKA's financial risk metrics provide deep structural insights. A Value Trap Score of 26.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 3.91/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $5.40, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -750,7 +750,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>Nakamoto Inc. (NAKA) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $5.49</p>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $5.40</p>
         </div>
 
         <div class="stats-grid">
@@ -766,7 +766,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-red">-31.7%</div>
+                <div class="value text-red">-31.6%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -784,51 +784,51 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.04</td>
+                <td data-label="Upside% / Margin" class="text-red">-72.76%</td>
+                <td data-label="Confidence" class="text-gold">17.2%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$0.01</td>
                 <td data-label="Upside% / Margin" class="text-red">-91.89%</td>
                 <td data-label="Confidence" class="text-gold">46.6%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$0.04</td>
-                <td data-label="Upside% / Margin" class="text-red">-73.45%</td>
-                <td data-label="Confidence" class="text-gold">17.8%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.07</td>
                 <td data-label="Upside% / Margin" class="text-red">-59.67%</td>
                 <td data-label="Confidence" class="text-gold">21.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$0.48</td>
-                <td data-label="Upside% / Margin" class="text-red">-91.17%</td>
-                <td data-label="Confidence" class="text-gold">36.6%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.27</td>
                 <td data-label="Upside% / Margin" class="text-green">63.91%</td>
                 <td data-label="Confidence" class="text-gold">39.6%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$0.05</td>
                 <td data-label="Upside% / Margin" class="text-red">-72.59%</td>
                 <td data-label="Confidence" class="text-gold">15.8%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$0.04</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.45%</td>
+                <td data-label="Confidence" class="text-gold">17.8%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$0.09</td>
-                <td data-label="Upside% / Margin" class="text-red">-98.32%</td>
+                <td data-label="Upside% / Margin" class="text-red">-98.30%</td>
                 <td data-label="Confidence" class="text-gold">1.9%</td>
             </tr>
             
@@ -847,12 +847,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is Nakamoto Inc. (NAKA) worth buying in 2026?</h3>
-                <p>Determining if Nakamoto Inc. (NAKA) is worth buying in 2026 requires contrasting its current market spot price of $5.49 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for NAKA sits at -31.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.01 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.04 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Nakamoto Inc. (NAKA) is worth buying in 2026 requires contrasting its current market spot price of $5.40 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for NAKA sits at -31.6% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.04 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is NAKA currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 3.91/10 and a Value Trap Score of 26.0/100, NAKA's financial risk metrics provide deep structural insights. A Value Trap Score of 26.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 3.91/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $5.49, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 3.91/10 and a Value Trap Score of 26.0/100, NAKA's financial risk metrics provide deep structural insights. A Value Trap Score of 26.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 3.91/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $5.40, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 

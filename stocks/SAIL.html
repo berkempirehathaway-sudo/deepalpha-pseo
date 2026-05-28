@@ -79,30 +79,6 @@
     {
       "@type": "PropertyValue",
       "name": "Earnings Power Value",
-      "value": "$1.57",
-      "maxValue": "$1.57",
-      "unitText": "USD",
-      "description": "Model Target: $1.57 with Margin of Safety: -87.03% and model confidence of 49.6%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$11.14",
-      "maxValue": "$11.14",
-      "unitText": "USD",
-      "description": "Model Target: $11.14 with Margin of Safety: -7.70% and model confidence of 22.9%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "First Chicago",
-      "value": "$9.04",
-      "maxValue": "$9.04",
-      "unitText": "USD",
-      "description": "Model Target: $9.04 with Margin of Safety: -25.09% and model confidence of 18.9%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "EROIC Spread Model",
       "value": "$6.46",
       "maxValue": "$6.46",
       "unitText": "USD",
@@ -110,7 +86,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Machine Learning RIV",
+      "name": "Bayesian DCF",
+      "value": "$7.48",
+      "maxValue": "$7.48",
+      "unitText": "USD",
+      "description": "Model Target: $7.48 with Margin of Safety: -37.72% and model confidence of 61.1%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Markov DDM",
       "value": "$2.08",
       "maxValue": "$2.08",
       "unitText": "USD",
@@ -118,7 +102,23 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Dynamic Net Asset Value",
+      "value": "$1.57",
+      "maxValue": "$1.57",
+      "unitText": "USD",
+      "description": "Model Target: $1.57 with Margin of Safety: -87.03% and model confidence of 49.6%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "EROIC Spread Model",
+      "value": "$9.04",
+      "maxValue": "$9.04",
+      "unitText": "USD",
+      "description": "Model Target: $9.04 with Margin of Safety: -25.09% and model confidence of 18.9%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Machine Learning RIV",
       "value": "$4.19",
       "maxValue": "$4.19",
       "unitText": "USD",
@@ -126,7 +126,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$1.14",
       "maxValue": "$1.14",
       "unitText": "USD",
@@ -169,7 +169,7 @@
       "name": "Is SailPoint, Inc. (SAIL) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if SailPoint, Inc. (SAIL) is worth buying in 2026 requires contrasting its current market spot price of $15.87 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SAIL sits at -45.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.57 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if SailPoint, Inc. (SAIL) is worth buying in 2026 requires contrasting its current market spot price of $15.56 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SAIL sits at -45.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $6.46 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $7.48 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -177,7 +177,7 @@
       "name": "Is SAIL currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 6.57/10 and a Value Trap Score of 0.0/100, SAIL's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 6.57/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $15.87, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 6.57/10 and a Value Trap Score of 0.0/100, SAIL's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 6.57/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $15.56, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -766,7 +766,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>SailPoint, Inc. (SAIL) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $15.87</p>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $15.56</p>
         </div>
 
         <div class="stats-grid">
@@ -801,48 +801,48 @@ header {
                 
             <tr>
                 <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
-                <td data-label="Price Target">$1.57</td>
-                <td data-label="Upside% / Margin" class="text-red">-87.03%</td>
-                <td data-label="Confidence" class="text-gold">49.6%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$11.14</td>
-                <td data-label="Upside% / Margin" class="text-red">-7.70%</td>
-                <td data-label="Confidence" class="text-gold">22.9%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
-                <td data-label="Price Target">$9.04</td>
-                <td data-label="Upside% / Margin" class="text-red">-25.09%</td>
-                <td data-label="Confidence" class="text-gold">18.9%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$6.46</td>
                 <td data-label="Upside% / Margin" class="text-red">-46.45%</td>
                 <td data-label="Confidence" class="text-gold">17.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$7.48</td>
+                <td data-label="Upside% / Margin" class="text-red">-37.72%</td>
+                <td data-label="Confidence" class="text-gold">61.1%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
                 <td data-label="Price Target">$2.08</td>
                 <td data-label="Upside% / Margin" class="text-red">-82.60%</td>
                 <td data-label="Confidence" class="text-gold">65.1%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
+                <td data-label="Price Target">$1.57</td>
+                <td data-label="Upside% / Margin" class="text-red">-87.03%</td>
+                <td data-label="Confidence" class="text-gold">49.6%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
+                <td data-label="Price Target">$9.04</td>
+                <td data-label="Upside% / Margin" class="text-red">-25.09%</td>
+                <td data-label="Confidence" class="text-gold">18.9%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$4.19</td>
                 <td data-label="Upside% / Margin" class="text-red">-72.07%</td>
                 <td data-label="Confidence" class="text-gold">42.2%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$1.14</td>
                 <td data-label="Upside% / Margin" class="text-red">-90.55%</td>
                 <td data-label="Confidence" class="text-gold">16.8%</td>
@@ -877,12 +877,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is SailPoint, Inc. (SAIL) worth buying in 2026?</h3>
-                <p>Determining if SailPoint, Inc. (SAIL) is worth buying in 2026 requires contrasting its current market spot price of $15.87 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SAIL sits at -45.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.57 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of N/A reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if SailPoint, Inc. (SAIL) is worth buying in 2026 requires contrasting its current market spot price of $15.56 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for SAIL sits at -45.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $6.46 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $7.48 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is SAIL currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 6.57/10 and a Value Trap Score of 0.0/100, SAIL's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 6.57/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $15.87, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 6.57/10 and a Value Trap Score of 0.0/100, SAIL's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 6.57/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $15.56, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 

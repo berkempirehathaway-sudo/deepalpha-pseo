@@ -82,19 +82,27 @@
       "value": "$0.03",
       "maxValue": "$0.03",
       "unitText": "USD",
-      "description": "Model Target: $0.03 with Margin of Safety: -91.45% and model confidence of 13.9%"
+      "description": "Model Target: $0.03 with Margin of Safety: -93.21% and model confidence of 16.6%"
     },
     {
       "@type": "PropertyValue",
       "name": "Bayesian DCF",
-      "value": "$0.45",
-      "maxValue": "$0.45",
+      "value": "$0.10",
+      "maxValue": "$0.10",
       "unitText": "USD",
-      "description": "Model Target: $0.45 with Margin of Safety: 18.35% and model confidence of 7.8%"
+      "description": "Model Target: $0.10 with Margin of Safety: -73.49% and model confidence of 11.4%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "Dynamic Net Asset Value",
+      "value": "$0.03",
+      "maxValue": "$0.03",
+      "unitText": "USD",
+      "description": "Model Target: $0.03 with Margin of Safety: -91.45% and model confidence of 13.9%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "First Chicago",
       "value": "$0.43",
       "maxValue": "$0.43",
       "unitText": "USD",
@@ -102,15 +110,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$0.31",
-      "maxValue": "$0.31",
-      "unitText": "USD",
-      "description": "Model Target: $0.31 with Margin of Safety: -17.31% and model confidence of 18.5%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "First Chicago",
+      "name": "EROIC Spread Model",
       "value": "$0.28",
       "maxValue": "$0.28",
       "unitText": "USD",
@@ -118,23 +118,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "EROIC Spread Model",
-      "value": "$0.03",
-      "maxValue": "$0.03",
+      "name": "Machine Learning RIV",
+      "value": "$0.10",
+      "maxValue": "$0.10",
       "unitText": "USD",
-      "description": "Model Target: $0.03 with Margin of Safety: -93.21% and model confidence of 16.6%"
+      "description": "Model Target: $0.10 with Margin of Safety: -74.46% and model confidence of 4.1%"
     },
     {
       "@type": "PropertyValue",
       "name": "Regime Cross model",
-      "value": "$0.10",
-      "maxValue": "$0.10",
-      "unitText": "USD",
-      "description": "Model Target: $0.10 with Margin of Safety: -74.39% and model confidence of 4.1%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
       "value": "$0.01",
       "maxValue": "$0.01",
       "unitText": "USD",
@@ -142,11 +134,19 @@
     },
     {
       "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$0.45",
+      "maxValue": "$0.45",
+      "unitText": "USD",
+      "description": "Model Target: $0.45 with Margin of Safety: 18.35% and model confidence of 7.8%"
+    },
+    {
+      "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
       "value": "$0.18",
       "maxValue": "$0.18",
       "unitText": "USD",
-      "description": "Model Target: $0.18 with Margin of Safety: -53.88% and model confidence of 1.1%"
+      "description": "Model Target: $0.18 with Margin of Safety: -53.89% and model confidence of 1.1%"
     },
     {
       "@type": "PropertyValue",
@@ -169,7 +169,7 @@
       "name": "Is Inspira Technologies Oxy B.H.N. (IINN) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Inspira Technologies Oxy B.H.N. (IINN) is worth buying in 2026 requires contrasting its current market spot price of $0.38 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IINN sits at -50.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.03 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.45 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Inspira Technologies Oxy B.H.N. (IINN) is worth buying in 2026 requires contrasting its current market spot price of $0.38 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IINN sits at -50.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.03 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.10 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -802,63 +802,63 @@ header {
             <tr>
                 <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
                 <td data-label="Price Target">$0.03</td>
+                <td data-label="Upside% / Margin" class="text-red">-93.21%</td>
+                <td data-label="Confidence" class="text-gold">16.6%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.10</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.49%</td>
+                <td data-label="Confidence" class="text-gold">11.4%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
+                <td data-label="Price Target">$0.03</td>
                 <td data-label="Upside% / Margin" class="text-red">-91.45%</td>
                 <td data-label="Confidence" class="text-gold">13.9%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$0.45</td>
-                <td data-label="Upside% / Margin" class="text-green">18.35%</td>
-                <td data-label="Confidence" class="text-gold">7.8%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.43</td>
                 <td data-label="Upside% / Margin" class="text-green">12.37%</td>
                 <td data-label="Confidence" class="text-gold">9.3%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$0.31</td>
-                <td data-label="Upside% / Margin" class="text-red">-17.31%</td>
-                <td data-label="Confidence" class="text-gold">18.5%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$0.28</td>
                 <td data-label="Upside% / Margin" class="text-red">-39.79%</td>
                 <td data-label="Confidence" class="text-gold">18.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
-                <td data-label="Price Target">$0.03</td>
-                <td data-label="Upside% / Margin" class="text-red">-93.21%</td>
-                <td data-label="Confidence" class="text-gold">16.6%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.10</td>
-                <td data-label="Upside% / Margin" class="text-red">-74.39%</td>
+                <td data-label="Upside% / Margin" class="text-red">-74.46%</td>
                 <td data-label="Confidence" class="text-gold">4.1%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$0.01</td>
                 <td data-label="Upside% / Margin" class="text-red">-97.37%</td>
                 <td data-label="Confidence" class="text-gold">10.5%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$0.45</td>
+                <td data-label="Upside% / Margin" class="text-green">18.35%</td>
+                <td data-label="Confidence" class="text-gold">7.8%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$0.18</td>
-                <td data-label="Upside% / Margin" class="text-red">-53.88%</td>
+                <td data-label="Upside% / Margin" class="text-red">-53.89%</td>
                 <td data-label="Confidence" class="text-gold">1.1%</td>
             </tr>
             
@@ -877,7 +877,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Inspira Technologies Oxy B.H.N. (IINN) worth buying in 2026?</h3>
-                <p>Determining if Inspira Technologies Oxy B.H.N. (IINN) is worth buying in 2026 requires contrasting its current market spot price of $0.38 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IINN sits at -50.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.03 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.45 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Inspira Technologies Oxy B.H.N. (IINN) is worth buying in 2026 requires contrasting its current market spot price of $0.38 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IINN sits at -50.7% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.03 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.10 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

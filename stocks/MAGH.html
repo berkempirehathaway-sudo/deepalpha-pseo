@@ -45,8 +45,8 @@
     "ratingValue": "5.24",
     "bestRating": "10",
     "worstRating": "0",
-    "ratingCount": 8,
-    "reviewCount": 8
+    "ratingCount": 7,
+    "reviewCount": 7
   },
   "additionalProperty": [
     {
@@ -79,6 +79,14 @@
     {
       "@type": "PropertyValue",
       "name": "Markov DDM",
+      "value": "$0.41",
+      "maxValue": "$0.41",
+      "unitText": "USD",
+      "description": "Model Target: $0.41 with Margin of Safety: -93.98% and model confidence of 39.1%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "First Chicago",
       "value": "$0.23",
       "maxValue": "$0.23",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$6.61",
-      "maxValue": "$6.61",
-      "unitText": "USD",
-      "description": "Model Target: $6.61 with Margin of Safety: -2.29% and model confidence of 28.5%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "First Chicago",
+      "name": "EROIC Spread Model",
       "value": "$0.80",
       "maxValue": "$0.80",
       "unitText": "USD",
@@ -103,14 +103,6 @@
     {
       "@type": "PropertyValue",
       "name": "Machine Learning RIV",
-      "value": "$0.41",
-      "maxValue": "$0.41",
-      "unitText": "USD",
-      "description": "Model Target: $0.41 with Margin of Safety: -93.98% and model confidence of 39.1%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
       "value": "$0.07",
       "maxValue": "$0.07",
       "unitText": "USD",
@@ -118,7 +110,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$1.02",
       "maxValue": "$1.02",
       "unitText": "USD",
@@ -785,20 +777,20 @@ header {
                 
             <tr>
                 <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Price Target">$0.41</td>
+                <td data-label="Upside% / Margin" class="text-red">-93.98%</td>
+                <td data-label="Confidence" class="text-gold">39.1%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.23</td>
                 <td data-label="Upside% / Margin" class="text-red">-96.60%</td>
                 <td data-label="Confidence" class="text-gold">33.2%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$6.61</td>
-                <td data-label="Upside% / Margin" class="text-red">-2.29%</td>
-                <td data-label="Confidence" class="text-gold">28.5%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>First Chicago</strong></td>
+                <td data-label="Model Variant"><strong>EROIC Spread Model</strong></td>
                 <td data-label="Price Target">$0.80</td>
                 <td data-label="Upside% / Margin" class="text-red">-88.23%</td>
                 <td data-label="Confidence" class="text-gold">30.7%</td>
@@ -806,20 +798,13 @@ header {
             
             <tr>
                 <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
-                <td data-label="Price Target">$0.41</td>
-                <td data-label="Upside% / Margin" class="text-red">-93.98%</td>
-                <td data-label="Confidence" class="text-gold">39.1%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$0.07</td>
                 <td data-label="Upside% / Margin" class="text-red">-98.94%</td>
                 <td data-label="Confidence" class="text-gold">5.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$1.02</td>
                 <td data-label="Upside% / Margin" class="text-red">-84.96%</td>
                 <td data-label="Confidence" class="text-gold">12.3%</td>

@@ -45,8 +45,8 @@
     "ratingValue": "1.83",
     "bestRating": "10",
     "worstRating": "0",
-    "ratingCount": 5,
-    "reviewCount": 5
+    "ratingCount": 6,
+    "reviewCount": 6
   },
   "additionalProperty": [
     {
@@ -79,14 +79,22 @@
     {
       "@type": "PropertyValue",
       "name": "Bayesian DCF",
-      "value": "$8.70",
-      "maxValue": "$8.70",
+      "value": "$1.95",
+      "maxValue": "$1.95",
       "unitText": "USD",
-      "description": "Model Target: $8.70 with Margin of Safety: 17.32% and model confidence of 1.7%"
+      "description": "Model Target: $1.95 with Margin of Safety: -73.76% and model confidence of 2.4%"
     },
     {
       "@type": "PropertyValue",
       "name": "Markov DDM",
+      "value": "$8.39",
+      "maxValue": "$8.39",
+      "unitText": "USD",
+      "description": "Model Target: $8.39 with Margin of Safety: 13.09% and model confidence of 7.0%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "First Chicago",
       "value": "$9.05",
       "maxValue": "$9.05",
       "unitText": "USD",
@@ -95,18 +103,18 @@
     {
       "@type": "PropertyValue",
       "name": "Machine Learning RIV",
-      "value": "$8.39",
-      "maxValue": "$8.39",
+      "value": "$5.53",
+      "maxValue": "$5.53",
       "unitText": "USD",
-      "description": "Model Target: $8.39 with Margin of Safety: 13.09% and model confidence of 7.0%"
+      "description": "Model Target: $5.53 with Margin of Safety: -25.48% and model confidence of 0.6%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
-      "value": "$5.54",
-      "maxValue": "$5.54",
+      "name": "Sentiment SOTP",
+      "value": "$8.70",
+      "maxValue": "$8.70",
       "unitText": "USD",
-      "description": "Model Target: $5.54 with Margin of Safety: -25.30% and model confidence of 0.6%"
+      "description": "Model Target: $8.70 with Margin of Safety: 17.32% and model confidence of 1.7%"
     },
     {
       "@type": "PropertyValue",
@@ -114,7 +122,7 @@
       "value": "$5.41",
       "maxValue": "$5.41",
       "unitText": "USD",
-      "description": "Model Target: $5.41 with Margin of Safety: -27.05% and model confidence of 0.2%"
+      "description": "Model Target: $5.41 with Margin of Safety: -27.08% and model confidence of 0.2%"
     }
   ]
 }
@@ -129,7 +137,7 @@
       "name": "Is Virtus Global Multi-Sector Inco (VGI) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Virtus Global Multi-Sector Inco (VGI) is worth buying in 2026 requires contrasting its current market spot price of $7.42 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VGI sits at -12.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $8.70 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Virtus Global Multi-Sector Inco (VGI) is worth buying in 2026 requires contrasting its current market spot price of $7.42 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VGI sits at -12.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.95 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -761,13 +769,20 @@ header {
                 
             <tr>
                 <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$8.70</td>
-                <td data-label="Upside% / Margin" class="text-green">17.32%</td>
-                <td data-label="Confidence" class="text-gold">1.7%</td>
+                <td data-label="Price Target">$1.95</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.76%</td>
+                <td data-label="Confidence" class="text-gold">2.4%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Price Target">$8.39</td>
+                <td data-label="Upside% / Margin" class="text-green">13.09%</td>
+                <td data-label="Confidence" class="text-gold">7.0%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$9.05</td>
                 <td data-label="Upside% / Margin" class="text-green">23.06%</td>
                 <td data-label="Confidence" class="text-gold">2.0%</td>
@@ -775,22 +790,22 @@ header {
             
             <tr>
                 <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
-                <td data-label="Price Target">$8.39</td>
-                <td data-label="Upside% / Margin" class="text-green">13.09%</td>
-                <td data-label="Confidence" class="text-gold">7.0%</td>
+                <td data-label="Price Target">$5.53</td>
+                <td data-label="Upside% / Margin" class="text-red">-25.48%</td>
+                <td data-label="Confidence" class="text-gold">0.6%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
-                <td data-label="Price Target">$5.54</td>
-                <td data-label="Upside% / Margin" class="text-red">-25.30%</td>
-                <td data-label="Confidence" class="text-gold">0.6%</td>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$8.70</td>
+                <td data-label="Upside% / Margin" class="text-green">17.32%</td>
+                <td data-label="Confidence" class="text-gold">1.7%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$5.41</td>
-                <td data-label="Upside% / Margin" class="text-red">-27.05%</td>
+                <td data-label="Upside% / Margin" class="text-red">-27.08%</td>
                 <td data-label="Confidence" class="text-gold">0.2%</td>
             </tr>
             
@@ -802,7 +817,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Virtus Global Multi-Sector Inco (VGI) worth buying in 2026?</h3>
-                <p>Determining if Virtus Global Multi-Sector Inco (VGI) is worth buying in 2026 requires contrasting its current market spot price of $7.42 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VGI sits at -12.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $8.70 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Virtus Global Multi-Sector Inco (VGI) is worth buying in 2026 requires contrasting its current market spot price of $7.42 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for VGI sits at -12.1% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.95 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

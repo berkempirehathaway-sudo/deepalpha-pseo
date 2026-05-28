@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$1.27",
+      "maxValue": "$1.27",
+      "unitText": "USD",
+      "description": "Model Target: $1.27 with Margin of Safety: -70.68% and model confidence of 17.6%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$1.35",
       "maxValue": "$1.35",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$1.00",
-      "maxValue": "$1.00",
-      "unitText": "USD",
-      "description": "Model Target: $1.00 with Margin of Safety: -76.96% and model confidence of 18.1%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$0.97",
       "maxValue": "$0.97",
       "unitText": "USD",
@@ -102,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$4.15",
-      "maxValue": "$4.15",
-      "unitText": "USD",
-      "description": "Model Target: $4.15 with Margin of Safety: -4.24% and model confidence of 37.3%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$0.78",
       "maxValue": "$0.78",
       "unitText": "USD",
@@ -118,11 +110,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$1.06",
       "maxValue": "$1.06",
       "unitText": "USD",
       "description": "Model Target: $1.06 with Margin of Safety: -75.49% and model confidence of 16.1%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$1.00",
+      "maxValue": "$1.00",
+      "unitText": "USD",
+      "description": "Model Target: $1.00 with Margin of Safety: -76.96% and model confidence of 18.1%"
     },
     {
       "@type": "PropertyValue",
@@ -153,7 +153,7 @@
       "name": "Is Aureus Greenway Holdings Inc. (AGH) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Aureus Greenway Holdings Inc. (AGH) is worth buying in 2026 requires contrasting its current market spot price of $4.33 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for AGH sits at -61.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.35 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.00 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Aureus Greenway Holdings Inc. (AGH) is worth buying in 2026 requires contrasting its current market spot price of $4.33 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for AGH sits at -61.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.27 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -784,45 +784,45 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$1.27</td>
+                <td data-label="Upside% / Margin" class="text-red">-70.68%</td>
+                <td data-label="Confidence" class="text-gold">17.6%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$1.35</td>
                 <td data-label="Upside% / Margin" class="text-red">-68.76%</td>
                 <td data-label="Confidence" class="text-gold">47.5%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$1.00</td>
-                <td data-label="Upside% / Margin" class="text-red">-76.96%</td>
-                <td data-label="Confidence" class="text-gold">18.1%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.97</td>
                 <td data-label="Upside% / Margin" class="text-red">-77.60%</td>
                 <td data-label="Confidence" class="text-gold">21.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$4.15</td>
-                <td data-label="Upside% / Margin" class="text-red">-4.24%</td>
-                <td data-label="Confidence" class="text-gold">37.3%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.78</td>
                 <td data-label="Upside% / Margin" class="text-red">-82.10%</td>
                 <td data-label="Confidence" class="text-gold">47.5%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$1.06</td>
                 <td data-label="Upside% / Margin" class="text-red">-75.49%</td>
                 <td data-label="Confidence" class="text-gold">16.1%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$1.00</td>
+                <td data-label="Upside% / Margin" class="text-red">-76.96%</td>
+                <td data-label="Confidence" class="text-gold">18.1%</td>
             </tr>
             
             <tr>
@@ -847,7 +847,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Aureus Greenway Holdings Inc. (AGH) worth buying in 2026?</h3>
-                <p>Determining if Aureus Greenway Holdings Inc. (AGH) is worth buying in 2026 requires contrasting its current market spot price of $4.33 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for AGH sits at -61.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.35 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.00 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Aureus Greenway Holdings Inc. (AGH) is worth buying in 2026 requires contrasting its current market spot price of $4.33 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for AGH sits at -61.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $1.27 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

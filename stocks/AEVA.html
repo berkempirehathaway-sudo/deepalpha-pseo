@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$7.81",
+      "maxValue": "$7.81",
+      "unitText": "USD",
+      "description": "Model Target: $7.81 with Margin of Safety: -73.35% and model confidence of 18.2%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$0.20",
       "maxValue": "$0.20",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$0.99",
-      "maxValue": "$0.99",
-      "unitText": "USD",
-      "description": "Model Target: $0.99 with Margin of Safety: -94.01% and model confidence of 18.8%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$0.21",
       "maxValue": "$0.21",
       "unitText": "USD",
@@ -102,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$28.00",
-      "maxValue": "$28.00",
-      "unitText": "USD",
-      "description": "Model Target: $28.00 with Margin of Safety: -0.47% and model confidence of 38.8%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$2.19",
       "maxValue": "$2.19",
       "unitText": "USD",
@@ -118,7 +110,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
+      "name": "Regime Cross model",
       "value": "$0.38",
       "maxValue": "$0.38",
       "unitText": "USD",
@@ -126,11 +118,19 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "CUCE Ensemble Model",
-      "value": "$4.60",
-      "maxValue": "$4.60",
+      "name": "Sentiment SOTP",
+      "value": "$0.99",
+      "maxValue": "$0.99",
       "unitText": "USD",
-      "description": "Model Target: $4.60 with Margin of Safety: -83.66% and model confidence of 2.2%"
+      "description": "Model Target: $0.99 with Margin of Safety: -94.01% and model confidence of 18.8%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CUCE Ensemble Model",
+      "value": "$4.78",
+      "maxValue": "$4.78",
+      "unitText": "USD",
+      "description": "Model Target: $4.78 with Margin of Safety: -83.69% and model confidence of 2.2%"
     },
     {
       "@type": "PropertyValue",
@@ -153,7 +153,7 @@
       "name": "Is Aeva Technologies, Inc. (AEVA) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Aeva Technologies, Inc. (AEVA) is worth buying in 2026 requires contrasting its current market spot price of $28.13 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for AEVA sits at -75.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.20 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.99 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Aeva Technologies, Inc. (AEVA) is worth buying in 2026 requires contrasting its current market spot price of $29.29 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for AEVA sits at -75.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $7.81 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -161,7 +161,7 @@
       "name": "Is AEVA currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 5.08/10 and a Value Trap Score of 24.0/100, AEVA's financial risk metrics provide deep structural insights. A Value Trap Score of 24.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 5.08/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $28.13, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 5.08/10 and a Value Trap Score of 24.0/100, AEVA's financial risk metrics provide deep structural insights. A Value Trap Score of 24.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 5.08/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $29.29, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -750,7 +750,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>Aeva Technologies, Inc. (AEVA) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> Software - Infrastructure | <strong>Current Spot Price:</strong> $28.13</p>
+            <p><strong>Industry:</strong> Software - Infrastructure | <strong>Current Spot Price:</strong> $29.29</p>
         </div>
 
         <div class="stats-grid">
@@ -784,51 +784,51 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$7.81</td>
+                <td data-label="Upside% / Margin" class="text-red">-73.35%</td>
+                <td data-label="Confidence" class="text-gold">18.2%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$0.20</td>
                 <td data-label="Upside% / Margin" class="text-red">-98.94%</td>
                 <td data-label="Confidence" class="text-gold">5.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$0.99</td>
-                <td data-label="Upside% / Margin" class="text-red">-94.01%</td>
-                <td data-label="Confidence" class="text-gold">18.8%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.21</td>
                 <td data-label="Upside% / Margin" class="text-red">-98.99%</td>
                 <td data-label="Confidence" class="text-gold">5.0%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$28.00</td>
-                <td data-label="Upside% / Margin" class="text-red">-0.47%</td>
-                <td data-label="Confidence" class="text-gold">38.8%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$2.19</td>
                 <td data-label="Upside% / Margin" class="text-red">-89.83%</td>
                 <td data-label="Confidence" class="text-gold">17.3%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$0.38</td>
                 <td data-label="Upside% / Margin" class="text-red">-98.22%</td>
                 <td data-label="Confidence" class="text-gold">5.0%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$0.99</td>
+                <td data-label="Upside% / Margin" class="text-red">-94.01%</td>
+                <td data-label="Confidence" class="text-gold">18.8%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
-                <td data-label="Price Target">$4.60</td>
-                <td data-label="Upside% / Margin" class="text-red">-83.66%</td>
+                <td data-label="Price Target">$4.78</td>
+                <td data-label="Upside% / Margin" class="text-red">-83.69%</td>
                 <td data-label="Confidence" class="text-gold">2.2%</td>
             </tr>
             
@@ -847,12 +847,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is Aeva Technologies, Inc. (AEVA) worth buying in 2026?</h3>
-                <p>Determining if Aeva Technologies, Inc. (AEVA) is worth buying in 2026 requires contrasting its current market spot price of $28.13 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for AEVA sits at -75.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.20 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.99 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Aeva Technologies, Inc. (AEVA) is worth buying in 2026 requires contrasting its current market spot price of $29.29 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for AEVA sits at -75.9% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $7.81 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is AEVA currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 5.08/10 and a Value Trap Score of 24.0/100, AEVA's financial risk metrics provide deep structural insights. A Value Trap Score of 24.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 5.08/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $28.13, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 5.08/10 and a Value Trap Score of 24.0/100, AEVA's financial risk metrics provide deep structural insights. A Value Trap Score of 24.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 5.08/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $29.29, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 

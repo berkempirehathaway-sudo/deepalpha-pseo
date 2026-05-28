@@ -78,23 +78,23 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.19",
+      "maxValue": "$0.19",
+      "unitText": "USD",
+      "description": "Model Target: $0.19 with Margin of Safety: -62.95% and model confidence of 14.9%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$0.23",
       "maxValue": "$0.23",
       "unitText": "USD",
-      "description": "Model Target: $0.23 with Margin of Safety: -56.13% and model confidence of 40.4%"
+      "description": "Model Target: $0.23 with Margin of Safety: -56.15% and model confidence of 40.4%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$0.76",
-      "maxValue": "$0.76",
-      "unitText": "USD",
-      "description": "Model Target: $0.76 with Margin of Safety: 46.08% and model confidence of 10.2%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$0.88",
       "maxValue": "$0.88",
       "unitText": "USD",
@@ -102,15 +102,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$0.49",
-      "maxValue": "$0.49",
-      "unitText": "USD",
-      "description": "Model Target: $0.49 with Margin of Safety: -5.50% and model confidence of 24.2%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Regime Cross model",
+      "name": "Machine Learning RIV",
       "value": "$0.02",
       "maxValue": "$0.02",
       "unitText": "USD",
@@ -118,11 +110,19 @@
     },
     {
       "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$0.76",
+      "maxValue": "$0.76",
+      "unitText": "USD",
+      "description": "Model Target: $0.76 with Margin of Safety: 46.03% and model confidence of 10.2%"
+    },
+    {
+      "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
       "value": "$0.39",
       "maxValue": "$0.39",
       "unitText": "USD",
-      "description": "Model Target: $0.39 with Margin of Safety: -25.19% and model confidence of 6.3%"
+      "description": "Model Target: $0.39 with Margin of Safety: -25.22% and model confidence of 6.3%"
     }
   ]
 }
@@ -137,7 +137,7 @@
       "name": "Is Kairos Pharma, Ltd. (KAPA) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Kairos Pharma, Ltd. (KAPA) is worth buying in 2026 requires contrasting its current market spot price of $0.52 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for KAPA sits at -17.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.23 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.76 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Kairos Pharma, Ltd. (KAPA) is worth buying in 2026 requires contrasting its current market spot price of $0.52 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for KAPA sits at -17.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.19 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -768,44 +768,44 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.19</td>
+                <td data-label="Upside% / Margin" class="text-red">-62.95%</td>
+                <td data-label="Confidence" class="text-gold">14.9%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$0.23</td>
-                <td data-label="Upside% / Margin" class="text-red">-56.13%</td>
+                <td data-label="Upside% / Margin" class="text-red">-56.15%</td>
                 <td data-label="Confidence" class="text-gold">40.4%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$0.76</td>
-                <td data-label="Upside% / Margin" class="text-green">46.08%</td>
-                <td data-label="Confidence" class="text-gold">10.2%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.88</td>
                 <td data-label="Upside% / Margin" class="text-green">79.07%</td>
                 <td data-label="Confidence" class="text-gold">12.1%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$0.49</td>
-                <td data-label="Upside% / Margin" class="text-red">-5.50%</td>
-                <td data-label="Confidence" class="text-gold">24.2%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$0.02</td>
                 <td data-label="Upside% / Margin" class="text-red">-96.21%</td>
                 <td data-label="Confidence" class="text-gold">34.3%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$0.76</td>
+                <td data-label="Upside% / Margin" class="text-green">46.03%</td>
+                <td data-label="Confidence" class="text-gold">10.2%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$0.39</td>
-                <td data-label="Upside% / Margin" class="text-red">-25.19%</td>
+                <td data-label="Upside% / Margin" class="text-red">-25.22%</td>
                 <td data-label="Confidence" class="text-gold">6.3%</td>
             </tr>
             
@@ -817,7 +817,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is Kairos Pharma, Ltd. (KAPA) worth buying in 2026?</h3>
-                <p>Determining if Kairos Pharma, Ltd. (KAPA) is worth buying in 2026 requires contrasting its current market spot price of $0.52 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for KAPA sits at -17.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $0.23 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.76 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Kairos Pharma, Ltd. (KAPA) is worth buying in 2026 requires contrasting its current market spot price of $0.52 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for KAPA sits at -17.3% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.19 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

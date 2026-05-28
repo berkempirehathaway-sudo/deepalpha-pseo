@@ -69,7 +69,7 @@
     {
       "@type": "PropertyValue",
       "name": "Consensus Model Upside",
-      "value": "312.0%"
+      "value": "311.5%"
     },
     {
       "@type": "PropertyValue",
@@ -78,7 +78,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Earnings Power Value",
+      "name": "Bayesian DCF",
+      "value": "$0.29",
+      "maxValue": "$0.29",
+      "unitText": "USD",
+      "description": "Model Target: $0.29 with Margin of Safety: -54.66% and model confidence of 18.3%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Dynamic Net Asset Value",
       "value": "$1.63",
       "maxValue": "$1.63",
       "unitText": "USD",
@@ -86,15 +94,7 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Bayesian DCF",
-      "value": "$0.93",
-      "maxValue": "$0.93",
-      "unitText": "USD",
-      "description": "Model Target: $0.93 with Margin of Safety: 48.20% and model confidence of 12.6%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Markov DDM",
+      "name": "First Chicago",
       "value": "$0.90",
       "maxValue": "$0.90",
       "unitText": "USD",
@@ -102,23 +102,15 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "Dynamic Net Asset Value",
-      "value": "$1.39",
-      "maxValue": "$1.39",
+      "name": "Machine Learning RIV",
+      "value": "$1.66",
+      "maxValue": "$1.66",
       "unitText": "USD",
-      "description": "Model Target: $1.39 with Margin of Safety: 120.22% and model confidence of 38.9%"
+      "description": "Model Target: $1.66 with Margin of Safety: 161.59% and model confidence of 53.3%"
     },
     {
       "@type": "PropertyValue",
       "name": "Regime Cross model",
-      "value": "$1.66",
-      "maxValue": "$1.66",
-      "unitText": "USD",
-      "description": "Model Target: $1.66 with Margin of Safety: 162.92% and model confidence of 53.3%"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Sentiment SOTP",
       "value": "$7.03",
       "maxValue": "$7.03",
       "unitText": "USD",
@@ -126,11 +118,19 @@
     },
     {
       "@type": "PropertyValue",
+      "name": "Sentiment SOTP",
+      "value": "$0.93",
+      "maxValue": "$0.93",
+      "unitText": "USD",
+      "description": "Model Target: $0.93 with Margin of Safety: 47.49% and model confidence of 12.6%"
+    },
+    {
+      "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
       "value": "$1.21",
       "maxValue": "$1.21",
       "unitText": "USD",
-      "description": "Model Target: $1.21 with Margin of Safety: 92.82% and model confidence of 12.0%"
+      "description": "Model Target: $1.21 with Margin of Safety: 91.88% and model confidence of 12.0%"
     },
     {
       "@type": "PropertyValue",
@@ -161,7 +161,7 @@
       "name": "Is DocGo Inc. (DCGO) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if DocGo Inc. (DCGO) is worth buying in 2026 requires contrasting its current market spot price of $0.63 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for DCGO sits at 312.0% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.63 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.93 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if DocGo Inc. (DCGO) is worth buying in 2026 requires contrasting its current market spot price of $0.63 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for DCGO sits at 311.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.29 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -774,7 +774,7 @@ header {
             </div>
             <div class="card">
                 <h3>Average Model Upside</h3>
-                <div class="value text-green">312.0%</div>
+                <div class="value text-green">311.5%</div>
                 <p style="color: var(--text-tertiary); font-size: 11px; margin: 6px 0 0 0;">Consensus fair value margin of safety across all active models.</p>
             </div>
         </div>
@@ -792,51 +792,51 @@ header {
             <tbody>
                 
             <tr>
-                <td data-label="Model Variant"><strong>Earnings Power Value</strong></td>
+                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
+                <td data-label="Price Target">$0.29</td>
+                <td data-label="Upside% / Margin" class="text-red">-54.66%</td>
+                <td data-label="Confidence" class="text-gold">18.3%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
                 <td data-label="Price Target">$1.63</td>
                 <td data-label="Upside% / Margin" class="text-green">184.97%</td>
                 <td data-label="Confidence" class="text-gold">44.2%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$0.93</td>
-                <td data-label="Upside% / Margin" class="text-green">48.20%</td>
-                <td data-label="Confidence" class="text-gold">12.6%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$0.90</td>
                 <td data-label="Upside% / Margin" class="text-green">50.13%</td>
                 <td data-label="Confidence" class="text-gold">14.9%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Dynamic Net Asset Value</strong></td>
-                <td data-label="Price Target">$1.39</td>
-                <td data-label="Upside% / Margin" class="text-green">120.22%</td>
-                <td data-label="Confidence" class="text-gold">38.9%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
+                <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
                 <td data-label="Price Target">$1.66</td>
-                <td data-label="Upside% / Margin" class="text-green">162.92%</td>
+                <td data-label="Upside% / Margin" class="text-green">161.59%</td>
                 <td data-label="Confidence" class="text-gold">53.3%</td>
             </tr>
             
             <tr>
-                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
                 <td data-label="Price Target">$7.03</td>
                 <td data-label="Upside% / Margin" class="text-green">1069.00%</td>
                 <td data-label="Confidence" class="text-gold">16.8%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$0.93</td>
+                <td data-label="Upside% / Margin" class="text-green">47.49%</td>
+                <td data-label="Confidence" class="text-gold">12.6%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
                 <td data-label="Price Target">$1.21</td>
-                <td data-label="Upside% / Margin" class="text-green">92.82%</td>
+                <td data-label="Upside% / Margin" class="text-green">91.88%</td>
                 <td data-label="Confidence" class="text-gold">12.0%</td>
             </tr>
             
@@ -862,7 +862,7 @@ header {
             
             <div class="faq-card">
                 <h3>Is DocGo Inc. (DCGO) worth buying in 2026?</h3>
-                <p>Determining if DocGo Inc. (DCGO) is worth buying in 2026 requires contrasting its current market spot price of $0.63 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for DCGO sits at 312.0% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of $1.63 represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.93 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if DocGo Inc. (DCGO) is worth buying in 2026 requires contrasting its current market spot price of $0.63 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for DCGO sits at 311.5% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $0.29 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">

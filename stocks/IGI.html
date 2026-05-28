@@ -45,8 +45,8 @@
     "ratingValue": "1.74",
     "bestRating": "10",
     "worstRating": "0",
-    "ratingCount": 5,
-    "reviewCount": 5
+    "ratingCount": 6,
+    "reviewCount": 6
   },
   "additionalProperty": [
     {
@@ -79,14 +79,22 @@
     {
       "@type": "PropertyValue",
       "name": "Bayesian DCF",
-      "value": "$18.83",
-      "maxValue": "$18.83",
+      "value": "$4.21",
+      "maxValue": "$4.21",
       "unitText": "USD",
-      "description": "Model Target: $18.83 with Margin of Safety: 15.93% and model confidence of 1.7%"
+      "description": "Model Target: $4.21 with Margin of Safety: -74.04% and model confidence of 2.4%"
     },
     {
       "@type": "PropertyValue",
       "name": "Markov DDM",
+      "value": "$7.49",
+      "maxValue": "$7.49",
+      "unitText": "USD",
+      "description": "Model Target: $7.49 with Margin of Safety: -53.44% and model confidence of 7.0%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "First Chicago",
       "value": "$19.60",
       "maxValue": "$19.60",
       "unitText": "USD",
@@ -95,26 +103,26 @@
     {
       "@type": "PropertyValue",
       "name": "Machine Learning RIV",
-      "value": "$7.49",
-      "maxValue": "$7.49",
+      "value": "$11.97",
+      "maxValue": "$11.97",
       "unitText": "USD",
-      "description": "Model Target: $7.49 with Margin of Safety: -53.44% and model confidence of 7.0%"
+      "description": "Model Target: $11.97 with Margin of Safety: -26.25% and model confidence of 0.6%"
     },
     {
       "@type": "PropertyValue",
-      "name": "Regime Cross model",
-      "value": "$12.00",
-      "maxValue": "$12.00",
+      "name": "Sentiment SOTP",
+      "value": "$18.83",
+      "maxValue": "$18.83",
       "unitText": "USD",
-      "description": "Model Target: $12.00 with Margin of Safety: -26.14% and model confidence of 0.6%"
+      "description": "Model Target: $18.83 with Margin of Safety: 16.04% and model confidence of 1.7%"
     },
     {
       "@type": "PropertyValue",
       "name": "CUCE Ensemble Model",
-      "value": "$9.33",
-      "maxValue": "$9.33",
+      "value": "$9.32",
+      "maxValue": "$9.32",
       "unitText": "USD",
-      "description": "Model Target: $9.33 with Margin of Safety: -42.56% and model confidence of 0.1%"
+      "description": "Model Target: $9.32 with Margin of Safety: -42.54% and model confidence of 0.1%"
     }
   ]
 }
@@ -129,7 +137,7 @@
       "name": "Is Western Asset Investment Grade (IGI) worth buying in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Determining if Western Asset Investment Grade (IGI) is worth buying in 2026 requires contrasting its current market spot price of $16.24 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IGI sits at -26.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $18.83 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
+        "text": "Determining if Western Asset Investment Grade (IGI) is worth buying in 2026 requires contrasting its current market spot price of $16.23 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IGI sits at -26.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $4.21 reflects the fair value accounting for margin progression and long-term cash flow compound potential."
       }
     },
     {
@@ -137,7 +145,7 @@
       "name": "Is IGI currently undervalued or a value trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, IGI's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $16.24, the margin of safety should be carefully compared to these fundamental indicators."
+        "text": "With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, IGI's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $16.23, the margin of safety should be carefully compared to these fundamental indicators."
       }
     }
   ]
@@ -726,7 +734,7 @@ header {
     <div class="container">
         <div class="hero">
             <h1>Western Asset Investment Grade (IGI) Valuation & Moats</h1>
-            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $16.24</p>
+            <p><strong>Industry:</strong> N/A | <strong>Current Spot Price:</strong> $16.23</p>
         </div>
 
         <div class="stats-grid">
@@ -761,13 +769,20 @@ header {
                 
             <tr>
                 <td data-label="Model Variant"><strong>Bayesian DCF</strong></td>
-                <td data-label="Price Target">$18.83</td>
-                <td data-label="Upside% / Margin" class="text-green">15.93%</td>
-                <td data-label="Confidence" class="text-gold">1.7%</td>
+                <td data-label="Price Target">$4.21</td>
+                <td data-label="Upside% / Margin" class="text-red">-74.04%</td>
+                <td data-label="Confidence" class="text-gold">2.4%</td>
             </tr>
             
             <tr>
                 <td data-label="Model Variant"><strong>Markov DDM</strong></td>
+                <td data-label="Price Target">$7.49</td>
+                <td data-label="Upside% / Margin" class="text-red">-53.44%</td>
+                <td data-label="Confidence" class="text-gold">7.0%</td>
+            </tr>
+            
+            <tr>
+                <td data-label="Model Variant"><strong>First Chicago</strong></td>
                 <td data-label="Price Target">$19.60</td>
                 <td data-label="Upside% / Margin" class="text-green">23.21%</td>
                 <td data-label="Confidence" class="text-gold">2.0%</td>
@@ -775,22 +790,22 @@ header {
             
             <tr>
                 <td data-label="Model Variant"><strong>Machine Learning RIV</strong></td>
-                <td data-label="Price Target">$7.49</td>
-                <td data-label="Upside% / Margin" class="text-red">-53.44%</td>
-                <td data-label="Confidence" class="text-gold">7.0%</td>
-            </tr>
-            
-            <tr>
-                <td data-label="Model Variant"><strong>Regime Cross model</strong></td>
-                <td data-label="Price Target">$12.00</td>
-                <td data-label="Upside% / Margin" class="text-red">-26.14%</td>
+                <td data-label="Price Target">$11.97</td>
+                <td data-label="Upside% / Margin" class="text-red">-26.25%</td>
                 <td data-label="Confidence" class="text-gold">0.6%</td>
             </tr>
             
             <tr>
+                <td data-label="Model Variant"><strong>Sentiment SOTP</strong></td>
+                <td data-label="Price Target">$18.83</td>
+                <td data-label="Upside% / Margin" class="text-green">16.04%</td>
+                <td data-label="Confidence" class="text-gold">1.7%</td>
+            </tr>
+            
+            <tr>
                 <td data-label="Model Variant"><strong>CUCE Ensemble Model</strong></td>
-                <td data-label="Price Target">$9.33</td>
-                <td data-label="Upside% / Margin" class="text-red">-42.56%</td>
+                <td data-label="Price Target">$9.32</td>
+                <td data-label="Upside% / Margin" class="text-red">-42.54%</td>
                 <td data-label="Confidence" class="text-gold">0.1%</td>
             </tr>
             
@@ -802,12 +817,12 @@ header {
             
             <div class="faq-card">
                 <h3>Is Western Asset Investment Grade (IGI) worth buying in 2026?</h3>
-                <p>Determining if Western Asset Investment Grade (IGI) is worth buying in 2026 requires contrasting its current market spot price of $16.24 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IGI sits at -26.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $18.83 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
+                <p>Determining if Western Asset Investment Grade (IGI) is worth buying in 2026 requires contrasting its current market spot price of $16.23 with our fundamental intrinsic value targets. Our quantitative models suggest that the consensus fair value upside for IGI sits at -26.2% across active valuation models. If you prioritize conservative baseline asset capitalizations, the zero-growth Earnings Power Value (EPV) floor of N/A represents a strong baseline safety net. On the other hand, the 10,000-simulation Bayesian DCF target of $4.21 reflects the fair value accounting for margin progression and long-term cash flow compound potential.</p>
             </div>
             
             <div class="faq-card">
                 <h3>Is IGI currently undervalued or a value trap?</h3>
-                <p>With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, IGI's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $16.24, the margin of safety should be carefully compared to these fundamental indicators.</p>
+                <p>With a Quality of Company (QOC) score of 1.74/10 and a Value Trap Score of 0.0/100, IGI's financial risk metrics provide deep structural insights. A Value Trap Score of 0.0/100 suggests that the company is currently safely insulated from immediate financial distress, operational structural decline, or a permanent loss of capital, debt distress, or structural operational decline. Meanwhile, the durable moat score (QOC) of 1.74/10 indicates the level of physical, structural, or brand competitive advantage the company retains. At $16.23, the margin of safety should be carefully compared to these fundamental indicators.</p>
             </div>
         </div>
 
